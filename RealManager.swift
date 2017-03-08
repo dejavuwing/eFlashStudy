@@ -24,6 +24,19 @@ class RealManager {
         }
     }
 
+    static func todayInit(toDay: String) {
+
+        let realm = try! Realm()
+        let studyCount = FlashStudyData()
+        studyCount.studyDate = toDay
+
+        if !existCountDate(toDay: toDay) {
+            try! realm.write {
+                realm.add(studyCount)
+            }
+        }
+    }
+
     static func addStudyCount(toDay: String, category: FlashCategory) -> Int {
         var returnCount = 0
 
@@ -65,8 +78,6 @@ class RealManager {
             studyCount.readCountWord = result[0].readCountWord
         }
 
-        print("\(studyCount)")
-
         if existCountDate(toDay: toDay) {
             try! realm.write {
                 realm.add(studyCount, update: true)
@@ -80,17 +91,110 @@ class RealManager {
         return returnCount
     }
 
-    static func todayInit(toDay: String) {
+    static func addReadHistory(category: FlashCategory, title: String, index: Int) {
 
         let realm = try! Realm()
-        let studyCount = FlashStudyData()
-        studyCount.studyDate = toDay
+        let readHistory = ReadHistory()
 
-        if !existCountDate(toDay: toDay) {
-            try! realm.write {
-                realm.add(studyCount)
-            }
+        readHistory.readTime = NSDate()
+        readHistory.readCategory = flashCategoryToString(category: category)
+        readHistory.readTitle = title
+        readHistory.readIndex = index
+
+        try! realm.write {
+            realm.add(readHistory)
         }
     }
+
+    // readTime을 기준으로 한단계 뒤의 데이터를 전달한다.
+    static func getBackToCurrentIndex(category: FlashCategory, readTime: NSDate) -> (readTime: NSDate, readIndex: Int) {
+
+        var returnTime = NSDate()
+        var returnIndex = -1
+
+        let realm = try! Realm()
+        let readCategory = flashCategoryToString(category: category)
+
+        let predicate = NSPredicate(format: "readTime < %@ and readCategory = %@", readTime, readCategory)
+        let result = realm.objects(ReadHistory.self).filter(predicate).sorted(byKeyPath: "readTime", ascending: false)
+
+        if result.endIndex != 0 {
+            returnTime = result[0].readTime
+            returnIndex = result[0].readIndex
+        }
+
+        return (returnTime, returnIndex)
+    }
+
+    // readTime을 기준으로 한단계 앞의 데이터를 전달한다.
+    static func getForwardTocurrentIndex(category: FlashCategory, readTime: NSDate) -> (readTime: NSDate, readIndex: Int) {
+
+        var returnTime = NSDate()
+        var returnIndex = -1
+
+        let realm = try! Realm()
+        let readCategory = flashCategoryToString(category: category)
+
+        let predicate = NSPredicate(format: "readTime > %@ and readCategory = %@", readTime, readCategory)
+        let result = realm.objects(ReadHistory.self).filter(predicate).sorted(byKeyPath: "readTime", ascending: true)
+
+        if result.endIndex != 0 {
+            returnTime = result[0].readTime
+            returnIndex = result[0].readIndex
+        }
+
+        return (returnTime, returnIndex)
+    }
+
+    static func flashCategoryToString(category: FlashCategory) -> String {
+        var reaturnValue = ""
+
+        if category == .dialogue {
+            reaturnValue = "dialogue"
+        } else if category == .ebs {
+            reaturnValue = "ebs"
+        } else if category == .pattern {
+            reaturnValue = "pattern"
+        } else if category == .word {
+            reaturnValue = "word"
+        }
+
+        return reaturnValue
+    }
+
+    static func addContentReadCount(title: String) {
+
+        let realm = try! Realm()
+        let predicate = NSPredicate(format: "readTitle = %@", title)
+        let result = realm.objects(ContentReadCount.self).filter(predicate)
+
+        let contentReadCount = ContentReadCount()
+
+        if result.endIndex == 0 {
+            contentReadCount.readTitle = title
+            contentReadCount.readCount = 1
+        } else {
+            contentReadCount.readTitle = title
+            contentReadCount.readCount = result[0].readCount + 1
+        }
+
+        try! realm.write {
+            realm.add(contentReadCount, update: true)
+        }
+    }
+
+    static func getContentReadCount(title: String) -> Int {
+
+        let realm = try! Realm()
+        let predicate = NSPredicate(format: "readTitle = %@", title)
+        let result = realm.objects(ContentReadCount.self).filter(predicate)
+
+        return result[0].readCount
+    }
+
+    
+
+
+
 
 }

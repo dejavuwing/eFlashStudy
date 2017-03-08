@@ -31,6 +31,12 @@
                                             <action selector="selectCategory:" destination="BYZ-38-t0r" id="Jkx-Ps-smZ"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="miq-SH-KUI"/>
+                                    <barButtonItem systemItem="compose" id="Ocy-DX-3PO">
+                                        <connections>
+                                            <action selector="reverseMeans:" destination="BYZ-38-t0r" id="Xws-gl-TB5"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="5BS-Hi-AjA"/>
                                     <barButtonItem title="Next" style="done" id="HIs-pe-Icg">
                                         <connections>

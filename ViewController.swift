@@ -30,20 +30,48 @@ enum FlashCategory {
     case ebs
 }
 
+enum ShowContentAction {
+    case new
+    case hideMeans
+    case showMeans
+    case back
+    case forward
+    case reverse
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var flashTextView: UITextView!
     @IBOutlet weak var toolbar: UIToolbar!
 
     var eFlashStudyData = [FSProtocal]()
-    var isHide = true
     var currentIndex: Int = 0
+    var hideMeans = true
+    var reverse = false
 
     var toDay = ""
     var readCategory: FlashCategory = .word
 
+    var currentTime = NSDate()
+    var backReadtime = NSDate()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // TapGesture를 meanTextView에 연결한다. (화면을 2번 탭했을 때의 액션 처리)
+        let twoTap = UITapGestureRecognizer(target: self, action: #selector(newContent))
+        twoTap.numberOfTapsRequired = 2
+        self.flashTextView.addGestureRecognizer(twoTap)
+
+        // SwipeGesture (왼쪽으로 밀기)를 이용해 새로운 컨텐츠 보이기
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(forwardContent))
+        swipeLeft.direction = UISwipeGestureRecognizerDirection.left
+        self.flashTextView.addGestureRecognizer(swipeLeft)
+
+        // SwipeGesture (오른쪽으로 밀기)를 이용해 이전 컨텐츠 보이기
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(backContent))
+        swipeRight.direction = UISwipeGestureRecognizerDirection.right
+        self.flashTextView.addGestureRecognizer(swipeRight)
 
         // realm 기록을 위한 오늘 날짜 확인
         let currentDateTime = Date()
@@ -55,13 +83,6 @@ class ViewController: UIViewController {
         flashTextView.isUserInteractionEnabled = true
         flashTextView.isSelectable = false
         flashTextView.showsVerticalScrollIndicator = false
-
-        isHide = true
-
-        // TapGesture를 meanTextView에 연결한다. (화면을 탭했을 때의 액션 처리)
-        let tap = UITapGestureRecognizer(target: self, action: #selector(showFlashForSelector))
-        tap.numberOfTapsRequired = 2
-        self.flashTextView.addGestureRecognizer(tap)
 
         // PList의 eFlashStudyRecentJsonFile 정보 확인 (가장 마지막에 로드한 JSON 파일 네임 확인)
         if let jsonFileName = PlistManager.sharedInstance.getValueForKey(key: "eFlashStudyRecentJsonFile") as? String {
@@ -83,7 +104,7 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        self.showFlash(withIndex: nil)
+        self.showFlash(actionType: .new, withIndex: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -115,16 +136,54 @@ class ViewController: UIViewController {
         return Int(randomNum)
     }
 
-    // 단어를 보여준다. (for Tap Selector)
-    func showFlashForSelector() {
-        showFlash(withIndex: nil)
-        isHide = true
+    // 새로운 내용을 보여준다. (for Tap Selector)
+    func newContent() {
+        showFlash(actionType: .new, withIndex: nil)
     }
 
-    // 단어를 보여준다.
-    func showFlash(withIndex: Int?) {
+    func forwardContent() {
+
+        let forwardIndex = RealManager.getForwardTocurrentIndex(category: readCategory, readTime: currentTime)
+
+        // -1이 리턴된 경우 새로운 내용을 보여준다.
+        if forwardIndex.readIndex == -1 {
+            self.showFlash(actionType: .new, withIndex: nil)
+            
+        } else {
+            if currentIndex == forwardIndex.readIndex {
+                currentTime = NSDate()
+                forwardContent()
+
+            } else {
+                currentTime = forwardIndex.readTime
+                currentIndex = forwardIndex.readIndex
+                self.showFlash(actionType: .forward, withIndex: currentIndex)
+            }
+        }
+    }
+
+    // 같은 카테고리에서 뒤로 가기
+    func backContent() {
+
+        let backIndex = RealManager.getBackToCurrentIndex(category: readCategory, readTime: currentTime)
+
+        // -1이 리턴된 경우 현재 내용을 그대로 보여준다. (아무 반응을 하지 않는다.)
+        if backIndex.readIndex == -1 {
+            print("마지막 페이지 입니다.")
+
+        } else {
+            currentTime = backIndex.readTime
+            currentIndex = backIndex.readIndex
+            self.showFlash(actionType: .back, withIndex: currentIndex)
+        }
+    }
+
+    // 새로운 내용을 보여준다. (3가지의 Action으로 구분)
+    func showFlash(actionType: ShowContentAction, withIndex: Int?) {
+
         var index: Int = 0
 
+        // 넘어온 인덱스가 nil이라면 새로 받는다.
         if withIndex == nil {
             index = randomInt(maxNum: UInt32(eFlashStudyData.count))
             currentIndex = index
@@ -133,47 +192,62 @@ class ViewController: UIViewController {
         }
 
         if eFlashStudyData[index].explains == "" {
-            self.showFlash(withIndex: nil)
+            self.showFlash(actionType: actionType, withIndex: nil)
 
         } else {
-            let titleStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 18.0)!))
-            let explainStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
-            let meanStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
-            let accentStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 17.0)!))
+            // 텍스트 스타일(StringStyle)을 받아온다.
+            let textViewStyle = TextStyle.stringStyle(category: readCategory)
 
-            let textViewStyle = StringStyle(
-                .font(UIFont.systemFont(ofSize: 16)),
-                .lineHeightMultiple(1.2),
-                .color(.black),
-                .xmlRules([
-                    .style("title", titleStyle),
-                    .style("explain", explainStyle),
-                    .style("mean", meanStyle),
-                    .style("accent", accentStyle)
-                    ])
-            )
+            let contentText = getContentText(actionType: actionType, index: index)
+            let titleXml = "<title>\(contentText.title)</title> \r\r"
+            let explainsXml = "<mean>\(contentText.explains)</mean> \r\r"
+            let meansMxl = "<mean>\(contentText.means)</mean>"
+            var flashtext = titleXml + explainsXml
 
-            let titleText = "<title>\(eFlashStudyData[index].title)</title> \r\r"
-            let explainsText = "<mean>\(eFlashStudyData[index].explains.replacingOccurrences(of: "\\n", with: "\r\r"))</mean> \r\r"
-            var flashtext = titleText + explainsText
+            if actionType == .showMeans {
 
-            if withIndex != nil {
-                let meansText = "<mean>\(eFlashStudyData[index].means.replacingOccurrences(of: "\\n", with: "\r"))</mean>"
-                let newMeansText = markAccent(meansText: meansText)
-
+                let newMeansText = markAccent(meansText: meansMxl)
                 flashtext.append(newMeansText)
+            }
+
+            if actionType == .new {
+
+                // 읽은 카운트를 기록한다.
+                let readCount = RealManager.addStudyCount(toDay: toDay, category: readCategory)
+
+                // 이벤트 카운트 Alert를 확인한다.
+                EventAlert.eventCountAlert(fromController: self, readCount: readCount, category: readCategory)
+
+                // 읽기 히스토리를 기록한다.
+                RealManager.addReadHistory(category: readCategory, title: contentText.title, index: currentIndex)
+
+                // 컨텐츠별 읽은 수를 기록한다.
+                RealManager.addContentReadCount(title: contentText.title)
             }
 
             let attributedString = flashtext.styled(with: textViewStyle)
             flashTextView.attributedText = attributedString
         }
+    }
 
-        // 읽은 카운트를 기록한다.
-        let readCount = RealManager.addStudyCount(toDay: toDay, category: readCategory)
-        print(readCount)
+    // actionType이 reverse일 경우 explains와 means를 바꿔서 리턴한다.
+    func getContentText(actionType: ShowContentAction, index: Int) -> (title: String, explains: String, means: String) {
 
-        // 이벤트 카운트 Alert를 확인한다.
-        EventAlert.eventCountAlert(fromController: self, readCount: readCount, category: readCategory)
+        var returnTitle = ""
+        var returnExplains = ""
+        var returnMeans = ""
+
+        if actionType == .reverse {
+            returnTitle = eFlashStudyData[index].title
+            returnExplains = eFlashStudyData[index].means.replacingOccurrences(of: "\\n", with: "\r\r")
+            returnMeans = eFlashStudyData[index].explains.replacingOccurrences(of: "\\n", with: "\r\r")
+        } else {
+            returnTitle = eFlashStudyData[index].title
+            returnExplains = eFlashStudyData[index].explains.replacingOccurrences(of: "\\n", with: "\r\r")
+            returnMeans = eFlashStudyData[index].means.replacingOccurrences(of: "\\n", with: "\r\r")
+        }
+
+        return (returnTitle, returnExplains, returnMeans)
     }
 
     // 발음기호 Accent
@@ -203,7 +277,7 @@ class ViewController: UIViewController {
         PlistManager.sharedInstance.saveValue(value: jsonFileName as AnyObject, forKey: "eFlashStudyRecentJsonFile")
 
         self.viewDidLoad()
-        self.showFlash(withIndex: nil)
+        self.showFlash(actionType: .new, withIndex: nil)
     }
 
     @IBAction func selectCategory(_ sender: Any) {
@@ -244,14 +318,30 @@ class ViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
 
-    @IBAction func pauseResume(_ sender: Any) {
+    @IBAction func reverseMeans(_ sender: Any) {
+        if reverse {
 
-        if isHide {
-            self.showFlash(withIndex: currentIndex)
-            isHide = false
+            self.showFlash(actionType: .hideMeans, withIndex: currentIndex)
+            reverse = false
+
         } else {
-            self.showFlash(withIndex: nil)
-            isHide = true
+            self.showFlash(actionType: .reverse, withIndex: currentIndex)
+            reverse = true
+        }
+    }
+
+    @IBAction func pauseResume(_ sender: Any) {
+        if hideMeans {
+
+            // 현재 보이지 않고 있다면 뜻을 보여준다.
+            self.showFlash(actionType: .showMeans, withIndex: currentIndex)
+            hideMeans = false
+
+        } else {
+
+            // 현재 보이고 있다면 뜻을 숨긴다.
+            self.showFlash(actionType: .hideMeans, withIndex: currentIndex)
+            hideMeans = true
         }
     }
 }
