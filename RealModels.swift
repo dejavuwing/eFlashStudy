@@ -9,9 +9,9 @@
 import Foundation
 import RealmSwift
 
+// 하루 단위로 카테고리별 읽은 수를 저장한다.
 class FlashStudyData: Object {
 
-    // 하루 단위로 카테고리별 읽은 수를 저장한다.
     dynamic var studyDate = ""
     dynamic var readTotalCount = 0
     dynamic var readCountWord = 0
@@ -28,9 +28,9 @@ class FlashStudyData: Object {
     }
 }
 
+// 시간 단위로 읽은 정보를 저장한다.
 class ReadHistory: Object {
 
-    // 시간 단위로 읽은 정보를 저장한다.
     dynamic var readTime = NSDate()
     dynamic var readCategory = ""
     dynamic var readTitle = ""
@@ -41,9 +41,9 @@ class ReadHistory: Object {
     }
 }
 
+// Title에 대한 읽은 수를 기록한다.
 class ContentReadCount: Object {
 
-    // Title에 대한 읽은 수를 기록한다.
     dynamic var readTitle = ""
     dynamic var readCount = 0
 

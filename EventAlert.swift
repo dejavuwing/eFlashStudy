@@ -11,6 +11,17 @@ import UIKit
 
 class EventAlert {
 
+    // Alert OK (UIViewController를 받아온다.)
+    static func alertWithOk(fromController controller: UIViewController, setTitle: String?, setNotice: String?) {
+
+        let alertController = UIAlertController(title: setTitle, message: setNotice, preferredStyle: .alert)
+        let alertOK = UIAlertAction(title: "OK", style: .default) { (_) in
+        }
+
+        alertController.addAction(alertOK)
+        controller.present(alertController, animated: true, completion: nil)
+    }
+
     static func eventCountAlert(fromController controller: UIViewController, readCount: Int, category: FlashCategory) {
 
         let eventCount = getEventCount(readCount: readCount, category: category)

@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // TapGesture를 meanTextView에 연결한다. (화면을 2번 탭했을 때의 액션 처리)
-        let twoTap = UITapGestureRecognizer(target: self, action: #selector(newContent))
+        let twoTap = UITapGestureRecognizer(target: self, action: #selector(reverseMeansToExplains))
         twoTap.numberOfTapsRequired = 2
         self.flashTextView.addGestureRecognizer(twoTap)
 
@@ -318,9 +318,8 @@ class ViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
 
-    @IBAction func reverseMeans(_ sender: Any) {
+    func reverseMeansToExplains() {
         if reverse {
-
             self.showFlash(actionType: .hideMeans, withIndex: currentIndex)
             reverse = false
 
@@ -328,6 +327,47 @@ class ViewController: UIViewController {
             self.showFlash(actionType: .reverse, withIndex: currentIndex)
             reverse = true
         }
+    }
+
+    func startStudyForRealmInit() {
+        let alertController = UIAlertController(title: "영어 읽기를 시작하시겠습니까?", message: "오늘 읽은 횟수와 히스토리 정보가 삭제됩니다.", preferredStyle: .alert)
+
+        let startOk = UIAlertAction(title: "OK", style: .default) { (_) in
+            RealManager.initTodaysStudyCount(toDay: self.toDay)
+            RealManager.initReadHistory()
+            EventAlert.alertWithOk(fromController: self, setTitle: "이제 소리내서 읽어보세요.", setNotice: "읽은 횟수와 히스토리가 삭제되었습니다.")
+        }
+
+        let startCancle = UIAlertAction(title: "Cancel", style: .cancel) { (_) in
+        }
+
+        alertController.addAction(startOk)
+        alertController.addAction(startCancle)
+
+        present(alertController, animated: true, completion: nil)
+    }
+
+    @IBAction func reverseMeans(_ sender: Any) {
+
+        let alertController = UIAlertController(title: nil, message: "[Select Category]", preferredStyle: .actionSheet)
+
+        let infoCancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { (_) in
+        })
+
+        let infoStudyStart = UIAlertAction(title: "Start Study", style: .default, handler: { (_) in
+            self.startStudyForRealmInit()
+        })
+
+        alertController.addAction(infoCancel)
+        alertController.addAction(infoStudyStart)
+
+        if UI_USER_INTERFACE_IDIOM() == .pad {
+            if let popoverController = alertController.popoverPresentationController {
+                popoverController.barButtonItem = sender as? UIBarButtonItem
+            }
+        }
+
+        present(alertController, animated: true, completion: nil)
     }
 
     @IBAction func pauseResume(_ sender: Any) {

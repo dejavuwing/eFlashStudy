@@ -91,6 +91,26 @@ class RealManager {
         return returnCount
     }
 
+    // 오늘 읽은 수를 초기화 한다.
+    static func initTodaysStudyCount(toDay: String) {
+
+        todayInit(toDay: toDay)
+
+        let realm = try! Realm()
+
+        let studyCount = FlashStudyData()
+        studyCount.studyDate = toDay
+        studyCount.readTotalCount = 0
+        studyCount.readCountEBS = 0
+        studyCount.readCountWord = 0
+        studyCount.readCountDialogue = 0
+        studyCount.readCountPattern = 0
+
+        try! realm.write {
+            realm.add(studyCount, update: true)
+        }
+    }
+
     static func addReadHistory(category: FlashCategory, title: String, index: Int) {
 
         let realm = try! Realm()
@@ -146,6 +166,17 @@ class RealManager {
         return (returnTime, returnIndex)
     }
 
+    // ReadHistory 데이터를 지운다. (초기화)
+    static func initReadHistory() {
+
+        let realm = try! Realm()
+        let result = realm.objects(ReadHistory.self)
+
+        try! realm.write {
+            realm.delete(result)
+        }
+    }
+
     static func flashCategoryToString(category: FlashCategory) -> String {
         var reaturnValue = ""
 
@@ -183,6 +214,7 @@ class RealManager {
         }
     }
 
+    // Title에 대한 총 읽은 수를 return 한다.
     static func getContentReadCount(title: String) -> Int {
 
         let realm = try! Realm()
@@ -191,10 +223,5 @@ class RealManager {
 
         return result[0].readCount
     }
-
-    
-
-
-
 
 }
