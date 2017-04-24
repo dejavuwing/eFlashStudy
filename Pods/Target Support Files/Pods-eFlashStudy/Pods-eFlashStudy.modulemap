@@ -1,0 +1,6 @@
+framework module Pods_eFlashStudy {
+  umbrella header "Pods-eFlashStudy-umbrella.h"
+
+  export *
+  module * { export * }
+}
