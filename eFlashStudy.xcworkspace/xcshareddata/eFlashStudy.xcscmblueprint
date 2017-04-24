@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C59656F75408155B3A51C33BD845DD1AD47BA834" : 9223372036854775807,
+    "1E6E3097A55AABCFC7EA16FA567F4EDB25251E8A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DD9948D-C143-4F7F-B4C5-A0802D7E0625",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C59656F75408155B3A51C33BD845DD1AD47BA834" : "",
+    "1E6E3097A55AABCFC7EA16FA567F4EDB25251E8A" : "eFlashStudy\/eFlashStudy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "eFlashStudy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "eFlashStudy.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dejavuwing\/eFlashStudy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E6E3097A55AABCFC7EA16FA567F4EDB25251E8A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dejavuwing\/JakeWork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C59656F75408155B3A51C33BD845DD1AD47BA834"
+    }
+  ]
+}
