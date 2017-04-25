@@ -430,15 +430,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = eFlashStudy/eFlashStudy.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = U76UK7USEK;
 				INFOPLIST_FILE = eFlashStudy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongchun.eFlashStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "52f31bd6-b0f6-4841-9744-f329d0f8ead3";
-				PROVISIONING_PROFILE_SPECIFIER = eFlashStudy;
+				PROVISIONING_PROFILE = "a2296887-c487-4e46-8647-6e2f192b2f34";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.tongchun.eFlashStudy";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -449,15 +449,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = eFlashStudy/eFlashStudy.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = U76UK7USEK;
 				INFOPLIST_FILE = eFlashStudy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongchun.eFlashStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "52f31bd6-b0f6-4841-9744-f329d0f8ead3";
-				PROVISIONING_PROFILE_SPECIFIER = eFlashStudy;
+				PROVISIONING_PROFILE = "a2296887-c487-4e46-8647-6e2f192b2f34";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.tongchun.eFlashStudy";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

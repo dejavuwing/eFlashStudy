@@ -19,7 +19,7 @@ struct Plist {
 
     let name: String
 
-    var sourcePath:String? {
+    var sourcePath: String? {
         guard let path = Bundle.main.path(forResource: name, ofType: "plist") else { return .none }
         return path
     }
@@ -51,7 +51,7 @@ struct Plist {
         }
     }
 
-    func getValuesInPlistFile() -> NSDictionary?{
+    func getValuesInPlistFile() -> NSDictionary? {
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: destPath!) {
             guard let dict = NSDictionary(contentsOfFile: destPath!) else { return .none }
@@ -61,7 +61,7 @@ struct Plist {
         }
     }
 
-    func getMutablePlistFile() -> NSMutableDictionary?{
+    func getMutablePlistFile() -> NSMutableDictionary? {
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: destPath!) {
             guard let dict = NSMutableDictionary(contentsOfFile: destPath!) else { return .none }
@@ -71,7 +71,7 @@ struct Plist {
         }
     }
 
-    func addValuesToPlistFile(dictionary:NSDictionary) throws {
+    func addValuesToPlistFile(dictionary: NSDictionary) throws {
         let fileManager = FileManager.default
         if fileManager.fileExists(atPath: destPath!) {
             if !dictionary.write(toFile: destPath!, atomically: false) {
@@ -95,7 +95,7 @@ class PlistManager {
         }
     }
 
-    func addNewItemWithKey(key:String, value:AnyObject) {
+    func addNewItemWithKey(key: String, value: AnyObject) {
         print("[PlistManager] Starting to add item for key '\(key) with value '\(value)' . . .")
         if !keyAlreadyExists(key: key) {
             if let plist = Plist(name: plistFileName) {
@@ -120,7 +120,7 @@ class PlistManager {
 
     }
 
-    func removeItemForKey(key:String) {
+    func removeItemForKey(key: String) {
         print("[PlistManager] Starting to remove item for key '\(key) . . .")
         if keyAlreadyExists(key: key) {
             if let plist = Plist(name: plistFileName) {
@@ -211,7 +211,7 @@ class PlistManager {
 
             if keys.count != 0 {
 
-                for (_,element) in keys.enumerated() {
+                for (_, element) in keys.enumerated() {
                     //print("[PlistManager] Key Index - \(index) = \(element)")
                     if element as! String == key {
                         //print("[PlistManager] Found the Item that we were looking for for key: [\(key)]")
@@ -238,7 +238,7 @@ class PlistManager {
         }
     }
 
-    func keyAlreadyExists(key:String) -> Bool {
+    func keyAlreadyExists(key: String) -> Bool {
         var keyExists = false
 
         if let plist = Plist(name: plistFileName) {
@@ -250,7 +250,7 @@ class PlistManager {
 
             if keys.count != 0 {
                 
-                for (_,element) in keys.enumerated() {
+                for (_, element) in keys.enumerated() {
                     
                     //print("[PlistManager] Key Index - \(index) = \(element)")
                     if element as! String == key {

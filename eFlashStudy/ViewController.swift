@@ -47,10 +47,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     var eFlashStudyData = [FSProtocal]()
     var currentIndex: Int = 0
-    var hideMeans = true
-    var reverse = false
+    var hideMeans: Bool = true
+    var reverse: Bool = false
 
-    var toDay = ""
+    var toDay: String = ""
     var readCategory: FlashCategory = .word
 
     var currentTime = NSDate()

@@ -79,8 +79,7 @@ class TextStyle {
                 .style("accent", accentStyle)
                 ])
         )
-        
+
         return textViewStyle
     }
-
 }
