@@ -10,6 +10,7 @@
 
 import UIKit
 import UserNotifications
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+        Thread.sleep(forTimeInterval: 0.2)
 
         // Start PlistManager
         PlistManager.sharedInstance.startPlistManager()
@@ -35,6 +38,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // 단어 데이터를 저장한다.
         LoadData.putData(categoryArray: [.word, .pattern, .dialogue, .ebs])
+
+        // Use Firebase library to configure APIs
+        FIRApp.configure()
+
+        // Initialize Google Mobile Ads SDK
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-2253648664537078/3436041743")
 
         return true
     }

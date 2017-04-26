@@ -11,6 +11,7 @@ import UIKit
 import SwiftyJSON
 import BonMot
 import EZLoadingActivity
+import GoogleMobileAds
 
 protocol FSProtocal {
     var title: String {get set}
@@ -53,6 +54,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var toDay: String = ""
     var readCategory: FlashCategory = .word
 
+    // 화면이 처음 나올때는 toastview를 보여주지 않음.
+    var firstLoad: Bool = true
+
     var currentTime = NSDate()
     var backReadtime = NSDate()
     var pushTimer: Timer!
@@ -68,6 +72,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var resultView: UIView!
     @IBOutlet weak var resultDone: UIButton!
     @IBOutlet weak var resultWord: UITextView!
+
+    // google Admob
+    @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var dismissView: UIView!
+    @IBOutlet weak var bannerDimmedView: UIView!
+    @IBOutlet weak var dismissBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,8 +132,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
 
         // 검색 테이블 뷰 정의
+        let viewFrame = self.view.frame
         dimmedView.backgroundColor = UIColor.clear
         dimmedView.alpha = 0
+        dimmedView.frame = CGRect(x: 0, y: 0, width: viewFrame.width, height: viewFrame.height)
+
+        bannerDimmedView.backgroundColor = UIColor.clear
+        bannerDimmedView.alpha = 0
+        bannerDimmedView.frame = CGRect(x: 0, y: 0, width: viewFrame.width, height: viewFrame.height)
 
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
@@ -149,6 +165,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         resultWord.isUserInteractionEnabled = true
         resultWord.isSelectable = false
         resultWord.showsVerticalScrollIndicator = false
+
+        // Google AdMob
+        bannerView.adUnitID = "ca-app-pub-2253648664537078/3436041743"
+        bannerView.rootViewController = self
+        dismissView.backgroundColor = UIColor.clear
+        bannerDimmedView.alpha = 0.8
+        bannerDimmedView.backgroundColor = UIColor.white
+        bannerView.load(GADRequest())
+
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -242,15 +267,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             flashTextView.attributedText = attributedString
         }
 
+        // 앱이 처음 실행될 경우에는 toastView를 보여주지 않는다.
         // 새로운 내용(.new)이거나 back, forward로 이동할 때만 ToastMessage를 보여준다.
-        let toastViewCondition: [ShowContentAction] = [.new, .back, .forward]
-        if toastViewCondition.contains(actionType) {
-            let formatter = DateFormatter()
-            formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-            let readTime = formatter.string(from: currentTime as Date)
-            let historyIndex = RealManager.getHistoryIndexFromReadHistory(category: readCategory, index: currentIndex)
-            let toastMessage: String = "\(historyIndex) (\(readTime))"
-            view.makeToast(message: toastMessage)
+        if firstLoad {
+            firstLoad = false
+        } else {
+            let toastViewCondition: [ShowContentAction] = [.new, .back, .forward]
+            if toastViewCondition.contains(actionType) {
+                let formatter = DateFormatter()
+                formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+                let readTime = formatter.string(from: currentTime as Date)
+                let historyIndex = RealManager.getHistoryIndexFromReadHistory(category: readCategory, index: currentIndex)
+                let toastMessage: String = "\(historyIndex) (\(readTime))"
+                view.makeToast(message: toastMessage)
+            }
         }
     }
 
@@ -479,10 +509,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     // 검색 내용에 대한 텍스트 처리
     func setResultTextStyle(isSearch: Bool, indexRow: Int) {
-        //var title: String = ""
-        //var means: String = ""
-        //var explains: String = ""
-
         var title = String()
         var means = String()
         var explains = String()
@@ -497,7 +523,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             title = filteredWords[indexRow].title.replacingOccurrences(of: "\\n", with: "\r")
             means = filteredWords[indexRow].means.replacingOccurrences(of: "\\n", with: "\r")
             explains = filteredWords[indexRow].explains.replacingOccurrences(of: "\\n", with: "\r\r")
-
             print("Searched Item : \(filteredWords[indexRow].title)")
 
         } else {
@@ -507,7 +532,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             title = StudyDataStruct.words[indexRow].title.replacingOccurrences(of: "\\n", with: "\r")
             means = StudyDataStruct.words[indexRow].means.replacingOccurrences(of: "\\n", with: "\r")
             explains = StudyDataStruct.words[indexRow].explains.replacingOccurrences(of: "\\n", with: "\r\r")
-
             print("Listed Item : \(StudyDataStruct.words[indexRow].title)")
         }
 
@@ -522,6 +546,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBAction func resultClose(_ sender: Any) {
         resultView.isHidden = true
     }
+
+    // dismiss 버튼을 눌러 광고 view를 제거한다.
+    @IBAction func dismissAd(_ sender: Any) {
+        dismissView.removeFromSuperview()
+        bannerView.removeFromSuperview()
+        bannerDimmedView.removeFromSuperview()
+    }
+
 
 }
 

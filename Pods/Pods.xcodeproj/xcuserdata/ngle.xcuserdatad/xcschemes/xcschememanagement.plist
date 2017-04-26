@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-eFlashStudy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,22 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>49F681C6F3892BD0BD278595EEAC67AF</key>
+		<key>00103D6C821BE85971C563025527BA5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85131B71BF4B7E50DEB922E8F543878C</key>
+		<key>0E148C8F288D87ED980B496E257D8E5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8F196639E0A88B5CF0B2275984617C72</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AA510B291DAE739CB1B13C87777EB95C</key>
+		<key>4EDB7C8BD4F0C157308CB7186607A530</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D7A65185C98DC21A58991D53E5A9449D</key>
+		<key>C1E36DDBDB2BB8EB2B9FAE8922A82F02</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D43D31F70D676D475C8907EAFC72CE99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E70DEB7F17D0BC121A8C77AD351D4307</key>
 		<dict>
 			<key>primary</key>
 			<true/>

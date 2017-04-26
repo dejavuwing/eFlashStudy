@@ -49,5 +49,10 @@
 	</array>
 	<key>eFlashStudyRecentJsonFile</key>
 	<string>flashstudy_words</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
 </dict>
 </plist>
