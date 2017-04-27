@@ -137,10 +137,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         dimmedView.alpha = 0
         dimmedView.frame = CGRect(x: 0, y: 0, width: viewFrame.width, height: viewFrame.height)
 
-        bannerDimmedView.backgroundColor = UIColor.clear
-        bannerDimmedView.alpha = 0
-        bannerDimmedView.frame = CGRect(x: 0, y: 0, width: viewFrame.width, height: viewFrame.height)
-
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
         searchController.searchBar.layer.cornerRadius = 10
@@ -166,14 +162,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         resultWord.isSelectable = false
         resultWord.showsVerticalScrollIndicator = false
 
-        // Google AdMob
-        bannerView.adUnitID = "ca-app-pub-2253648664537078/3436041743"
-        bannerView.rootViewController = self
-        dismissView.backgroundColor = UIColor.clear
-        bannerDimmedView.alpha = 0.8
-        bannerDimmedView.backgroundColor = UIColor.white
-        bannerView.load(GADRequest())
+        // Category를 이동할때 viewDidLoad를 호출하게 된다.
+        // 광고 창을 듣을때 관련 view를 removeFromSuperview하기 때문에 firstLoad가 true일때만 광고 view에 대한 설정을 한다.
+        if firstLoad {
+            bannerDimmedView.backgroundColor = UIColor.clear
+            bannerDimmedView.alpha = 0
+            bannerDimmedView.frame = CGRect(x: 0, y: 0, width: viewFrame.width, height: viewFrame.height)
 
+            // Google AdMob
+            bannerView.adUnitID = "ca-app-pub-2253648664537078/3436041743"
+            bannerView.rootViewController = self
+            dismissView.backgroundColor = UIColor.clear
+            bannerDimmedView.alpha = 0.8
+            bannerDimmedView.backgroundColor = UIColor.white
+            bannerView.load(GADRequest())
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -267,7 +270,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             flashTextView.attributedText = attributedString
         }
 
-        // 앱이 처음 실행될 경우에는 toastView를 보여주지 않는다.
+        // 앱이 처음 실행될 경우(광고가 나올때)에는 toastView를 보여주지 않는다.
         // 새로운 내용(.new)이거나 back, forward로 이동할 때만 ToastMessage를 보여준다.
         if firstLoad {
             firstLoad = false
