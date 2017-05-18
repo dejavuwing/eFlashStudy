@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8jp-B5-u1Z">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="YcT-ns-vfT">
+            <objects>
+                <navigationController id="8jp-B5-u1Z" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r1v-Ft-TOV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="07H-ay-316"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PvO-gq-Vgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-798" y="139"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -26,17 +42,7 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem width="50" style="plain" systemItem="fixedSpace" id="hc4-3e-KTg"/>
-                                    <barButtonItem systemItem="bookmarks" id="VTv-pT-Jbi">
-                                        <connections>
-                                            <action selector="selectCategory:" destination="BYZ-38-t0r" id="Jkx-Ps-smZ"/>
-                                        </connections>
-                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="miq-SH-KUI"/>
-                                    <barButtonItem systemItem="compose" id="Ocy-DX-3PO">
-                                        <connections>
-                                            <action selector="reverseMeans:" destination="BYZ-38-t0r" id="Xws-gl-TB5"/>
-                                        </connections>
-                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="5BS-Hi-AjA"/>
                                     <barButtonItem style="done" systemItem="search" id="HIs-pe-Icg">
                                         <connections>
@@ -47,7 +53,7 @@
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cEG-ek-FNZ">
-                                <rect key="frame" x="16" y="20" width="343" height="603"/>
+                                <rect key="frame" x="16" y="64" width="343" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -58,7 +64,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kol-3m-r4P">
-                                <rect key="frame" x="16" y="44" width="343" height="555"/>
+                                <rect key="frame" x="16" y="88" width="343" height="511"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mySearchWordCell" id="USa-dL-Z6X">
@@ -72,10 +78,10 @@
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6H-I1-6v0" userLabel="ResultView">
-                                <rect key="frame" x="16" y="44" width="343" height="555"/>
+                                <rect key="frame" x="16" y="88" width="343" height="511"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmV-Ya-Aqc">
-                                        <rect key="frame" x="30" y="515" width="283" height="32"/>
+                                        <rect key="frame" x="30" y="471" width="283" height="32"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
                                         <state key="normal" title="Done"/>
                                         <connections>
@@ -83,7 +89,7 @@
                                         </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gtg-Ag-uEV">
-                                        <rect key="frame" x="8" y="55" width="327" height="444"/>
+                                        <rect key="frame" x="8" y="55" width="327" height="400"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -166,6 +172,18 @@
                             <constraint firstItem="cEG-ek-FNZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zRy-jf-g5S"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="C57-uw-Qzr">
+                        <barButtonItem key="leftBarButtonItem" image="Menu" id="BtC-Kp-g9D">
+                            <connections>
+                                <action selector="showCategory:" destination="BYZ-38-t0r" id="8Pk-Km-e9g"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Settings" id="r9j-pb-5wJ">
+                            <connections>
+                                <action selector="settings:" destination="BYZ-38-t0r" id="q3S-Yn-CjU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="bannerDimmedView" destination="fai-kc-e3W" id="jJ3-Kr-bzK"/>
                         <outlet property="bannerView" destination="zjp-oq-Ohp" id="fpB-qq-qqg"/>
@@ -178,11 +196,174 @@
                         <outlet property="resultWord" destination="gtg-Ag-uEV" id="Omk-hf-W4l"/>
                         <outlet property="searchWordTable" destination="kol-3m-r4P" id="fqe-oY-bjI"/>
                         <outlet property="toolbar" destination="vUP-4u-YwZ" id="RcT-yC-agT"/>
+                        <segue destination="ePV-ns-qYz" kind="show" identifier="goSettingTable" id="4Pl-uB-iUQ"/>
+                        <segue destination="pDY-IM-UBd" kind="show" identifier="goFlashWord" id="WzF-r3-b0e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--Setting Table View Controller-->
+        <scene sceneID="r5D-2o-Ed9">
+            <objects>
+                <tableViewController storyboardIdentifier="SettingTable" id="ePV-ns-qYz" customClass="SettingTableViewController" customModule="eFlashStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="t8a-Oj-72K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="Setting" id="Qyj-9T-gej">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="Zs0-nZ-hci">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zs0-nZ-hci" id="MnW-AY-aIg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N82-rf-Xel">
+                                                    <rect key="frame" x="16" y="8" width="359" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <state key="normal" title="읽은 기록 삭제하기"/>
+                                                    <connections>
+                                                        <action selector="resetCount:" destination="ePV-ns-qYz" eventType="touchUpInside" id="JSz-Sc-tah"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="N82-rf-Xel" secondAttribute="bottom" constant="8" id="9Vi-OX-E8F"/>
+                                                <constraint firstAttribute="trailing" secondItem="N82-rf-Xel" secondAttribute="trailing" id="EaP-0F-CZo"/>
+                                                <constraint firstItem="N82-rf-Xel" firstAttribute="top" secondItem="MnW-AY-aIg" secondAttribute="top" constant="8" id="Yaj-Yg-SNM"/>
+                                                <constraint firstItem="N82-rf-Xel" firstAttribute="leading" secondItem="MnW-AY-aIg" secondAttribute="leading" constant="16" id="m3C-ro-Xa9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="xCz-5P-jbP">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xCz-5P-jbP" id="bOu-4o-cia">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="푸시 알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOv-Pw-OFd">
+                                                    <rect key="frame" x="16" y="19" width="63.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RfF-Mc-uF3">
+                                                    <rect key="frame" x="318" y="14" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="switchPushPattern:" destination="ePV-ns-qYz" eventType="valueChanged" id="bNr-Gi-Je3"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RfF-Mc-uF3" firstAttribute="trailing" secondItem="bOu-4o-cia" secondAttribute="trailingMargin" id="VsK-QD-S6t"/>
+                                                <constraint firstItem="OOv-Pw-OFd" firstAttribute="centerY" secondItem="RfF-Mc-uF3" secondAttribute="centerY" id="WD7-6R-Asf"/>
+                                                <constraint firstItem="OOv-Pw-OFd" firstAttribute="leading" secondItem="bOu-4o-cia" secondAttribute="leadingMargin" constant="8" id="dW5-l9-bVB"/>
+                                                <constraint firstItem="OOv-Pw-OFd" firstAttribute="centerY" secondItem="bOu-4o-cia" secondAttribute="centerY" id="dxB-bt-vEQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="szn-oY-rlY">
+                                        <rect key="frame" x="0.0" y="148" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="szn-oY-rlY" id="J2D-DP-cmE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flash Word 속도" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vW-BL-Zrm">
+                                                    <rect key="frame" x="16" y="19" width="120" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="2" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="6px-Fb-IoU">
+                                                    <rect key="frame" x="210" y="15" width="159" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="155" id="inD-0R-OCD"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <action selector="slideFlashSecond:" destination="ePV-ns-qYz" eventType="valueChanged" id="JV0-e2-zxB"/>
+                                                    </connections>
+                                                </slider>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(3초)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0Q-Ze-0u3">
+                                                    <rect key="frame" x="143" y="20" width="36.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="6px-Fb-IoU" firstAttribute="trailing" secondItem="J2D-DP-cmE" secondAttribute="trailingMargin" id="4D5-EU-0d0"/>
+                                                <constraint firstItem="9vW-BL-Zrm" firstAttribute="leading" secondItem="J2D-DP-cmE" secondAttribute="leadingMargin" constant="8" id="6Vh-WI-DeK"/>
+                                                <constraint firstItem="6px-Fb-IoU" firstAttribute="centerY" secondItem="N0Q-Ze-0u3" secondAttribute="centerY" id="Tla-h7-x6e"/>
+                                                <constraint firstItem="6px-Fb-IoU" firstAttribute="centerY" secondItem="9vW-BL-Zrm" secondAttribute="centerY" id="W4B-MF-WK3"/>
+                                                <constraint firstItem="9vW-BL-Zrm" firstAttribute="centerY" secondItem="J2D-DP-cmE" secondAttribute="centerY" id="bMf-LP-pny"/>
+                                                <constraint firstItem="N0Q-Ze-0u3" firstAttribute="leading" secondItem="9vW-BL-Zrm" secondAttribute="trailing" constant="7" id="nag-EW-zRi"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ePV-ns-qYz" id="BgD-6K-5WY"/>
+                            <outlet property="delegate" destination="ePV-ns-qYz" id="DNi-a7-Tc6"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="flashSecond" destination="N0Q-Ze-0u3" id="oDI-m0-Q4n"/>
+                        <outlet property="flashSlider" destination="6px-Fb-IoU" id="1dj-b8-XAj"/>
+                        <outlet property="pushSwitch" destination="RfF-Mc-uF3" id="gcQ-eq-w8K"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xIl-hy-gsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1173.5999999999999" y="138.98050974512745"/>
+        </scene>
+        <!--Flash Word-->
+        <scene sceneID="igc-wP-n2P">
+            <objects>
+                <viewController storyboardIdentifier="FlashWord" id="pDY-IM-UBd" customClass="FlashWordViewController" customModule="eFlashStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rfe-Zz-nI5"/>
+                        <viewControllerLayoutGuide type="bottom" id="kgs-Py-yio"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YHk-8H-duO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evw-74-v7v">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Evw-74-v7v" firstAttribute="top" secondItem="YHk-8H-duO" secondAttribute="top" id="CGL-AQ-jVk"/>
+                            <constraint firstItem="Evw-74-v7v" firstAttribute="trailing" secondItem="YHk-8H-duO" secondAttribute="trailingMargin" id="LmP-1C-ENA"/>
+                            <constraint firstItem="Evw-74-v7v" firstAttribute="leading" secondItem="YHk-8H-duO" secondAttribute="leadingMargin" id="Pch-uC-E9d"/>
+                            <constraint firstItem="kgs-Py-yio" firstAttribute="top" secondItem="Evw-74-v7v" secondAttribute="bottom" id="QSJ-TG-t4W"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Flash Word" id="yZy-Bf-yYd"/>
+                    <connections>
+                        <outlet property="flashTextView" destination="Evw-74-v7v" id="Jl1-oo-vSK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7MR-Td-J9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1896.8" y="138.98050974512745"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Menu" width="25" height="25"/>
+        <image name="Settings" width="25" height="25"/>
+    </resources>
 </document>

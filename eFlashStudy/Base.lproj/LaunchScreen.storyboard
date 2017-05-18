@@ -28,18 +28,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="큰 소리로 읽어 보세요." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23Y-FM-bkv">
-                                <rect key="frame" x="112.5" y="181" width="150.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="영어 말하기는 훈련입니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23Y-FM-bkv">
+                                <rect key="frame" x="100" y="181" width="176" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="큰 소리로 읽어 보세요." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNL-93-CnL">
+                                <rect key="frame" x="112" y="210" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="화면을 두번 탭하면 한글 뜻이 보입니다. 좌우로 슬라이드하면 다른 내용이 보입니다." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfA-cj-zEL">
+                                <rect key="frame" x="70" y="586" width="237.5" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="YNL-93-CnL" firstAttribute="centerX" secondItem="23Y-FM-bkv" secondAttribute="centerX" id="0ak-Rj-S9L"/>
+                            <constraint firstItem="YNL-93-CnL" firstAttribute="top" secondItem="23Y-FM-bkv" secondAttribute="bottom" constant="8" id="D5a-sk-HsL"/>
                             <constraint firstItem="AmT-He-XRk" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="90" id="Edy-lM-Sf4"/>
                             <constraint firstItem="AmT-He-XRk" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="Gyh-Xv-LXU"/>
                             <constraint firstItem="23Y-FM-bkv" firstAttribute="top" secondItem="AmT-He-XRk" secondAttribute="bottom" constant="28" id="JQV-Ub-Is9"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="kfA-cj-zEL" secondAttribute="bottom" constant="47" id="euZ-ut-fTC"/>
+                            <constraint firstItem="kfA-cj-zEL" firstAttribute="centerX" secondItem="23Y-FM-bkv" secondAttribute="centerX" id="mWg-VE-P5y"/>
                             <constraint firstItem="AmT-He-XRk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="vze-Jq-Yi2"/>
                             <constraint firstItem="23Y-FM-bkv" firstAttribute="centerX" secondItem="AmT-He-XRk" secondAttribute="centerX" id="xO4-YN-Nxj"/>
                         </constraints>

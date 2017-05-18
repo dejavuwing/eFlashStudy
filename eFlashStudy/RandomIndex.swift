@@ -15,5 +15,4 @@ class RandomIndex {
         let randomNum: UInt32 = arc4random_uniform(maxNum)
         return Int(randomNum)
     }
-
 }

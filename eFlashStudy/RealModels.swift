@@ -52,3 +52,14 @@ class ContentReadCount: Object {
         return "readTitle"
     }
 }
+
+// 앱 설정 정보를 관리한다.
+class AppSettings: Object {
+
+    dynamic var setKey: String = ""
+    dynamic var setValue: String = ""
+
+    override static func primaryKey() -> String {
+        return "setKey"
+    }
+}

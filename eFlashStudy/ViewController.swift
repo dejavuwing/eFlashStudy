@@ -30,15 +30,17 @@ enum FlashCategory {
     case dialogue
     case pattern
     case ebs
+    case flashword
 }
 
 enum ShowContentAction {
-    case new
+    case new            // 새로운 글 보기
     case hideMeans
     case showMeans
-    case back
-    case forward
+    case back           // 뒤로가기 (현재 페이지 히스토리보다 뒤로 가기)
+    case forward        // 앞으로 가기 (현재 페이지 히스토리보다 앞으로 가기)
     case reverse
+    case viewMoveBack   // 다른 뷰에서 돌아오기 (Settings, Flash Word)
 }
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
@@ -52,7 +54,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var reverse: Bool = false
 
     var toDay: String = ""
-    var readCategory: FlashCategory = .word
+    var readCategory: FlashCategory = .dialogue
 
     // 화면이 처음 나올때는 toastview를 보여주지 않음.
     var firstLoad: Bool = true
@@ -108,27 +110,41 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         flashTextView.isSelectable = false
         flashTextView.showsVerticalScrollIndicator = false
 
-        // PList의 eFlashStudyRecentJsonFile 정보 확인 (가장 마지막에 로드한 JSON 파일 네임 확인)
-        if let jsonFileName = PlistManager.sharedInstance.getValueForKey(key: "eFlashStudyRecentJsonFile") as? String {
+        // 최초 앱 실행일 경우 옵션을 넣어준다.
+        // pushPattern이 없다면 최초 앱 실행으로 간주한다.
+        if RealManager.existAppSetting(key: .pushPattern) {
 
-            // 우선 최적화는 나중에 하고
             // StudyDataStruct에 가지고 있는 데이터들을 카테고리에 맞게 eFlashStudyData에 다시 넣어준다.
-            if jsonFileName == "flashstudy_words" {
+            let loadCategory = RealManager.getAppSetting(key: .recentCategory)
+            if loadCategory == "word" {
+                self.title = "Words"
                 readCategory = .word
                 eFlashStudyData = StudyDataStruct.words
 
-            } else if jsonFileName == "flashstudy_dialogues" {
+            } else if loadCategory == "dialogue" {
+                self.title = "Dialogues"
                 readCategory = .dialogue
                 eFlashStudyData = StudyDataStruct.dialogues
 
-            } else if jsonFileName == "flashstudy_patterns" {
+            } else if loadCategory == "pattern" {
+                self.title = "Patterns"
                 readCategory = .pattern
                 eFlashStudyData = StudyDataStruct.patterns
 
-            } else if jsonFileName == "flashstudy_ebs" {
+            } else if loadCategory == "ebs" {
+                self.title = "Paragraphes"
                 readCategory = .ebs
                 eFlashStudyData = StudyDataStruct.ebs
             }
+
+        } else {
+            // 최초 실행 시 앱 기본 옵션을 넣어준다.
+            RealManager.setDefaultOption()
+
+            // 초기 실행은 Dialogue로 한다.
+            self.title = "Dialogues"
+            readCategory = .dialogue
+            eFlashStudyData = StudyDataStruct.dialogues
         }
 
         // 검색 테이블 뷰 정의
@@ -253,7 +269,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         } else {
             // 텍스트 스타일(StringStyle)을 받아온다.
             let textViewStyle = TextStyle.stringStyle(category: readCategory)
-
             let contentText = getContentText(actionType: actionType, index: index)
             let titleXml = "<title>\(contentText.title)</title> \r\r"
             let explainsXml = "<mean>\(self.markAccent(meansText: contentText.explains))</mean> \r\r"
@@ -328,35 +343,60 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     /// eFlashStudyData를 초기화한다.
-    func reloadView(jsonFileName: String) {
+    func reloadView(jsonFileName: String, recentCategory: FlashCategory) {
+
+        // eFlashStudyData를 초기화한다.
         eFlashStudyData = [FSProtocal]()
-        PlistManager.sharedInstance.saveValue(value: jsonFileName as AnyObject, forKey: "eFlashStudyRecentJsonFile")
+
+        // 가장 마지막에 로드한 카테고리를 AppSettings에 기록한다.
+        let strCategory = RealManager.flashCategoryToString(category: recentCategory)
+        RealManager.setAppSetting(key: .recentCategory, value: strCategory)
 
         self.viewDidLoad()
         self.showFlash(actionType: .new, withIndex: nil)
     }
 
-    @IBAction func selectCategory(_ sender: Any) {
+    // 좌측 메뉴 (카테고리)
+    @IBAction func showCategory(_ sender: Any) {
         let alertController = UIAlertController(title: nil, message: "[Select Category]", preferredStyle: .actionSheet)
 
         let loadCancel = UIAlertAction(title: "Cancel", style: .cancel, handler: { (_) in
         })
 
         let loadWords = UIAlertAction(title: "Words", style: .default, handler: { (_) in
-            self.reloadView(jsonFileName: "flashstudy_words")
+            self.reloadView(jsonFileName: "flashstudy_words", recentCategory: .word)
         })
 
         let loadPatterns = UIAlertAction(title: "Patterns", style: .default, handler: { (_) in
-            self.reloadView(jsonFileName: "flashstudy_patterns")
+            self.reloadView(jsonFileName: "flashstudy_patterns", recentCategory: .pattern)
         })
 
         let loadDialogues = UIAlertAction(title: "Dialogues", style: .default, handler: { (_) in
-            self.reloadView(jsonFileName: "flashstudy_dialogues")
+            self.reloadView(jsonFileName: "flashstudy_dialogues", recentCategory: .dialogue)
         })
+
+        // ToDo : actionSheet에 구분선 또는 Grouping을 해주고 싶다.
+        let loadFlashWord = UIAlertAction(title: "Flash Word", style: .default) { (_) in
+            DispatchQueue.main.async {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let flashWordVC = storyboard.instantiateViewController(withIdentifier: "FlashWord") as? FlashWordViewController
+                flashWordVC?.category = .word
+                self.show(flashWordVC!, sender: nil)
+            }
+        }
+
+        let loadFlashPattern = UIAlertAction(title: "Flash Pattern", style: .default) { (_) in
+            DispatchQueue.main.async {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let flashWordVC = storyboard.instantiateViewController(withIdentifier: "FlashWord") as? FlashWordViewController
+                flashWordVC?.category = .pattern
+                self.show(flashWordVC!, sender: nil)
+            }
+        }
 
         // EBS를 paragraph로 노출한다.
         let loadEBS = UIAlertAction(title: "Paragraph", style: .default, handler: { (_) in
-            self.reloadView(jsonFileName: "flashstudy_ebs")
+            self.reloadView(jsonFileName: "flashstudy_ebs", recentCategory: .ebs)
         })
 
         alertController.addAction(loadCancel)
@@ -364,6 +404,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         alertController.addAction(loadPatterns)
         alertController.addAction(loadDialogues)
         alertController.addAction(loadEBS)
+        alertController.addAction(loadFlashWord)
+        alertController.addAction(loadFlashPattern)
 
         if UI_USER_INTERFACE_IDIOM() == .pad {
             if let popoverController = alertController.popoverPresentationController {
@@ -372,6 +414,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
 
         present(alertController, animated: true, completion: nil)
+    }
+
+    // 우측 셋팅 (move to setting table view)
+    @IBAction func settings(_ sender: Any) {
+        DispatchQueue.main.async {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let settingTVC = storyboard.instantiateViewController(withIdentifier: "SettingTable") as? SettingTableViewController
+            settingTVC?.toDay = self.toDay
+            self.show(settingTVC!, sender: nil)
+        }
+    }
+
+    // tool bar에서 선택하던 것을 Navigation으로 이동함.
+    @IBAction func selectCategory(_ sender: Any) {
     }
 
     /// 내용과 뜻을 변환해서 보여준다.
@@ -402,6 +458,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         alertController.addAction(startCancle)
 
         present(alertController, animated: true, completion: nil)
+        
     }
 
     @IBAction func reverseMeans(_ sender: Any) {
@@ -556,7 +613,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         bannerView.removeFromSuperview()
         bannerDimmedView.removeFromSuperview()
     }
-
 
 }
 

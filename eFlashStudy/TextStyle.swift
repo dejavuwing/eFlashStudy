@@ -11,8 +11,8 @@ import BonMot
 
 class TextStyle {
 
+    /// 텍스트 스타일 정의
     static func stringStyle(category: FlashCategory) -> StringStyle {
-
         var titleStyle = StringStyle()
         var explainStyle = StringStyle()
         var meanStyle = StringStyle()
@@ -36,12 +36,21 @@ class TextStyle {
 
         } else {
 
-            titleStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 18.0)!))
-            explainStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
-            meanStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
-            accentStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 17.0)!))
+            // flashword와 일반 category의 스타일을 구분한다.
+            if category == .flashword {
+                titleStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 24.0)!))
+                explainStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
+                meanStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
+                accentStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 17.0)!))
+                setLineHeight = 1.2
 
-            setLineHeight = 1.2
+            } else {
+                titleStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 18.0)!))
+                explainStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
+                meanStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 16.0)!))
+                accentStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 17.0)!))
+                setLineHeight = 1.2
+            }
         }
 
         let textViewStyle = StringStyle(
@@ -60,7 +69,6 @@ class TextStyle {
     }
 
     static func stringStyleForSearchResult() -> StringStyle {
-
         let titleStyle = StringStyle(.font(UIFont(name: "Helvetica-Bold", size: 18.0)!))
         let explainStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 14.0)!))
         let meanStyle = StringStyle(.font(UIFont(name: "Helvetica-Light", size: 14.0)!))

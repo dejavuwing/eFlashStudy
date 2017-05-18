@@ -12,7 +12,6 @@ import RealmSwift
 class RealManager {
 
     static func existCountDate(toDay: String) -> Bool {
-
         let realm = try! Realm()
         let predicate = NSPredicate(format: "studyDate = %@", toDay)
         let result = realm.objects(FlashStudyData.self).filter(predicate)
@@ -25,7 +24,6 @@ class RealManager {
     }
 
     static func todayInit(toDay: String) {
-
         let realm = try! Realm()
         let studyCount = FlashStudyData()
         studyCount.studyDate = toDay
@@ -113,7 +111,6 @@ class RealManager {
 
     /// ReadHistory 데이터를 지운다. (초기화)
     static func initReadHistory() {
-
         let realm = try! Realm()
         let result = realm.objects(ReadHistory.self)
 
@@ -145,7 +142,6 @@ class RealManager {
     /// ReadHistory의 historyIndex를 반환한다.
     static func getHistoryIndexFromReadHistory(category: FlashCategory, index: Int) -> Int {
         let realm = try! Realm()
-
         let readCategory = flashCategoryToString(category: category)
         let predicate = NSPredicate(format: "readCategory = %@ and readIndex == %i", readCategory, index)
         let readHistory = realm.objects(ReadHistory.self).filter(predicate)
@@ -247,6 +243,86 @@ class RealManager {
         let result = realm.objects(ContentReadCount.self).filter(predicate)
 
         return result[0].readCount
+    }
+
+    // MARK: - appSettings (앱 설정)
+
+    /// SettingKey를 String으로 가져온다.
+    static func settingKeyToString(key: SettingKey) -> String {
+        var reaturnValue = ""
+
+        if key == .recentCategory {
+            reaturnValue = "recentCategory"
+        } else if key == .pushPattern {
+            reaturnValue = "pushPattern"
+        } else if key == .flashSecond {
+            reaturnValue = "flashSecond"
+        }
+
+        return reaturnValue
+    }
+
+    /// 앱 설정값을 기록한다.
+    static func setAppSetting(key: SettingKey, value: String) {
+        let realm = try! Realm()
+        let appSettings = AppSettings()
+
+        appSettings.setKey = settingKeyToString(key: key)
+        appSettings.setValue = value
+
+        try! realm.write {
+            realm.add(appSettings, update: true)
+        }
+    }
+
+    /// 앱 설정값을 불러온다.
+    static func getAppSetting(key: SettingKey) -> String {
+        let realm = try! Realm()
+        let setKey: String = settingKeyToString(key: key)
+
+        let predicate = NSPredicate(format: "setKey = %@", setKey)
+        let result = realm.objects(AppSettings.self).filter(predicate)
+
+        return result[0].setValue
+    }
+
+    // 앱 설정값이 있는지 확인한다.
+    static func existAppSetting(key: SettingKey) -> Bool {
+        let realm = try! Realm()
+        let setKey: String = settingKeyToString(key: key)
+
+        let predicate = NSPredicate(format: "setKey = %@", setKey)
+        let result = realm.objects(AppSettings.self).filter(predicate)
+
+        if result.count == 0 {
+            return false
+        } else {
+            return true
+        }
+    }
+
+    /// 앱 기본 옵션값을 등록한다.
+    /**
+        .recentCategory: dialogue
+        .pushPattern: YES
+        .flashSecond: 3.0
+    */
+    static func setDefaultOption() {
+
+        // 초기 Category 기록
+        if !RealManager.existAppSetting(key: .recentCategory) {
+            RealManager.setAppSetting(key: .recentCategory, value: "dialogue")
+        }
+
+        // 푸시 알림 설정 기록
+        if !RealManager.existAppSetting(key: .pushPattern) {
+            RealManager.setAppSetting(key: .pushPattern, value: "YES")
+        }
+
+        // Flash Word 기본 속도 기록
+        if !RealManager.existAppSetting(key: .flashSecond) {
+            RealManager.setAppSetting(key: .flashSecond, value: "3")
+        }
     }
 
 }

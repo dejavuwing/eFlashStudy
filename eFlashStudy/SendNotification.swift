@@ -40,7 +40,7 @@ class SendNotification: NSObject {
         }
 
         let options: UNAuthorizationOptions = [.alert, .sound, .badge]
-        center.requestAuthorization(options: options) { (granted, error) in
+        center.requestAuthorization(options: options) { (granted, _) in
             if !granted {
                 print("Something went wrong")
             }
@@ -72,10 +72,18 @@ class SendNotification: NSObject {
         center.removeAllPendingNotificationRequests()
     }
 
-    /// 푸시를 보내기 위해 Pattern 데이터를 가져온다.
+    /** 
+    랜덤으로 Pattern 데이터를 불러와 푸시에 등록한다.
+    만약 pushPattern 설정이 off 라면 푸시를 보내지 않는다.
+    */
     static func addScheduledNotification() {
 
-        // StudyDataStruct에 데이터가 쌓여 있다면 Puth를 준비한다.
+        guard RealManager.getAppSetting(key: .pushPattern) != "NO" else {
+            deleteNotification()
+            return
+        }
+
+        // StudyDataStruct에 데이터가 쌓여 있다면 Push를 준비한다.
         if StudyDataStruct.patterns.count > 1 {
             let index = RandomIndex.getIndex(maxNum: UInt32(StudyDataStruct.patterns.count))
             let pattern = StudyDataStruct.patterns[index].title
@@ -98,7 +106,6 @@ class SendNotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
         // Delivers a notification to an app running in the foreground.
         completionHandler([.alert, .sound, .badge])
     }
-
 
     func userNotificationCenter(_ center: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,

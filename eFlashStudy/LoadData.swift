@@ -65,6 +65,7 @@ class LoadData {
         case .pattern: returnValue = "flashstudy_patterns"
         case .dialogue: returnValue = "flashstudy_dialogues"
         case .ebs: returnValue = "flashstudy_ebs"
+        case .flashword: returnValue = "flashstudy_words"
         }
 
         return returnValue

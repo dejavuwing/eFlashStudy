@@ -7,8 +7,8 @@ target 'eFlashStudy' do
 	pod 'EZLoadingActivity'
 	pod 'SwiftLint'
 	pod 'BonMot'
-    pod 'RealmSwift'
-    pod 'Firebase/Core'
-    pod 'Firebase/AdMob'
+	pod 'RealmSwift'
+	pod 'Firebase/Core'
+	pod 'Firebase/AdMob'
 
 end

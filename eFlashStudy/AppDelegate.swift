@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
 
-        // 단어 데이터를 저장한다.
+        // json 파일에더 데이터를 불러온다.
         LoadData.putData(categoryArray: [.word, .pattern, .dialogue, .ebs])
 
         // Use Firebase library to configure APIs
