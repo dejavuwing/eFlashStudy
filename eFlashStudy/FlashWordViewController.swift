@@ -32,6 +32,10 @@ class FlashWordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        flashTextView.isUserInteractionEnabled = true
+        flashTextView.isSelectable = false
+        flashTextView.showsVerticalScrollIndicator = false
+
         if category == .word {
             eFlashStudyData = StudyDataStruct.words
         } else if category == .pattern {
@@ -142,5 +146,4 @@ class FlashWordViewController: UIViewController {
 
         return meansText
     }
-
 }

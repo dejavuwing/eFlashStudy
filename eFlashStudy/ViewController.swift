@@ -34,7 +34,7 @@ enum FlashCategory {
 }
 
 enum ShowContentAction {
-    case new            // 새로운 글 보기
+    case new            // 새로운 글 보기 (오른쪽으로 slide 했을때만 new가 나온다)
     case hideMeans
     case showMeans
     case back           // 뒤로가기 (현재 페이지 히스토리보다 뒤로 가기)
@@ -197,7 +197,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        self.showFlash(actionType: .new, withIndex: nil)
+
+        let lastIndex = RealManager.getLastReadIndex(category: readCategory)
+
+        // 앱이 실행됐을때 읽은 기록이 없다면 new, 기록이 있다면 viewMoveBack으로 한다.
+        if lastIndex > -1 {
+            self.showFlash(actionType: .viewMoveBack, withIndex: lastIndex)
+        } else {
+            self.showFlash(actionType: .new, withIndex: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -250,7 +258,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         // 넘어온 인덱스가 nil이라면 새로 받는다.
         if withIndex == nil {
-
             index = RandomIndex.getIndex(maxNum: UInt32(eFlashStudyData.count))
             if RealManager.isReadHistory(category: readCategory, readIndex: index) {
 
@@ -353,7 +360,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         RealManager.setAppSetting(key: .recentCategory, value: strCategory)
 
         self.viewDidLoad()
-        self.showFlash(actionType: .new, withIndex: nil)
+
+        let lastIndex = RealManager.getLastReadIndex(category: recentCategory)
+        if lastIndex > -1 {
+            self.showFlash(actionType: .viewMoveBack, withIndex: lastIndex)
+        } else {
+            self.showFlash(actionType: .new, withIndex: nil)
+        }
     }
 
     // 좌측 메뉴 (카테고리)
@@ -375,6 +388,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             self.reloadView(jsonFileName: "flashstudy_dialogues", recentCategory: .dialogue)
         })
 
+        // EBS를 paragraph로 노출한다.
+        let loadEBS = UIAlertAction(title: "Paragraph", style: .default, handler: { (_) in
+            self.reloadView(jsonFileName: "flashstudy_ebs", recentCategory: .ebs)
+        })
+
         // ToDo : actionSheet에 구분선 또는 Grouping을 해주고 싶다.
         let loadFlashWord = UIAlertAction(title: "Flash Word", style: .default) { (_) in
             DispatchQueue.main.async {
@@ -393,11 +411,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 self.show(flashWordVC!, sender: nil)
             }
         }
-
-        // EBS를 paragraph로 노출한다.
-        let loadEBS = UIAlertAction(title: "Paragraph", style: .default, handler: { (_) in
-            self.reloadView(jsonFileName: "flashstudy_ebs", recentCategory: .ebs)
-        })
 
         alertController.addAction(loadCancel)
         alertController.addAction(loadWords)
@@ -435,7 +448,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if reverse {
             self.showFlash(actionType: .hideMeans, withIndex: currentIndex)
             reverse = false
-
         } else {
             self.showFlash(actionType: .reverse, withIndex: currentIndex)
             reverse = true
@@ -560,10 +572,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // 단어를 검색한다면 Section을 보여주지 않는다
         if searchController.isActive && searchController.searchBar.text != "" {
             setResultTextStyle(isSearch: true, indexRow: indexPath.row)
-
         } else {
             setResultTextStyle(isSearch: false, indexRow: indexPath.row)
-
         }
     }
 

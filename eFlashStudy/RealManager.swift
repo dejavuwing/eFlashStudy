@@ -109,6 +109,24 @@ class RealManager {
         }
     }
 
+    static func flashCategoryToString(category: FlashCategory) -> String {
+        var reaturnValue = ""
+
+        if category == .dialogue {
+            reaturnValue = "dialogue"
+        } else if category == .ebs {
+            reaturnValue = "ebs"
+        } else if category == .pattern {
+            reaturnValue = "pattern"
+        } else if category == .word {
+            reaturnValue = "word"
+        }
+
+        return reaturnValue
+    }
+
+    // MARK: - ReadHistory 기록
+
     /// ReadHistory 데이터를 지운다. (초기화)
     static func initReadHistory() {
         let realm = try! Realm()
@@ -139,14 +157,14 @@ class RealManager {
         }
     }
 
-    /// ReadHistory의 historyIndex를 반환한다.
+    /// ReadHistory의 historyIndex(읽은 순서)를 반환한다.
     static func getHistoryIndexFromReadHistory(category: FlashCategory, index: Int) -> Int {
         let realm = try! Realm()
         let readCategory = flashCategoryToString(category: category)
         let predicate = NSPredicate(format: "readCategory = %@ and readIndex == %i", readCategory, index)
-        let readHistory = realm.objects(ReadHistory.self).filter(predicate)
+        let result = realm.objects(ReadHistory.self).filter(predicate)
 
-        return readHistory[0].historyIndex
+        return result[0].historyIndex
     }
 
     /**
@@ -199,21 +217,21 @@ class RealManager {
         }
     }
 
-    static func flashCategoryToString(category: FlashCategory) -> String {
-        var reaturnValue = ""
+    /// ReadHistory에 기록된 마지막 readIndex를 불러온다.
+    static func getLastReadIndex(category: FlashCategory) -> Int {
+        let realm = try! Realm()
+        let readCategory = flashCategoryToString(category: category)
+        let predicate = NSPredicate(format: "readCategory = %@", readCategory)
+        let result = realm.objects(ReadHistory.self).filter(predicate).sorted(byKeyPath: "readTime", ascending: false)
 
-        if category == .dialogue {
-            reaturnValue = "dialogue"
-        } else if category == .ebs {
-            reaturnValue = "ebs"
-        } else if category == .pattern {
-            reaturnValue = "pattern"
-        } else if category == .word {
-            reaturnValue = "word"
+        if result.count > 0 {
+            return result[0].readIndex
+        } else {
+            return -1
         }
-
-        return reaturnValue
     }
+
+    // MARK: - ContentReadCount (컨텐츠 기록)
 
     /// ContentReadCount에 Title에 대한 읽은 수를 기록한다.
     static func addContentReadCount(title: String) {

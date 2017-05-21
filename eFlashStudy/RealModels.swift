@@ -31,11 +31,11 @@ class FlashStudyData: Object {
 // 시간 단위로 읽은 정보를 저장한다.
 class ReadHistory: Object {
 
-    dynamic var readTime: NSDate = NSDate()
-    dynamic var readCategory: String = ""
-    dynamic var readTitle: String = ""
-    dynamic var readIndex: Int = 0
-    dynamic var historyIndex: Int = 0
+    dynamic var readTime: NSDate = NSDate() // 읽은 날짜와 시간
+    dynamic var readCategory: String = ""   // 읽은 카테고리
+    dynamic var readTitle: String = ""      // 해당 내용의 title
+    dynamic var readIndex: Int = 0          // 해당 내용의 Json index
+    dynamic var historyIndex: Int = 0       // 해당 카테고리에서의 읽은 순서
 
     override static func indexedProperties() -> [String] {
         return ["readTime"]
