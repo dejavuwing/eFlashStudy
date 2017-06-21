@@ -20,6 +20,11 @@
 		E3620B781E91E97400ABF620 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3620B771E91E97400ABF620 /* UserNotifications.framework */; };
 		E3620B7A1E92429800ABF620 /* SendNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3620B791E92429800ABF620 /* SendNotification.swift */; };
 		E3620B7E1E9475DA00ABF620 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3620B7D1E9475DA00ABF620 /* LoadData.swift */; };
+		E3690E771EF8E96C007A163F /* youtubeChannelList.json in Resources */ = {isa = PBXBuildFile; fileRef = E3690E761EF8E96C007A163F /* youtubeChannelList.json */; };
+		E3690E7A1EF8EC46007A163F /* ChannelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E791EF8EC46007A163F /* ChannelsTableViewController.swift */; };
+		E3690E7E1EF90742007A163F /* YoutubeWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E7D1EF90742007A163F /* YoutubeWebController.swift */; };
+		E3690E801EF90FCF007A163F /* EZLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E7F1EF90FCF007A163F /* EZLoadingActivity.swift */; };
+		E3690E821EF91C46007A163F /* ActivityModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E811EF91C46007A163F /* ActivityModalView.swift */; };
 		E36E8B7F1E8A69A300A5B02F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E8B7E1E8A69A300A5B02F /* Toast.swift */; };
 		E36E8B811E8B585900A5B02F /* RandomIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E8B801E8B585900A5B02F /* RandomIndex.swift */; };
 		E39F82DC1ECDA139004DE4EE /* flashstudy_dialogues.json in Resources */ = {isa = PBXBuildFile; fileRef = E39F82D81ECDA139004DE4EE /* flashstudy_dialogues.json */; };
@@ -50,6 +55,11 @@
 		E3620B771E91E97400ABF620 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		E3620B791E92429800ABF620 /* SendNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendNotification.swift; sourceTree = "<group>"; };
 		E3620B7D1E9475DA00ABF620 /* LoadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		E3690E761EF8E96C007A163F /* youtubeChannelList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = youtubeChannelList.json; sourceTree = "<group>"; };
+		E3690E791EF8EC46007A163F /* ChannelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsTableViewController.swift; sourceTree = "<group>"; };
+		E3690E7D1EF90742007A163F /* YoutubeWebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeWebController.swift; sourceTree = "<group>"; };
+		E3690E7F1EF90FCF007A163F /* EZLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoadingActivity.swift; sourceTree = "<group>"; };
+		E3690E811EF91C46007A163F /* ActivityModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModalView.swift; sourceTree = "<group>"; };
 		E36E8B7E1E8A69A300A5B02F /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		E36E8B801E8B585900A5B02F /* RandomIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomIndex.swift; sourceTree = "<group>"; };
 		E39F82D81ECDA139004DE4EE /* flashstudy_dialogues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flashstudy_dialogues.json; sourceTree = "<group>"; };
@@ -119,6 +129,8 @@
 				E30312181E693C82003EB62D /* AppDelegate.swift */,
 				E30312361E694794003EB62D /* PlistManager.swift */,
 				E303121A1E693C82003EB62D /* ViewController.swift */,
+				E3690E7F1EF90FCF007A163F /* EZLoadingActivity.swift */,
+				E3690E811EF91C46007A163F /* ActivityModalView.swift */,
 				E3620B7D1E9475DA00ABF620 /* LoadData.swift */,
 				E30312AE1E6D55CE003EB62D /* RealManager.swift */,
 				E3BCE7A21E6D595F00DC4D89 /* RealModels.swift */,
@@ -129,6 +141,7 @@
 				E3620B791E92429800ABF620 /* SendNotification.swift */,
 				E34072B41EC58172003923EF /* SettingTableViewController.swift */,
 				E34072B61ECAE16C003923EF /* FlashWordViewController.swift */,
+				E3690E781EF8E9C5007A163F /* Youtube */,
 				E303122B1E69414A003EB62D /* JsonFiles */,
 				E303121C1E693C82003EB62D /* Main.storyboard */,
 				E303121F1E693C82003EB62D /* Assets.xcassets */,
@@ -146,8 +159,18 @@
 				E39F82D91ECDA139004DE4EE /* flashstudy_ebs.json */,
 				E39F82DA1ECDA139004DE4EE /* flashstudy_patterns.json */,
 				E39F82DB1ECDA139004DE4EE /* flashstudy_words.json */,
+				E3690E761EF8E96C007A163F /* youtubeChannelList.json */,
 			);
 			path = JsonFiles;
+			sourceTree = "<group>";
+		};
+		E3690E781EF8E9C5007A163F /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				E3690E791EF8EC46007A163F /* ChannelsTableViewController.swift */,
+				E3690E7D1EF90742007A163F /* YoutubeWebController.swift */,
+			);
+			path = Youtube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +252,7 @@
 				E30312201E693C82003EB62D /* Assets.xcassets in Resources */,
 				E39F82DD1ECDA139004DE4EE /* flashstudy_ebs.json in Resources */,
 				E39F82DC1ECDA139004DE4EE /* flashstudy_dialogues.json in Resources */,
+				E3690E771EF8E96C007A163F /* youtubeChannelList.json in Resources */,
 				E303121E1E693C82003EB62D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,16 +326,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E30312371E694794003EB62D /* PlistManager.swift in Sources */,
+				E3690E7A1EF8EC46007A163F /* ChannelsTableViewController.swift in Sources */,
 				E36E8B7F1E8A69A300A5B02F /* Toast.swift in Sources */,
+				E3690E7E1EF90742007A163F /* YoutubeWebController.swift in Sources */,
 				E303121B1E693C82003EB62D /* ViewController.swift in Sources */,
 				E34072B51EC58172003923EF /* SettingTableViewController.swift in Sources */,
 				E3BCE7A31E6D595F00DC4D89 /* RealModels.swift in Sources */,
 				E3620B7A1E92429800ABF620 /* SendNotification.swift in Sources */,
 				E3BCE7A71E6E8B4A00DC4D89 /* TextStyle.swift in Sources */,
+				E3690E801EF90FCF007A163F /* EZLoadingActivity.swift in Sources */,
 				E36E8B811E8B585900A5B02F /* RandomIndex.swift in Sources */,
 				E3BCE7A51E6E4B0200DC4D89 /* EventAlert.swift in Sources */,
 				E30312191E693C82003EB62D /* AppDelegate.swift in Sources */,
 				E30312AF1E6D55CE003EB62D /* RealManager.swift in Sources */,
+				E3690E821EF91C46007A163F /* ActivityModalView.swift in Sources */,
 				E3620B7E1E9475DA00ABF620 /* LoadData.swift in Sources */,
 				E34072B71ECAE16C003923EF /* FlashWordViewController.swift in Sources */,
 			);

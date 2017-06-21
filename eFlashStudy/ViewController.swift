@@ -147,6 +147,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             eFlashStudyData = StudyDataStruct.dialogues
         }
 
+        // Youtube Channel 데이터를 불러온다.
+        LoadData().getYoutubeChannelDetails()
+
         // 검색 테이블 뷰 정의
         let viewFrame = self.view.frame
         dimmedView.backgroundColor = UIColor.clear
@@ -389,7 +392,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         })
 
         // EBS를 paragraph로 노출한다.
-        let loadEBS = UIAlertAction(title: "Paragraph", style: .default, handler: { (_) in
+        let loadParagraph = UIAlertAction(title: "Paragraph", style: .default, handler: { (_) in
             self.reloadView(jsonFileName: "flashstudy_ebs", recentCategory: .ebs)
         })
 
@@ -402,6 +405,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 self.show(flashWordVC!, sender: nil)
             }
         }
+
+        // youtube chennal table로 이동
+        let loadListening = UIAlertAction(title: "Listening (Youtube)", style: .default, handler: { (_) in
+            DispatchQueue.main.async {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let youtubeChennalTVC = storyboard.instantiateViewController(withIdentifier: "YoutubeChennalTable") as? ChannelsTableViewController
+                self.show(youtubeChennalTVC!, sender: nil)
+            }
+        })
 
         let loadFlashPattern = UIAlertAction(title: "Flash Pattern", style: .default) { (_) in
             DispatchQueue.main.async {
@@ -416,9 +428,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         alertController.addAction(loadWords)
         alertController.addAction(loadPatterns)
         alertController.addAction(loadDialogues)
-        alertController.addAction(loadEBS)
+        alertController.addAction(loadParagraph)
         alertController.addAction(loadFlashWord)
         alertController.addAction(loadFlashPattern)
+        alertController.addAction(loadListening)
 
         if UI_USER_INTERFACE_IDIOM() == .pad {
             if let popoverController = alertController.popoverPresentationController {

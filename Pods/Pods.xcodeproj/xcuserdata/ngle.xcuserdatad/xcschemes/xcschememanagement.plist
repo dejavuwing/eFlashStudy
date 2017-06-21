@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BonMot.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0E148C8F288D87ED980B496E257D8E5F</key>
+		<key>853FB6D6F75E8D1D660688730CE0C403</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EDB7C8BD4F0C157308CB7186607A530</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8A4B48C2DDAA4944C36444B65E7E14F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,12 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1E36DDBDB2BB8EB2B9FAE8922A82F02</key>
+		<key>B9F191A71DBE4D7CF78172E8E22D623A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D43D31F70D676D475C8907EAFC72CE99</key>
+		<key>C005542E79A61BF87B34AB5F98790ABF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

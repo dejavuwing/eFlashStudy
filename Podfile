@@ -10,5 +10,6 @@ target 'eFlashStudy' do
 	pod 'RealmSwift'
 	pod 'Firebase/Core'
 	pod 'Firebase/AdMob'
+	pod 'Alamofire'
 
 end

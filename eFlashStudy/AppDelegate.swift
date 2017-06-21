@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let center = UNUserNotificationCenter.current()
             center.delegate = notificationDelegate
 
-            center.requestAuthorization(options: [.alert, .sound, .badge]) {(accepted, error) in
+            center.requestAuthorization(options: [.alert, .sound, .badge]) {(accepted, _) in
                 if !accepted {
                     print("Notification access denied.")
                 }

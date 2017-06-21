@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftyJSON
+import Alamofire
 
 // json 파일에 있는 데이터를 카테고리별로 담는다.
 struct StudyDataStruct {
@@ -15,9 +16,39 @@ struct StudyDataStruct {
     static var patterns = [FSProtocal]()
     static var dialogues = [FSProtocal]()
     static var ebs = [FSProtocal]()
+    static var channelsDataArray = [[String: String]]()
+
 }
 
 class LoadData {
+
+    let apiKey: String = "AIzaSyB7axvVjh9cQtbuqpbdBcMibbCcKDPwvPA"
+    var channelIndex = 0
+
+    let channelList: [String] = ["EnglishByJade",
+                                 "AlexESLvid",
+                                 "EnglishLessons4U",
+                                 "EnglishTeacherAdam",
+                                 "EnglishTeacherEmma",
+                                 "RebeccaESL",
+                                 "AsapSCIENCE",
+                                 "australianetwork",
+                                 "TestTubeNetwork"]
+
+    /// FlashCategory로 Json 파일 이름을 확인한다.
+    static func categoryToJsonFileName(category: FlashCategory) -> String {
+        var returnValue: String = ""
+
+        switch category {
+        case .word: returnValue = "flashstudy_words"
+        case .pattern: returnValue = "flashstudy_patterns"
+        case .dialogue: returnValue = "flashstudy_dialogues"
+        case .ebs: returnValue = "flashstudy_ebs"
+        case .flashword: returnValue = "flashstudy_words"
+        }
+
+        return returnValue
+    }
 
     /// FlashCategory를 배열로 받아 Json에 있는 데이터를 StudyDataStruct에 담는다.
     static func putData(categoryArray: [FlashCategory]) {
@@ -56,18 +87,35 @@ class LoadData {
         print("EBS Count: \(StudyDataStruct.ebs.count)")
     }
 
-    /// FlashCategory로 Json 파일 이름을 확인한다.
-    static func categoryToJsonFileName(category: FlashCategory) -> String {
-        var returnValue: String = ""
+    /// Alamofire를 통해 연결합니다.
+    func getYoutubeChannelDetails() {
+        let urlString = "https://www.googleapis.com/youtube/v3/channels?part=contentDetails,snippet&forUsername=\(channelList[channelIndex])&key=\(apiKey)"
 
-        switch category {
-        case .word: returnValue = "flashstudy_words"
-        case .pattern: returnValue = "flashstudy_patterns"
-        case .dialogue: returnValue = "flashstudy_dialogues"
-        case .ebs: returnValue = "flashstudy_ebs"
-        case .flashword: returnValue = "flashstudy_words"
+        //EZLoadingActivity.show("Loading..", disableUI: true)
+        Alamofire.request(urlString).responseJSON { (response) in
+            //EZLoadingActivity.hide()
+
+            let channelJSON = JSON(response.result.value!)
+            for item in channelJSON["items"] {
+
+                // Create a new dictionary to store only the values we care about.
+                var desiredValuesDict: [String: String] = [String: String]()
+                desiredValuesDict["title"] = item.1["snippet"]["title"].stringValue
+                desiredValuesDict["description"] = item.1["snippet"]["description"].stringValue
+                desiredValuesDict["thumbnail"] = item.1["snippet"]["thumbnails"]["default"]["url"].stringValue
+                desiredValuesDict["id"] = item.1["id"].stringValue
+
+                // Append the desiredValuesDict dictionary to the following array.
+                StudyDataStruct.channelsDataArray.append(desiredValuesDict as [String : String])
+                print("channel : \(item.1["snippet"]["title"].stringValue)")
+            }
+
+            // Load the next channel data (if exist).
+            self.channelIndex += 1
+            if self.channelIndex < self.channelList.count {
+                self.getYoutubeChannelDetails()
+            }
         }
-
-        return returnValue
     }
+
 }
