@@ -25,6 +25,9 @@ PODS:
   - Realm/Headers (2.7.0)
   - RealmSwift (2.7.0):
     - Realm (= 2.7.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - SwiftLint (0.18.1)
   - SwiftyJSON (3.1.4)
 
@@ -35,6 +38,7 @@ DEPENDENCIES:
   - Firebase/AdMob
   - Firebase/Core
   - RealmSwift
+  - SDWebImage
   - SwiftLint
   - SwiftyJSON
 
@@ -50,9 +54,10 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
   RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 11905292121f8ced66142beb6fdc7e0cc1002d1f
+PODFILE CHECKSUM: e482420797156a96cce2876186652d199e4f3097
 
 COCOAPODS: 1.2.0

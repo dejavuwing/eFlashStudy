@@ -17,23 +17,9 @@ struct StudyDataStruct {
     static var dialogues = [FSProtocal]()
     static var ebs = [FSProtocal]()
     static var channelsDataArray = [[String: String]]()
-
 }
 
 class LoadData {
-
-    let apiKey: String = "AIzaSyB7axvVjh9cQtbuqpbdBcMibbCcKDPwvPA"
-    var channelIndex = 0
-
-    let channelList: [String] = ["EnglishByJade",
-                                 "AlexESLvid",
-                                 "EnglishLessons4U",
-                                 "EnglishTeacherAdam",
-                                 "EnglishTeacherEmma",
-                                 "RebeccaESL",
-                                 "AsapSCIENCE",
-                                 "australianetwork",
-                                 "TestTubeNetwork"]
 
     /// FlashCategory로 Json 파일 이름을 확인한다.
     static func categoryToJsonFileName(category: FlashCategory) -> String {
@@ -64,7 +50,9 @@ class LoadData {
                 let json = JSON(data: dataFromString)
 
                 for jsonData in json["voca"] {
-                    let flashData: FSProtocal = FSStruct(title: jsonData.1["title"].stringValue, means: jsonData.1["means"].stringValue, explains: jsonData.1["explains"].stringValue)
+                    let flashData: FSProtocal = FSStruct(title: jsonData.1["title"].stringValue,
+                                                         means: jsonData.1["means"].stringValue,
+                                                         explains: jsonData.1["explains"].stringValue)
 
                     if category == .word {
                         StudyDataStruct.words.append(flashData)
@@ -89,31 +77,40 @@ class LoadData {
 
     /// Alamofire를 통해 연결합니다.
     func getYoutubeChannelDetails() {
-        let urlString = "https://www.googleapis.com/youtube/v3/channels?part=contentDetails,snippet&forUsername=\(channelList[channelIndex])&key=\(apiKey)"
+        var channelList = [String]()
+        let apiKey: String = "AIzaSyB7axvVjh9cQtbuqpbdBcMibbCcKDPwvPA"
 
-        //EZLoadingActivity.show("Loading..", disableUI: true)
-        Alamofire.request(urlString).responseJSON { (response) in
-            //EZLoadingActivity.hide()
+        // json 파일에서 channel 정보를 불러온다.
+        let jsonFileUrl = Bundle.main.url(forResource: "youtubeChannelList", withExtension: "json")!
+        let channelData = try? String(contentsOf: jsonFileUrl, encoding: String.Encoding.utf8)
 
-            let channelJSON = JSON(response.result.value!)
-            for item in channelJSON["items"] {
+        if let dataFromString = channelData?.data(using: .utf8, allowLossyConversion: false) {
+            let json = JSON(data: dataFromString)
 
-                // Create a new dictionary to store only the values we care about.
-                var desiredValuesDict: [String: String] = [String: String]()
-                desiredValuesDict["title"] = item.1["snippet"]["title"].stringValue
-                desiredValuesDict["description"] = item.1["snippet"]["description"].stringValue
-                desiredValuesDict["thumbnail"] = item.1["snippet"]["thumbnails"]["default"]["url"].stringValue
-                desiredValuesDict["id"] = item.1["id"].stringValue
-
-                // Append the desiredValuesDict dictionary to the following array.
-                StudyDataStruct.channelsDataArray.append(desiredValuesDict as [String : String])
-                print("channel : \(item.1["snippet"]["title"].stringValue)")
+            for jsonData in json["youtube"]["channelList"] {
+                channelList.append(jsonData.1["id"].stringValue)
             }
+        }
 
-            // Load the next channel data (if exist).
-            self.channelIndex += 1
-            if self.channelIndex < self.channelList.count {
-                self.getYoutubeChannelDetails()
+        // channelList로 channel 정보를 불러온다.
+        for index in 0..<channelList.count {
+            let urlString = "https://www.googleapis.com/youtube/v3/channels?part=contentDetails,snippet&id=\(channelList[index])&key=\(apiKey)"
+
+            Alamofire.request(urlString).responseJSON { (response) in
+                let channelJSON = JSON(response.result.value!)
+                for item in channelJSON["items"] {
+
+                    // Create a new dictionary to store only the values we care about.
+                    var desiredValuesDict: [String: String] = [String: String]()
+                    desiredValuesDict["title"] = item.1["snippet"]["title"].stringValue
+                    desiredValuesDict["description"] = item.1["snippet"]["description"].stringValue
+                    desiredValuesDict["thumbnail"] = item.1["snippet"]["thumbnails"]["default"]["url"].stringValue
+                    desiredValuesDict["id"] = item.1["id"].stringValue
+
+                    // Append the desiredValuesDict dictionary to the following array.
+                    StudyDataStruct.channelsDataArray.append(desiredValuesDict as [String : String])
+                    print("channel : \(item.1["snippet"]["title"].stringValue)")
+                }
             }
         }
     }

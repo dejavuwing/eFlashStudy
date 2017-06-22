@@ -24,7 +24,6 @@
 		E3690E7A1EF8EC46007A163F /* ChannelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E791EF8EC46007A163F /* ChannelsTableViewController.swift */; };
 		E3690E7E1EF90742007A163F /* YoutubeWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E7D1EF90742007A163F /* YoutubeWebController.swift */; };
 		E3690E801EF90FCF007A163F /* EZLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E7F1EF90FCF007A163F /* EZLoadingActivity.swift */; };
-		E3690E821EF91C46007A163F /* ActivityModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690E811EF91C46007A163F /* ActivityModalView.swift */; };
 		E36E8B7F1E8A69A300A5B02F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E8B7E1E8A69A300A5B02F /* Toast.swift */; };
 		E36E8B811E8B585900A5B02F /* RandomIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E8B801E8B585900A5B02F /* RandomIndex.swift */; };
 		E39F82DC1ECDA139004DE4EE /* flashstudy_dialogues.json in Resources */ = {isa = PBXBuildFile; fileRef = E39F82D81ECDA139004DE4EE /* flashstudy_dialogues.json */; };
@@ -59,7 +58,6 @@
 		E3690E791EF8EC46007A163F /* ChannelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsTableViewController.swift; sourceTree = "<group>"; };
 		E3690E7D1EF90742007A163F /* YoutubeWebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeWebController.swift; sourceTree = "<group>"; };
 		E3690E7F1EF90FCF007A163F /* EZLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoadingActivity.swift; sourceTree = "<group>"; };
-		E3690E811EF91C46007A163F /* ActivityModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModalView.swift; sourceTree = "<group>"; };
 		E36E8B7E1E8A69A300A5B02F /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		E36E8B801E8B585900A5B02F /* RandomIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomIndex.swift; sourceTree = "<group>"; };
 		E39F82D81ECDA139004DE4EE /* flashstudy_dialogues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flashstudy_dialogues.json; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				E30312361E694794003EB62D /* PlistManager.swift */,
 				E303121A1E693C82003EB62D /* ViewController.swift */,
 				E3690E7F1EF90FCF007A163F /* EZLoadingActivity.swift */,
-				E3690E811EF91C46007A163F /* ActivityModalView.swift */,
 				E3620B7D1E9475DA00ABF620 /* LoadData.swift */,
 				E30312AE1E6D55CE003EB62D /* RealManager.swift */,
 				E3BCE7A21E6D595F00DC4D89 /* RealModels.swift */,
@@ -339,7 +336,6 @@
 				E3BCE7A51E6E4B0200DC4D89 /* EventAlert.swift in Sources */,
 				E30312191E693C82003EB62D /* AppDelegate.swift in Sources */,
 				E30312AF1E6D55CE003EB62D /* RealManager.swift in Sources */,
-				E3690E821EF91C46007A163F /* ActivityModalView.swift in Sources */,
 				E3620B7E1E9475DA00ABF620 /* LoadData.swift in Sources */,
 				E34072B71ECAE16C003923EF /* FlashWordViewController.swift in Sources */,
 			);

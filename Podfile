@@ -11,5 +11,6 @@ target 'eFlashStudy' do
 	pod 'Firebase/Core'
 	pod 'Firebase/AdMob'
 	pod 'Alamofire'
+	pod 'SDWebImage'
 
 end

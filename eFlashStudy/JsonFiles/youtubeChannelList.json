@@ -1,13 +1,23 @@
 {
     "youtube": {
-        "channelList": ["EnglishByJade",
-                        "AlexESLvid",
-                        "EnglishLessons4U",
-                        "EnglishTeacherAdam",
-                        "EnglishTeacherEmma",
-                        "RebeccaESL",
-                        "AsapSCIENCE",
-                        "australianetwork",
-                        "TestTubeNetwork"]
+        "channelList": [
+                        {"id": "UC4cmBAit8i_NJZE8qK8sfpA", "title": "EnglishLessons4U - Learn English with Ronnie! [engVid]"},
+                        {"id": "UCYH_rzxdFCgNyJb2kSaNxFg", "title": "We Bare Bears"},
+                        {"id": "UC5iKEDCDtcEwlc_V3u80IBA", "title": "Steph Choi"},
+                        {"id": "UCgcJ1AA_mprxc-m9iHYdrDQ", "title": "Michael Elliott"},
+                        {"id": "UCEKXieT70wByfvZwP1CxdPQ", "title": "JenniferESL"},
+                        {"id": "UClvwNCja3aXxqiFrsKC1DPQ", "title": "English Lessons with Alex (engVid AlexESLvid)"},
+                        {"id": "UCKyTokYo0nK2OA-az-sDijA", "title": "VOA Learning English"},
+                        {"id": "UCVBErcpqaokOf4fI5j73K_w", "title": "Learn English with Emma [engVid]"},
+                        {"id": "UCzBGtBze1AIcDmRwD2ZjiAA", "title": "Learn English with Gill (engVid)"},
+                        {"id": "UCi7GJNg51C3jgmYTUwqoUXA", "title": "Team Coco"},
+                        {"id": "UCJtBaL1PPmTc1ff0nsihR0g", "title": "Learn English with Rebecca [engVid RebeccaESL]"},
+                        {"id": "UCy-dvmsfmvYXBmt_huqqo1A", "title": "English Jade - Learn English (engVid)"},
+                        {"id": "UCwA7Aepp7nRUJNa8roQ-6Bw", "title": "JamesESL English Lessons (engVid)"},
+                        {"id": "UC_0NfufarVw04vDfWFm8z_Q", "title": "English Lessons with Adam - Learn English with Adam [engVid]"},
+                        {"id": "UCicjynhfFw2LiIQFnoS1JTw", "title": "Learn English with Let's Talk - Free English Lessons"},
+                        {"id": "UCVSNOxehfALut52NbkfRBaA", "title": "VOA News"},
+                        {"id": "UCeTVoczn9NOZA9blls3YgUg", "title": "Learn English with EnglishClass101.com"}
+                        ]
     }
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyJSON
+import SDWebImage
 
 class ChannelsTableViewController: UITableViewController {
 
@@ -42,7 +43,8 @@ class ChannelsTableViewController: UITableViewController {
 
         channelTitleLabel!.text = channelDetails["title"]
         channelDescriptionLabel!.text = channelDetails["description"]
-        thumbnailImageView!.image = UIImage(data: NSData(contentsOf: NSURL(string: (channelDetails["thumbnail"])!)! as URL)! as Data)
+        //thumbnailImageView!.image = UIImage(data: NSData(contentsOf: NSURL(string: (channelDetails["thumbnail"])!)! as URL)! as Data)
+        thumbnailImageView!.sd_setImage(with: URL(string: (channelDetails["thumbnail"])!), placeholderImage: UIImage(named: "placeholder.png"))
 
         return cell
     }
