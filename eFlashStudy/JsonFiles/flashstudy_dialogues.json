@@ -31,8 +31,8 @@
 			"means": "A : 무엇을 주문하시겠어요?\\nB : 영국식 아침 식사로 하고 싶습니다.\\nA : 계란은 어떻게 해드릴까요?\\nB : 뭐가 있나요?\\nA : 스크램블, 한 쪽만 익히거나, 다른 쪽도 살짝 익히거나, 완전히 익혀 드릴 수 있어요.\\nB : 양쪽을 익힌 것으로 하겠습니다. 아니, 한 쪽만 익힌 것으로 할게요.\\nA : 더 필요한 것은 없으세요?\\nB : 사과 주스요. 작은 사이즈로 주세요."
 		},
 		{
-			"title": "(Alan is screaming at his computer when his wife Megan walks in … )",
-			"explains": "Megan : What's your problem? Why are you screaming?\\nAlan : This computer is impossible!\\nMegan : What's wrong this time?\\nAlan : It has a mind of its own!\\nMegan : What do you mean?\\nAlan : I don't want to go into it.\\nMegan : Maybe Timmy can help.\\nAlan : Timmy? The kid next door?\\nMegan : Yes. He's a computer nerd.\\nAlan : I can't believe a child can teach me about my computer.\\n",
+			"title": "He's a computer nerd.",
+			"explains": "(Alan is screaming at his computer when his wife Megan walks in … )\\nMegan : What's your problem? Why are you screaming?\\nAlan : This computer is impossible!\\nMegan : What's wrong this time?\\nAlan : It has a mind of its own!\\nMegan : What do you mean?\\nAlan : I don't want to go into it.\\nMegan : Maybe Timmy can help.\\nAlan : Timmy? The kid next door?\\nMegan : Yes. He's a computer nerd.\\nAlan : I can't believe a child can teach me about my computer.\\n",
 			"means": "(앨런이 컴퓨터에다 대고 소리지르는 도중에 아내 메이건이 들어온다 …)\\n메이건 : 왜 그래? 왜 소릴 지르는 거야?\\n앨런 : 이 컴퓨터는 구제불능이야!\\n메이건 : 이번엔 또 뭐가 잘못됐어?\\n앨런 : 저 마음대로야!\\n메이건 : 무슨 얘기지?\\n앨런 : 얘기하고 싶지도 않아.\\n메이건 : 티미가 도와줄 수 있을지도 몰라.\\n앨런 : 티미가? 옆집 애말야?\\n메이건 : 그래. 걔는 컴퓨터광이잖아.\\n앨런 : 어린 아이가 나한테 컴퓨터에 대해 가르쳐줄 수 있다고는 못믿겠어."
 		},
 		{
@@ -51,8 +51,8 @@
 			"means": "A : 강도 사건에 관해서 얘기 들으셨어요?\\nB : 얘기 들으셨나요? 난 직접 봤어요.\\nA : 정말요?\\nB : 한 남자가 총을 가지고 은행에 들어왔어요. 그가 총을 꺼냈을 땐 정말 너무 겁이 났었어요.\\nA : 그 다음엔 어떻게 됐는데요?\\nB : 그가 돈을 가지고 도망가려고 했어요.\\nA : 잡혔나요?\\nB : 그가 문을 나서기 전에 경찰이 그를 체포했어요."
 		},
 		{
-			"title": "(Al and Ed are talking at work … )",
-			"explains": "Al : We've got an 8 AM tee time on Saturday.\\nEd : That's too early. It's too cold to play that early.\\nAl : What are you talking about? 8 am was your idea.\\nEd : That was before the cold snap.\\nAl : Are you going to flake out on our golf game?\\nEd : Of course not. Just get a later tee time.\\nAl: What if we can't get a later time?\\nEd : Then I'll suck it up and play at eight.\\nAl : Okay. I'll call the golf course.\\nEd : Thanks for calling.\\n",
+			"title": "Are you going to flake out on our golf game?",
+			"explains": "(Al and Ed are talking at work … )\\nAl : We've got an 8 AM tee time on Saturday.\\nEd : That's too early. It's too cold to play that early.\\nAl : What are you talking about? 8 am was your idea.\\nEd : That was before the cold snap.\\nAl : Are you going to flake out on our golf game?\\nEd : Of course not. Just get a later tee time.\\nAl: What if we can't get a later time?\\nEd : Then I'll suck it up and play at eight.\\nAl : Okay. I'll call the golf course.\\nEd : Thanks for calling.\\n",
 			"means": "(앨과 에드가 직장에서 얘기한다 …)\\n앨 : 우리 토요일 아침 8시에 골프치는 시간이야.\\n에드 : 그건 너무 일러. 그렇게 일찍 치기엔 날이 너무 추워.\\n앨 : 무슨 얘기야? 오전 8 시는 자네 생각이었잖아.\\n에드 : 그건 한파가 오기 전이었지.\\n앨 : 골프 치기로 한 것 이제 꽁무니 빼는 거야?\\n에드 : 그게 아니야. 시작 시간을 뒤로 미루라는 거야.\\n엘 : 시간을 미룰수 없다면 어쩌나?\\n에드 : 그럼 눈 딱 감고 8시에 칠게.\\n앨 : 알았어 . 골프장에 전화해볼게.\\n에드 : 전화해줘서 고마워.\\n"
 		},
 		{
@@ -66,7 +66,7 @@
 			"means": "A : 눈이 왜 그런 거야?\\nB : 음…어젯밤에 우리 아들 배에 뽀뽀를 하려고 하니 날 말리려고 하더라고.\\nB : 그리고 나를 말리려고 할 때 내 눈을 손톱으로 긁었어.\\nA : 아팠겠다.\\nB : 처음엔 그렇게 아프진 않았는데, 다음날 아침에 정말 아프더라고.\\nA : 의사선생님께서는 뭐라고 하셔?\\nB : 괜찮을 거라고 하셨어."
 		},
 		{
-			"title": "A : I've got some valuable information but you can't tell anyone.",
+			"title": "I'm all ears. What is it?",
 			"explains": "A : I've got some valuable information but you can't tell anyone.\\nB : I won't tell anyone.\\nA : You can get rich with this information.\\nB : I'm all ears. What is it?\\nA : I've just found out that my company is being taken over.\\nA : Buy stock in the company today.\\nA : When we're taken over the stock will be skyrocketing.\\n",
 			"means": "A : 나 중요한 정보를 알고 있는데 아무한테도 말하면 안 돼.\\nB : 아무한테도 얘기 안 할게.\\nA : 이 정보로 너 부자가 될 수 있어.\\nB : 귀 기울이고 있잖아. 그게 뭔데?\\nA : 우리 회사가 인수된다는 것을 막 알게 되었어.\\nA : 오늘 우리 회사 주식을 사.\\nA : 회사가 넘어가면 주식이 치솟게 될 거야.\\n"
 		},
@@ -306,19 +306,19 @@
 			"means": "A : 너한테 딱 어울리는 사람을 알고 있어.\\nB : 네가 지난번에 소개해줬던 남자는 무례하던데.\\nA : 나를 믿어봐. 이 남자는 완벽남이야.\\nB : 그에 대해 얼마나 아는데?\\nA : 아주 멋지고 착해."
 		},
 		{
-			"title": "(Adam is talking to his neighbor Ted … )",
-			"explains": "Adam : How's your family Ted?\\nTed : Everyone's doing well. How is yours?\\nAdam : They are terrific. Is your daughter still taking golf lessons?\\nTed : Yes. And now she wants to try out for the golf team.\\nAdam : My daughter is just getting into golf. Does your daughter like her golf teacher?\\nTed : Very much. And she doesn't cost an arm and a leg.\\nAdam : That's great. Could you give me her teacher's name and phone number?\\nTed : Sure. I have her business card.\\nAdam : This will make my daughter very happy. She's always looked up to your daughter.\\nTed : I think she will like this teacher.\\n",
+			"title": "She doesn't cost an arm and a leg.",
+			"explains": "(Adam is talking to his neighbor Ted … )\\nAdam : How's your family Ted?\\nTed : Everyone's doing well. How is yours?\\nAdam : They are terrific. Is your daughter still taking golf lessons?\\nTed : Yes. And now she wants to try out for the golf team.\\nAdam : My daughter is just getting into golf. Does your daughter like her golf teacher?\\nTed : Very much. And she doesn't cost an arm and a leg.\\nAdam : That's great. Could you give me her teacher's name and phone number?\\nTed : Sure. I have her business card.\\nAdam : This will make my daughter very happy. She's always looked up to your daughter.\\nTed : I think she will like this teacher.\\n",
 			"means": "(애덤이 이웃 테드와 얘기한다 …)\\n애덤 : 가족들은 어떻게 지내?\\n테드 : 모두 잘 있어. 자넨?\\n애덤 : 잘 지내. 자네 딸 아직도 골프 레슨을 받나?\\n테드 : 응. 이젠 골프팀에 들어가보려는 중이야.\\n애덤 : 우리 딸도 막 골프를 배우려는 중이거든. 자네 딸은 그 골프교사를 좋아해?\\n테드 : 아주. 그리고 터무니없이 비싼 편도 아니거든.\\n애덤 : 잘됐네. 그 교사의 이름하고 전화번호좀 줄 수 있겠어?\\n테드 : 물론이지. 나한테 명함이 있어.\\n애덤 : 그럼 우리 딸이 정말 좋아하겠군. 우리 딸은 항상 자네 딸을 부럽게 봐왔거든.\\n테드 : 자네 딸도 이 선생님을 좋아할 거야."
 		},
 		{
-			"title": "(Gary is talking to Phil at work...)",
-			"explains": "Gary : Where are you going for lunch today?\\nPhil : I'm going to pass on lunch today.\\nGary : Are you on a diet?\\nPhil : No. I have to see about my car today.\\nGary : Is your car in the shop again?\\nPhil : Of course.\\nGary : What's wrong with it this time?\\nPhil : It broke down on the freeway.\\nGary : So you're going to try to get your car at lunch time?\\nPhil : Yes I hope to.\\n",
+			"title": "I have to see about my car today.",
+			"explains": "(Gary is talking to Phil at work...)\\nGary : Where are you going for lunch today?\\nPhil : I'm going to pass on lunch today.\\nGary : Are you on a diet?\\nPhil : No. I have to see about my car today.\\nGary : Is your car in the shop again?\\nPhil : Of course.\\nGary : What's wrong with it this time?\\nPhil : It broke down on the freeway.\\nGary : So you're going to try to get your car at lunch time?\\nPhil : Yes I hope to.\\n",
 			"means": "(개리가 직장에서 필과 얘기한다...)\\n개리 : 자네 오늘 점심은 어디로 먹으러 갈 거야?\\n필 : 오늘 점심은 사양이야.\\n개리 : 자네 다이어트 하는 거야?\\n필 : 안. 오늘은 자동차 문제를 처리해야 돼.\\n개리 : 또 수리소에 있어?\\n필 : 물론이지.\\n개리 : 이번엔 또 뭐가 잘못됐대?\\n필 : 프리웨이를 달리다가 섰어.\\n개리 : 그럼 점심 시간중에 차를 찾아오려는 거야?\\n필 : 그러려는 중이야."
 		},
 		{
-			"title": "A : What are you doing for Christmas?",
-			"explains": "A : What are you doing for Christmas?\\nB : Well, nothing special, I am planning to spend with my family.\\nB : Do you have any special plans?\\nA : I am planning to go skiing with my friends.\\nB : Wow, that would be fun. I would go if I knew it in advance.\\n",
-			"means": "A : 크리스마스에 뭐 할 거니?\\nB : 글쎄, 별다른 계획은 없고, 가족과 함께 보내려고 해.\\nB : 넌 특별한 계획이 있니?\\nA : 난, 친구들과 스키장에 놀러 갈 계획이야.\\nB : 우와, 재미 있겠다. 미리 알았더라면 나도 함께 갔을텐데…"
+			"title": "What are you doing for Christmas?",
+			"explains": "A : What are you doing for Christmas?\\nB : Well, nothing special, I am planning to spend with my family. Do you have any special plans?\\nA : I am planning to go skiing with my friends.\\nB : Wow, that would be fun. I would go if I knew it in advance.\\n",
+			"means": "A : 크리스마스에 뭐 할 거니?\\nB : 글쎄, 별다른 계획은 없고, 가족과 함께 보내려고 해. 넌 특별한 계획이 있니?\\nA : 난, 친구들과 스키장에 놀러 갈 계획이야.\\nB : 우와, 재미 있겠다. 미리 알았더라면 나도 함께 갔을텐데…"
 		},
 		{
 			"title": "Bob: I have to apologize to you.",
@@ -636,7 +636,7 @@
 			"means": "(켄과 케이티가 창고세일에 와있다…)\\n케이티: 우리 뭘 정말 많이 샀네.\\n켄: 좋은 물건이 여기 많잖아.\\n케이티: 어머 저 꽃병좀 봐! (주인에게 물어본다) 이 꽃병은 얼마 부르시는 거죠?\\n주인: 15달러요 .\\n케이티: 켄 15달러 있어?\\n켄: (지갑을 보며) 아니. 난 10달러밖에 안남았는데 .\\n케이티: (주인에게 ) 10달러로 해주실래요?\\n주인: 12달러에 팔게요.\\n케이티: 우린 10달러밖에 없는데요.\\n켄: (주인에게 ) 이것좀 맡아주시겠어요? 돈을 더 가져올게요 .\\n"
 		},
 		{
-			"title": "B : Horrible. I got a cold 3 days ago, and it's getting worse.",
+			"title": "I got a cold 3 days ago, and it's getting worse.",
 			"explains": "A : Hi, how are you feeling? \\nB : Horrible. I got a cold 3 days ago, and it's getting worse.\\nB : And the cough has gotten deeper.\\nA : Well, let me take a listen to your chest. \\nA : It sounds like you have some congestion in your lungs. \\nA : Here is a prescription. \\nB : What's it for? \\nA : It'll help calm your cough.\\n",
 			"means": "A : 안녕하세요. 좀 어떠세요?\\nB : 안 좋아요. 3일전쯤 감기에 걸렸는데 점점 심해지고 있고요.\\nB : 그리고 기침이 더 심해졌어요.\\nA : 음, 심장박동 소리를 들어볼게요.\\nA : 폐에 충혈이 있는 같아요.\\nA : 여기 처방전입니다.\\nB : 무슨 처방이죠?\\nA : 기침을 좀 낫게 해줄 거예요."
 		},
@@ -676,12 +676,12 @@
 			"means": "A : 운전면허증을 좀 볼 수 있을까요?\\nB : 제가 잘못한 것이 있나요?\\nA : 면허증을 보여주세요.\\nB : 네. 여기 있습니다.\\nA : 속도위반을 하신 것을 아셨나요?\\nB : 뭐라고요? 속도위반을 하지 않았어요.\\n"
 		},
 		{
-			"title": "Gene: (pouring a half glass of orange juice) Is there any more orange juice?",
-			"explains": "(Claire and her husband, Gene, are in the kitchen one Saturday morning … )\\nGene: (pouring a half glass of orange juice) Is there any more orange juice?\\nClaire: No. That's all of it.\\nGene: There's no more?\\nClaire: No. That's it.\\nGene: Wow! We go through a lot of orange juice in this house.\\nClaire: I know. What would you like for breakfast?\\nGene: More orange juice.\\nClaire: Really. What can I make for you?\\nGene: Let's have breakfast out.\\nClaire: That's fine by me.\\n",
-			"means": "(클레어와 남편 진이 어느 토요일 아침 부엌에 있다 …)\\n진: (오렌지 주스를 반 잔 따르며) 오렌지 주스가 더 있어?\\n클레어: 아니 . 그게 남은 것 다야.\\n진: 더 없단 말야?\\n클레어: 응 . 그게 다야.\\n진: 와! 우린 정말 오렌지주스를 많이 마시는구나.\\n클레어: 알아 . 아침은 뭘 먹을래?\\n진: 오렌지주스 더.\\n클레어: 정말로 . 뭘 만들어줄까?\\n진: 아침은 나가서 먹자.\\n클레어: 그거야 나도 좋지.\\n"
+			"title": "We go through a lot of orange juice in this house.",
+			"explains": "(Claire and her husband, Gene, are in the kitchen one Saturday morning … )\\nGene : (pouring a half glass of orange juice) Is there any more orange juice?\\nClaire : No. That's all of it.\\nGene : There's no more?\\nClaire : No. That's it.\\nGene : Wow! We go through a lot of orange juice in this house.\\nClaire : I know. What would you like for breakfast?\\nGene : More orange juice.\\nClaire : Really. What can I make for you?\\nGene : Let's have breakfast out.\\nClaire : That's fine by me.\\n",
+			"means": "(클레어와 남편 진이 어느 토요일 아침 부엌에 있다 …)\\n진 : (오렌지 주스를 반 잔 따르며) 오렌지 주스가 더 있어?\\n클레어 : 아니 . 그게 남은 것 다야.\\n진 : 더 없단 말야?\\n클레어 : 응 . 그게 다야.\\n진 : 와! 우린 정말 오렌지주스를 많이 마시는구나.\\n클레어 : 알아 . 아침은 뭘 먹을래?\\n진 : 오렌지주스 더.\\n클레어 : 정말로 . 뭘 만들어줄까?\\n진 : 아침은 나가서 먹자.\\n클레어 : 그거야 나도 좋지.\\n"
 		},
 		{
-			"title": "A : When is your birthday? ",
+			"title": "I'll hang another year on the line.",
 			"explains": "A : When is your birthday? \\nB : My birthday is a ways away. \\nA : So when is it? \\nB : My birthday is in November. When is yours? \\nA : It's tomorrow. I'll hang another year on the line. \\n",
 			"means": "A : 너 생일이 언제야?\\nB : 내 생일은 아직 많이 남았어.\\nA : 그래서 언제야?\\nB : 내 생일은 11월이야. 넌 생일이 언제야?\\nA : 내일이야. 한 살 더 먹게 되는 거지.\\n"
 		},
@@ -696,13 +696,13 @@
 			"means": "A : 오늘 좀 아파 보여.\\nB : 나 오늘 좀 안 좋아.\\nA : 기숙사에 유행성 독감이 돌고 있다고 들었어.\\nB : 내 친구가 아픈데. 아마 그녀로부터 옮은 것 같아.\\nA : 약은 먹었니?\\nB : 어. 먹었는데 나아지질 않네.\\nA : 물을 많이 마시는 것이 도움이 될 수 있어. 그리고 상태가 더 악화되면 약국에 가보는 것이 도움이 될 거야.\\nB : 며칠이 지나도 나아지지 않으면 병원에 가볼 거야."
 		},
 		{
-			"title": "(Audrey and her mother are having breakfast … )",
-			"explains": "Mother : Have you heard anything from your job interview?\\nAudrey : Not yet and I probably won't.\\nMother : How many places did you go to yesterday?\\nAudrey : I left my resume at six companies.\\nMother : What's wrong? You seem a little on edge.\\nAudrey : I don't think I'll ever get a job.\\nMother : Well you said all your interviews went well and you left your resume with all of them.\\nAudrey : What's the point Mom?\\nMother : The point is you will get a job if you don't give up.\\nAudrey : You're right. There's nothing to do but wait.\\n",
+			"title": "You seem a little on edge.",
+			"explains": "(Audrey and her mother are having breakfast … )\\nMother : Have you heard anything from your job interview?\\nAudrey : Not yet and I probably won't.\\nMother : How many places did you go to yesterday?\\nAudrey : I left my resume at six companies.\\nMother : What's wrong? You seem a little on edge.\\nAudrey : I don't think I'll ever get a job.\\nMother : Well you said all your interviews went well and you left your resume with all of them.\\nAudrey : What's the point Mom?\\nMother : The point is you will get a job if you don't give up.\\nAudrey : You're right. There's nothing to do but wait.\\n",
 			"means": "(오드리와 그 어머니가 아침을 먹으며 ….)\\n어머니 : 직장 면접한 곳에서는 연락 없었니?\\n오드리 : 아직 없었는데 아마도 앞으로도 없을 거에요.\\n어머니 : 어젠 몇 군데나 가봤어?\\n오드리 : 여섯 곳에 이력서를 내고 왔어요.\\n어머니 : 왜 그래? 좀 초조해하는 것 같구나.\\n오드리 : 아무래도 직장을 얻을 수 없을 것 같아요.\\n어머니 : 네 말로는 면접도 다 잘 되고 이력서도 다 제출하고 왔다며.\\n오드리 : 그래 봤자 무슨 소용이죠?\\n어머니 : 요지는 바로 포기하지만 않는다면 네가 직장을 얻을 거라는 거지.\\n오드리 : 맞아요. 기다리는 것 외엔 할 게 없죠.\\n"
 		},
 		{
-			"title": "(Bert and Harry are walking on a cold and windy day … )",
-			"explains": "Bert : There's no end to this cold weather.\\nHarry : Summer will be here before long.\\nBert : I hope so.\\nHarry : But you'll probably bellyache about it being too hot.\\nBert : Not true. I'm going to play a lot of golf this year.\\nHarry : I've heard that before.\\nBert : I'm serious. I'm going to play a lot of golf.\\nHarry : What makes you so sure?\\nBert : I bought new golf clubs last week.\\nHarry : I'll believe it when I see it.\\n",
+			"title": "What makes you so sure?",
+			"explains": "(Bert and Harry are walking on a cold and windy day … )\\nBert : There's no end to this cold weather.\\nHarry : Summer will be here before long.\\nBert : I hope so.\\nHarry : But you'll probably bellyache about it being too hot.\\nBert : Not true. I'm going to play a lot of golf this year.\\nHarry : I've heard that before.\\nBert : I'm serious. I'm going to play a lot of golf.\\nHarry : What makes you so sure?\\nBert : I bought new golf clubs last week.\\nHarry : I'll believe it when I see it.\\n",
 			"means": "(버트와 해리가 춥고 바람 부는 어느 날 함께 걸으며…)\\n버트 : 이 추운 날씨는 끝도 없구만.\\n해리 : 얼마 안가서 여름이 올거야.\\n버트 : 나도 그러길 바래.\\n해리 : 하지만 자넨 너무 덥다고 투덜거릴텐데.\\n버트 : 그렇지 않아. 올해엔 골프를 많이 칠거야.\\n해리 : 그 소리 예전에도 들었네.\\n버트 : 정말이야 . 골프를 정말 많이 칠 거야.\\n해리 : 왜 그리 장담을 하지?\\n버트 : 지난 주에 새 골프채를 샀거든.\\n해리 : 정말 치는지 내 눈으로 보면 믿을게.\\n"
 		},
 		{
@@ -716,7 +716,7 @@
 			"means": "A : 넌 다른 회사에 일자리를 구해볼 생각한 적 있어?\\nB : 응, 근데 왜?\\nA : 매년 똑같은 월급 받으면서 이곳에서 일하고 싶지 않아. 높은 직위로 승진할 기회조차 없어.\\nB : 이봐! 너 여기서 일한 지 아직 1년밖에 안됐잖아!"
 		},
 		{
-			"title": "A : I would like to purchase some meat.",
+			"title": "I think that will be all for me today.",
 			"explains": "A : I would like to purchase some meat.\\nB : What kind would you like?\\nA : I need about 2 pound of ground beef.\\nB : The ground beef is $3.00 a pound.\\nA : That will be fine.\\nB : What else would you like?\\nA : I also need 2 pounds of chicken breasts.\\nB : That's going to be $4.00 a pound. Altogether, it's going to be $14.00.\\nA : I think that will be all for me today.\\n",
 			"means": "A : 고기를 구매하려고 합니다.\\nB : 어떤 종류의 고기를 원하시나요?\\nA : 다진 쇠고기 2파운드요.\\nB : 다진 쇠고기는 파운드당 3불이에요.\\nA : 좋습니다.\\nB : 다른 것도 필요하신 것이 있으신가요?\\nA : 닭 가슴살 2파운드도 필요해요.\\nB : (닭 가슴살은) 파운드당 4불입니다. 모두 다하면, 14불이네요.\\nA : 오늘은 그게 다입니다."
 		},
@@ -796,14 +796,14 @@
 			"means": "Lisa: 제이슨, 그 사람 누구야?\\nJason: 내 여자친구를 소개할게. 리사, 이 쪽은 크리스탈이야. 크리스탈, 이쪽은 리사.\\nLisa: 만나서 반가워요. 더욱 친해졌으면 좋겠네요.\\nCrystal: 저도 만나서 반갑습니다. 저를 소개시킨 건 이번이 처음인 것 같네요.\\nJason: 있잖아, 난 첫 눈에 반했어. 크리스탈은 나에게 전부야.\\nLisa: 정말 잘됐네. 둘은 너무나 완벽한 커플같아."
 		},
 		{
-			"title": "Ted: Do you like this haircut? ",
-			"explains": "Ted: Do you like this haircut? \\nSophie: Hmm… To tell you the truth, I don't like it at all. (I feel miserable.) \\nTed: Hey, I'm the head designer here. I'm a professional. \\nSophie: I know, but I look like a little boy now. I have a date tonight. \\nLisa: Hey, Sophie! Quit your bellyaching. You look fine to me. You always complain. \\nSophie: No, I don't.\\n",
-			"means": "Ted: 머리 마음에 드십니까?\\nSophie: 음… 솔직히 머리가 하나도 마음에 안 들어요. 지금 너무 끔직하다고요.\\nTed: 저는 이곳의 수석 디자이너입니다. 저는 전문가라고요.\\nSophie: 저도 알아요, 하지만 머리가 남자애 같잖아요. 오늘 밤에 데이트가 있단 말이에요.\\nLisa: 소피! 그만 좀 투덜거려. 내가 보기엔 괜찮아. 넌 항상 불평만 해.\\nSophie: 그렇지 않아."
+			"title": "To tell you the truth, I don't like it at all.",
+			"explains": "Ted : Do you like this haircut? \\nSophie : Hmm… To tell you the truth, I don't like it at all. (I feel miserable.) \\nTed : Hey, I'm the head designer here. I'm a professional. \\nSophie : I know, but I look like a little boy now. I have a date tonight. \\nLisa : Hey, Sophie! Quit your bellyaching. You look fine to me. You always complain. \\nSophie : No, I don't.\\n",
+			"means": "Ted : 머리 마음에 드십니까?\\nSophie : 음… 솔직히 머리가 하나도 마음에 안 들어요. 지금 너무 끔직하다고요.\\nTed : 저는 이곳의 수석 디자이너입니다. 저는 전문가라고요.\\nSophie : 저도 알아요, 하지만 머리가 남자애 같잖아요. 오늘 밤에 데이트가 있단 말이에요.\\nLisa : 소피! 그만 좀 투덜거려. 내가 보기엔 괜찮아. 넌 항상 불평만 해.\\nSophie : 그렇지 않아."
 		},
 		{
-			"title": "Eric: Hi! Can I have some moisturizing lotion and a pack of sleeping pills, please?",
-			"explains": "Eric: Hi! Can I have some moisturizing lotion and a pack of sleeping pills, please?\\nPharmacist: Do you have a prescription for the sleeping pills?\\nEric: Sure, here you go.\\nPharmacist: Here are your prescribed sleeping pills and this moisturizer is the best one we have.\\nEric: Thank you. I hope this works. How often do I need to take the pills?\\nPharmacist: Just take two tablets 30 minutes before you go to bed. Don't take more than two a day.\\nEric: Okay! Are there any known side effects I should be aware of?\\nPharmacist: No, but if your symptoms persist, it'll be best for you to consult your doctor again.\\n",
-			"means": "Eric: 안녕하세요. 모이스처 로션하고 수면제 좀 주세요.\\nPharmacist: 수면제 처방전을 가지고 오셨나요?\\nEric: 네, 여기있어요.\\nPharmacist: 여기 처방전에 따른 수면제하구요, 그리고 이 모이스처 로션은 저희가 갖고 있는 최고의 제품입니다.\\nEric: 고마워요. 이 약이 효과가 있으면 좋겠군요. 얼마나 자주 이 약을 복용해야 합니까?\\nPharmacist: 잠자리에 들기 30분 전에 알약 두 알을 섭취하세요. 복용량은 하루에 두 알을 넘지 않도록 하세요.\\nEric: 네. 제가 알아두어야 할 부작용이 있습니까?\\nPharmacist: 없어요, 하지만 증상이 계속되면, 의사에게 다시 상담 받도록 하세요."
+			"title": "How often do I need to take the pills?",
+			"explains": "Eric : Hi! Can I have some moisturizing lotion and a pack of sleeping pills, please?\\nPharmacist : Do you have a prescription for the sleeping pills?\\nEric : Sure, here you go.\\nPharmacist : Here are your prescribed sleeping pills and this moisturizer is the best one we have.\\nEric : Thank you. I hope this works. How often do I need to take the pills?\\nPharmacist : Just take two tablets 30 minutes before you go to bed. Don't take more than two a day.\\nEric : Okay! Are there any known side effects I should be aware of?\\nPharmacist : No, but if your symptoms persist, it'll be best for you to consult your doctor again.\\n",
+			"means": "Eric : 안녕하세요. 모이스처 로션하고 수면제 좀 주세요.\\nPharmacist : 수면제 처방전을 가지고 오셨나요?\\nEric : 네, 여기있어요.\\nPharmacist : 여기 처방전에 따른 수면제하구요, 그리고 이 모이스처 로션은 저희가 갖고 있는 최고의 제품입니다.\\nEric : 고마워요. 이 약이 효과가 있으면 좋겠군요. 얼마나 자주 이 약을 복용해야 합니까?\\nPharmacist : 잠자리에 들기 30분 전에 알약 두 알을 섭취하세요. 복용량은 하루에 두 알을 넘지 않도록 하세요.\\nEric : 네. 제가 알아두어야 할 부작용이 있습니까?\\nPharmacist : 없어요, 하지만 증상이 계속되면, 의사에게 다시 상담 받도록 하세요."
 		},
 		{
 			"title": "Lisa: You won't believe what I just heard!",
@@ -1016,7 +1016,7 @@
 			"means": "A : 엄마, Jennifer랑 영화 보러 가도 돼요?\\nB : 물론이지. 근데 이번 주에 성적표가 나오기로 되어있지 않니?\\nA : Jennifer에게 지금 전화해도 돼요?\\nB : 내 질문에 대답 안 했어. 성적표 받았니?\\nA : 엄마 사랑해요!\\nB : 나에게 아부하려고 하지 마.\\n"
 		},
 		{
-			"title": "A : The movie is over. You slept through the best part.",
+			"title": "I dozed off during the last few minutes.",
 			"explains": "A : Dad!\\nB : what?\\nA : The movie is over. You slept through the best part.\\nB : I dozed off during the last few minutes.\\nA : So what did you think about it?\\nB : I'm disappointed with the movie. I mean, the story somewhat bizarre.\\nA : I thought it was really fantastic and the special effects were awesome.\\n",
 			"means": "A : 아빠!\\nB : 뭐라고?\\nA : 영화가 끝났어요. 최고의 장면에서 계속 주무셨어요.\\nB : 마지막 몇 분 동안 잠에 들었어.\\nA : 영화는 어떠셨어요?\\nB : 실망했어. 내 말은 이야기가 다소 이상했어.\\nA : 저는 정말이지 환상적이라고 생각했어요. 특수효과도 훌륭했고요."
 		},
@@ -1301,33 +1301,33 @@
 			"means": "(질과 딸 에이미가 슈퍼마켓에 갔다 집으로 돌아와서…)\\n질: 아이스크림은 녹기 전에 냉장고에 넣어라.\\n에이미: 예. 슈퍼마켓에 사람들 정말 많았죠 그쵸?\\n질: 그래 정말 많더라. 오늘밤 저녁은 뭘 먹고 싶니?\\n에이미: 전 배 그렇게 안 고파요. 그냥 어젯밤에 먹다 남은 스파게티 좀 먹을래요.\\n질: 그것만 먹고 말 거야?\\n에이미: 샐러드 좀 만들게요.\\n질: 넌 한창 클 나이야. 더 잘 먹어야지.\\n에이미: 스파게티 버리시려는 거 아니죠 설마?\\n질: 안 버려. 내가 먹을 거야. 난 클 나이 지났잖니.\\n에이미: 스파게티 좋아요 엄마. 전 그거면 돼요.\\n"
 		},
 		{
-			"title": "A : I'm moving out on Friday and I was wondering if you could help me move.",
+			"title": "When are you planning on moving?",
 			"explains": "A : I have a favor to ask you.\\nB : What is it?\\nA : I'm moving out on Friday and I was wondering if you could help me move.\\nB : When are you planning on moving?\\nA : This coming Friday.\\nB : Sure. This Friday is open.\\nA : Thanks a lot.\\nB : What time do you want me to come by?\\nA : Is 9 okay for you?\\nB : 9:00 is fine.\\n",
 			"means": "A : 부탁이 하나 있어요.\\nB : 부탁할게 뭔데?\\nA : 금요일에 이사 가는데 이사를 도와줄 수 있을까 해서.\\nB : 언제 이사할 계획인데? \\nA : 이번 다가오는 금요일이야. \\nB : 그래. 이번 주 금요일엔 시간 있어. \\nA : 너무 고마워! \\nB : 내가 몇 시에 가면 될까?\\nA : 9시 괜찮아? \\nB : 9시 좋아.\\n"
 		},
 		{
-			"title": "A : Isn't it past your bedtime already?",
+			"title": "Isn't it past your bedtime already?",
 			"explains": "A : Isn't it past your bedtime already?\\nB : I can't sleep.\\nA : It's quite late and you have to get up early in the morning.\\nB : I just can't get to sleep right now.\\nA : Just close your eyes, and try to sleep.\\nB : I've tried that already.\\nA : You need to go to sleep now, so go to sleep.\\n",
 			"means": "A : 잠 잘 시간 벌써 지나지 않았니?\\nB : 잠이 오지 않아요. \\nA : 지금 꽤나 늦었고 넌 내일 일찍 일어나야 하잖니.\\nB : 지금은 잠을 잘 수 없다고요.\\nA : 그냥 눈을 감고 자려고 노력해봐. \\nB : 벌써 그렇게 해보았어요. \\nA : 넌 지금 자야 하니 그냥 자렴.\\n"
 		},
 		{
-			"title": "A : Can I return this if I don't like it?",
+			"title": "Can I return this if I don't like it?",
 			"explains": "A : Can I return this if I don't like it?\\nB : Yes. We have a 7-day money-back guarantee.\\nA : Do you have anything with more comfortable fit?\\nB : Yes. Here you are. Would you like to purchase it?\\nA : No, I think I'd better wait until next week. For now, I'll just take the socks.\\n",
 			"means": "A : 마음에 들지 않으면 환불할 수 있나요?\\nB : 네. 7일 내 현금 환불을 보증합니다.\\nA : 착용감이 더 편한 것은 없나요?\\nB : 네. 여기 있습니다. 구매하시겠습니까?\\nA : 아니요 다음 주까지 기다려 보는 게 좋을 것 같아요. 지금은 양말만 구매하도록 하겠습니다.\\n"
 		},
 		{
-			"title": "A : Hello. This is Dr. Kim's Dental. May I help you?",
+			"title": "But unfortunately I have to reschedule.",
 			"explains": "A : Hello. This is Dr. Kim's Dental. May I help you?\\nB : Hello, I have an appointment today at 4, but unfortunately I have to reschedule.\\nA : Is this James Lee?\\nB : Yes. Does Dr. Kim have a slot open for Friday at the same time?\\nA : Dr. Kim has a root canal patient at 4 and it might take a while. How about 5? Will that be okay?\\nB : Sure. That sounds great. I'll see you on Friday at 5.\\n",
 			"means": "A : 안녕하세요. 닥터 김 치과의원입니다. 무엇을 도와드릴까요?\\nB : 안녕하세요. 오늘 4시에 예약이 되어있는데요. 유감스럽게도 스케줄을 다시 잡아야 할 것 같습니다.\\nA : 제임스 리씨인가요?\\nB : 네. 금요일 같은 시간에 예약이 가능한가요?\\nA : 4시에는 신경치료 환자분이 계신데요. 시간이 좀 걸릴 것 같습니다. 5시는 어떠세요? 괜찮으신가요?\\nB : 네. 좋습니다. 그럼 금요일 5시에 뵈어요."
 		},
 		{
 			"title": "Do you have the Win-cooking book from this author?",
-			"explains": "Sophie: Do you have the Win-cooking book from this author?\\nAssistant: I'm sorry but we don't have it.\\nSophie: Can I have it ordered? I really need to get this book.\\nAssistant: Let me check for you. Unfortunately, it's out of print.\\n",
+			"explains": "Sophie : Do you have the Win-cooking book from this author?\\nAssistant : I'm sorry but we don't have it.\\nSophie : Can I have it ordered? I really need to get this book.\\nAssistant : Let me check for you. Unfortunately, it's out of print.\\n",
 			"means": "Sophie: 이 저자가 쓴 윈 요리책이 있나요?\\nAssistant: 죄송합니다만 저희는 판매하지 않고 있습니다.\\nSophie: 그럼 주문할 수 있나요? 이 책이 정말로 필요하거든요.\\nAssistant: 확인해 보겠습니다. 불행히도 그 책은 절판 되었네요."
 		},
 		{
-			"title": "Driver: Hello! Where can I take you today?",
-			"explains": "Driver: Hello! Where can I take you today?\\nJason: Hi! Please take me to this address. How long will it take to get there?\\nDriver: Which way do you want me to go?\\nJason: The fastest way, please. I'm a little bit late for my appointment.\\nDriver: Here we are. Which side of the street do you want me to stop?\\nJason: That was quick! This side is good for me.",
+			"title": "How long will it take to get there?",
+			"explains": "Driver : Hello! Where can I take you today?\\nJason : Hi! Please take me to this address. How long will it take to get there?\\nDriver : Which way do you want me to go?\\nJason : The fastest way, please. I'm a little bit late for my appointment.\\nDriver : Here we are. Which side of the street do you want me to stop?\\nJason : That was quick! This side is good for me.\\n",
 			"means": "Driver 어서 오십시오! 어디로 모실까요?\\nJason: 안녕하세요. 이 주소로 데려다 주세요. 얼마나 걸릴까요?\\nDriver: 어디로 해서 갈까요?\\nJason: 가장 빠른 길로 가 주세요. 제가 약속에 조금 늦었거든요.\\nDriver: 다 왔습니다. 길 어느 편에 세워 드릴까요?\\nJason: 빨리 왔네요. 이쪽 편에 세워주시면 좋습니다.\\n"
 		},
 		{
@@ -1347,7 +1347,7 @@
 		},
 		{
 			"title": "Jason: Before I pay for it, is this car insured?",
-			"explains": "Jason: Before I pay for it, is this car insured?\\nClerk: No, insurance will cost you extra. Would you like to insure it?\\nJason: Yes! I'd like to be insured, please.\\nClerk: That will be $210 for three days plus the insurance charge.",
+			"explains": "Jason: Before I pay for it, is this car insured?\\nClerk: No, insurance will cost you extra. Would you like to insure it?\\nJason: Yes! I'd like to be insured, please.\\nClerk: That will be $210 for three days plus the insurance charge.\\n",
 			"means": "Jason: 지불하기 전에 한 가지 더 물어볼게요. 자동차 보험은 들어있나요?\\nClerk: 아니오. 보험은 따로 요금을 내셔야 합니다. 보험을 드시겠습니까?\\nJason: 네! 자동차 보험을 들어 주세요.\\nClerk: 3일 자동차 사용료와 보험료를 합쳐 210 달러입니다.\\n"
 		},
 		{
@@ -1362,23 +1362,23 @@
 		},
 		{
 			"title": "So how much is it all together?",
-			"explains": "Jason: So how much is it all together?\\nSophie: Do you need all of these? I think you bought too many.\\nJason: Hold on! I don't have any cash on me.\\nSophie: What are you going to do? The ATM is too far from here!\\nJason: Could you lend me some money? I'll pay you back tomorrow.\\nSophie: OK! Promise me to pay me back tomorrow.",
-			"means": "Jason: 다해서 얼마죠?\\nSophie: 이것들이 다 필요한 거야? 내 생각엔 네가 너무 많이 산 것 같아.\\nJason: 잠깐만! 나 지금 현금이 없구나.\\nSophie: 그럼 어떻게 할 거니? 현금지급기는 여기서 너무 멀잖아.\\nJason: 돈 좀 빌려 줄 수 있니? 내가 내일 갚을게.\\nSophie: 알았어! 내일 갚겠다고 약속해."
+			"explains": "Jason : So how much is it all together?\\nSophie : Do you need all of these? I think you bought too many.\\nJason : Hold on! I don't have any cash on me.\\nSophie : What are you going to do? The ATM is too far from here!\\nJason : Could you lend me some money? I'll pay you back tomorrow.\\nSophie : OK! Promise me to pay me back tomorrow.\\n",
+			"means": "Jason : 다해서 얼마죠?\\nSophie : 이것들이 다 필요한 거야? 내 생각엔 네가 너무 많이 산 것 같아.\\nJason : 잠깐만! 나 지금 현금이 없구나.\\nSophie : 그럼 어떻게 할 거니? 현금지급기는 여기서 너무 멀잖아.\\nJason : 돈 좀 빌려 줄 수 있니? 내가 내일 갚을게.\\nSophie : 알았어! 내일 갚겠다고 약속해."
 		},
 		{
-			"title": "Jason: Could you lend me some cash?",
-			"explains": "Jason: Could you lend me some cash?\\nSophie: How much do you need?\\nJason: As much as you have right now. About $200?\\nSophie: Oh, no! I don't have that much either.\\n",
-			"means": "Jason: 현금 좀 빌려 줄 수 있니?\\nSophie: 얼마나 필요한데?\\nJason: 지금 있는만큼 다 빌려 줘. 한 200달러 정도?\\nSophie: 어머나! 나도 그 만큼의 현금은 없어.\\n"
+			"title": "I don't have that much either.",
+			"explains": "Jason : Could you lend me some cash?\\nSophie : How much do you need?\\nJason : As much as you have right now. About $200?\\nSophie : Oh, no! I don't have that much either.\\n",
+			"means": "Jason : 현금 좀 빌려 줄 수 있니?\\nSophie : 얼마나 필요한데?\\nJason : 지금 있는만큼 다 빌려 줘. 한 200달러 정도?\\nSophie : 어머나! 나도 그 만큼의 현금은 없어.\\n"
 		},
 		{
-			"title": "A : My grandfather's birthday is coming up.",
+			"title": "He wants it low-key.",
 			"explains": "A : My grandfather's birthday is coming up.\\nB : Really? When?\\nA : Next Sunday.\\nB : Are you going to have a party for him?\\nA : He wants it low-key. Just the family a quiet get-together.\\n",
 			"means": "A : 우리 할아버지 생신이 얼마 안 남았어.\\nB : 정말? 언제야?\\nA : 다음 주 일요일이야.\\nB : 생일잔치 할 거야?\\nA : 조촐하게 하고 싶어 하셔. 가족들만 모여서 조용히."
 		},
 		{
-			"title": "Jay: Hey George is Jennifer coming?",
-			"explains": "(Jay is getting advice from a friend…)\\nJay: Hey George is Jennifer coming?\\nGeorge: Yeah why?\\nJay: Nothing. Just asking.\\nGeorge: You like her don't you?\\nJay: What are you talking about?\\nGeorge: It's so obvious. Why don't you ask her for a date?\\nJay: Because I don't have the guts.\\nGeorge: What are you afraid of?\\nJay: I couldn't handle it if she turned me down.\\nGeorge: You can't continue this way. You've got to take a chance.\\n",
-			"means": "(제이가 친구에게 조언을 구한다…)\\n제이: 안녕 조지. 제니퍼 오는 거야?\\n조지: 응. 왜?\\n제이: 아무 것도 아냐. 그냥 물어보는 거야.\\n조지: 너 제니퍼 좋아하지 그렇지?\\n제이: 무슨 말을 하는 거야?\\n조지: 네 얼굴에 쓰여있어. 데이트 신청하지 그래?\\n제이: 배짱이 없어서 그래.\\n조지: 뭐가 겁나는데?\\n제이: 퇴짜 맞으면 어떻게 해.\\n조지: 이렇게 계속 갈 수는 없잖아. 운에 맡기고 해봐야지.\\n"
+			"title": "I don't have the guts.",
+			"explains": "(Jay is getting advice from a friend…)\\nJay : Hey George is Jennifer coming?\\nGeorge : Yeah why?\\nJay : Nothing. Just asking.\\nGeorge : You like her don't you?\\nJay : What are you talking about?\\nGeorge : It's so obvious. Why don't you ask her for a date?\\nJay : Because I don't have the guts.\\nGeorge : What are you afraid of?\\nJay : I couldn't handle it if she turned me down.\\nGeorge : You can't continue this way. You've got to take a chance.\\n",
+			"means": "(제이가 친구에게 조언을 구한다…)\\n제이 : 안녕 조지. 제니퍼 오는 거야?\\n조지 : 응. 왜?\\n제이 : 아무 것도 아냐. 그냥 물어보는 거야.\\n조지 : 너 제니퍼 좋아하지 그렇지?\\n제이 : 무슨 말을 하는 거야?\\n조지 : 네 얼굴에 쓰여있어. 데이트 신청하지 그래?\\n제이 : 배짱이 없어서 그래.\\n조지 : 뭐가 겁나는데?\\n제이 : 퇴짜 맞으면 어떻게 해.\\n조지 : 이렇게 계속 갈 수는 없잖아. 운에 맡기고 해봐야지.\\n"
 		},
 		{
 			"title": "Jason: Hi, Donna, could you do me a favor?",
@@ -1541,23 +1541,23 @@
 			"means": "A : 엘리베이터들이 고장이야.\\nB : 나 발목을 삐었어.\\nA : 3층만 걸어 올라가면 돼.\\nA : 내가 네 가방을 들고 도와줄게.\\nB : 도와줘서 고마워.\\nA : 친구 좋은 게 뭐야.\\n"
 		},
 		{
-			"title": "(Ryan is talking to his wife Sally…)",
-			"explains": "Ryan: I lost my cool today.\\nSally: That's not like you. What happened?\\nRyan: I went off on a guy because he's always late and argues with his peers quite a bit.\\nSally: So why did you lose your cool today?\\nRyan: I don't know. I guess he pushed my button.\\nSally: I think it's because you're under a lot of pressure at work.\\nRyan: You think so?\\nSally: Yeah. And you haven't been sleeping well lately.\\nRyan: You're right. I didn't even realize it.\\nSally: Well now that you know what caused it maybe you can control it.\\n",
-			"means": "(라이언이 아내 샐리와 이야기를 하는데…)\\n라이언: 오늘 나 흥분해서 화를 냈어.\\n샐리: 당신답지 않네. 무슨 일 있었어?\\n라이언: 한 친구가 매번 지각하고 동료들과 말다툼을 너무 많이 해서 화를 버럭 냈지.\\n샐리: 그럼 오늘 왜 흥분을 한 거야?\\n라이언: 몰라. 그 친구가 화나게 굴어서 그런 것 같아.\\n샐리: 내 생각엔 당신 직장에서 스트레스가 많아서 그런 것 같아.\\n라이언: 그런 것 같애?\\n샐리: 응. 그리고 당신 요즘 잠을 잘 못 자잖아.\\n라이언: 맞아. 그 생각을 못 했네.\\n샐리: 있잖아. 이제 왜 그런지 알았으니까 마음을 다스릴 수 있을 거야.\\n"
+			"title": "I think it's because you're under a lot of pressure at work.",
+			"explains": "(Ryan is talking to his wife Sally…)\\nRyan : I lost my cool today.\\nSally : That's not like you. What happened?\\nRyan : I went off on a guy because he's always late and argues with his peers quite a bit.\\nSally : So why did you lose your cool today?\\nRyan : I don't know. I guess he pushed my button.\\nSally : I think it's because you're under a lot of pressure at work.\\nRyan : You think so?\\nSally : Yeah. And you haven't been sleeping well lately.\\nRyan : You're right. I didn't even realize it.\\nSally : Well now that you know what caused it maybe you can control it.\\n",
+			"means": "(라이언이 아내 샐리와 이야기를 하는데…)\\n라이언 : 오늘 나 흥분해서 화를 냈어.\\n샐리 : 당신답지 않네. 무슨 일 있었어?\\n라이언 : 한 친구가 매번 지각하고 동료들과 말다툼을 너무 많이 해서 화를 버럭 냈지.\\n샐리 : 그럼 오늘 왜 흥분을 한 거야?\\n라이언 : 몰라. 그 친구가 화나게 굴어서 그런 것 같아.\\n샐리 : 내 생각엔 당신 직장에서 스트레스가 많아서 그런 것 같아.\\n라이언 : 그런 것 같애?\\n샐리 : 응. 그리고 당신 요즘 잠을 잘 못 자잖아.\\n라이언 : 맞아. 그 생각을 못 했네.\\n샐리 : 있잖아. 이제 왜 그런지 알았으니까 마음을 다스릴 수 있을 거야.\\n"
 		},
 		{
-			"title": "Lisa: I haven't seen you for a long time! You look great!",
-			"explains": "Lisa: I haven't seen you for a long time! You look great!\\nSophie: I couldn't be better. I'm in my top shape. How about you?\\nLisa: I'm doing all right! But I need to go on a diet. I gained so much weight recently.\\nSophie: I take yoga classes. You should try it too or other exercises.\\nLisa: I jog every morning and I feel much better. But I can't lose weight!\\nSophie: May be you should check your eating habits. Try to eat more vegetables.\\n",
-			"means": "Lisa: 정말 오랜만이다. 아주 좋아 보이는데.\\nSophie: 아주 좋아. 컨디션이 최고야. 너는?\\nLisa: 나도 좋아! 하지만 다이어트를 해야겠어. 최근에 몸무게가 많이 늘었거든.\\nSophie: 나는 요가 수업을 듣고 있는데. 너도 요가를 해 보거나 다른 운동을 해 봐.\\nLisa: 매일 아침에 조깅을 하면 기분이 좋아지긴 하지. 그런데 몸무게는 안 줄어!\\nSophie: 식생활을 한번 확인해 봐. 야채를 더 많이 먹도록 노력을 해보고.\\n"
+			"title": "I need to go on a diet. I gained so much weight recently.",
+			"explains": "Lisa : I haven't seen you for a long time! You look great!\\nSophie : I couldn't be better. I'm in my top shape. How about you?\\nLisa : I'm doing all right! But I need to go on a diet. I gained so much weight recently.\\nSophie : I take yoga classes. You should try it too or other exercises.\\nLisa : I jog every morning and I feel much better. But I can't lose weight!\\nSophie : May be you should check your eating habits. Try to eat more vegetables.\\n",
+			"means": "Lisa : 정말 오랜만이다. 아주 좋아 보이는데.\\nSophie : 아주 좋아. 컨디션이 최고야. 너는?\\nLisa : 나도 좋아! 하지만 다이어트를 해야겠어. 최근에 몸무게가 많이 늘었거든.\\nSophie : 나는 요가 수업을 듣고 있는데. 너도 요가를 해 보거나 다른 운동을 해 봐.\\nLisa : 매일 아침에 조깅을 하면 기분이 좋아지긴 하지. 그런데 몸무게는 안 줄어!\\nSophie : 식생활을 한번 확인해 봐. 야채를 더 많이 먹도록 노력을 해보고.\\n"
 		},
 		{
-			"title": "Mark: Carlos it looks like your fence is falling apart.",
-			"explains": "(Mark is talking to his neighbor Carlos)\\nMark: Carlos it looks like your fence is falling apart.\\nCarlos: Yes Mark it is. It's seen better days.\\nMark: Sooner or later it's just going to fall down.\\nCarlos: I'll just let it fall.\\nMark: Someone could get hurt. There are a lot of kids who play in this neighborhood.\\nCarlos: You're right. I should get on it and fix it.\\nMark: I'll help you if you want.\\nCarlos: Would you?\\nMark: Sure. I've got lots of tools.\\nCarlos: Great. Thanks. I'll go and buy some wood now.\\n",
-			"means": "(마크가 이웃 칼로스와 얘기한다)\\n마크: 칼로스 자네 담이 무너지려는 것 같아.\\n칼로스: 그래 맞아 마크. 이제 한물 가려나봐.\\n마크: 이래 저래 조만간 무너질 거야.\\n칼로스: 그냥 무너지도록 놔두려고. \\n마크: 누가 다칠 수도 있어. 이 동네에는 뛰어노는 아이들이 많잖아.\\n칼로스: 맞아. 가만 있지 말고 어서 고쳐야지.\\n마크: 원한다면 내가 도와줄게. \\n칼로스: 그래줄래? \\n마크: 물론이지. 나한테 연장도 많거든. \\n칼로스: 좋아. 고마워. 나는 지금 가서 나무를 좀 사올게.\\n"
+			"title": "It's seen better days.",
+			"explains": "(Mark is talking to his neighbor Carlos)\\nMark : Carlos it looks like your fence is falling apart.\\nCarlos : Yes Mark it is. It's seen better days.\\nMark : Sooner or later it's just going to fall down.\\nCarlos : I'll just let it fall.\\nMark : Someone could get hurt. There are a lot of kids who play in this neighborhood.\\nCarlos : You're right. I should get on it and fix it.\\nMark : I'll help you if you want.\\nCarlos : Would you?\\nMark : Sure. I've got lots of tools.\\nCarlos : Great. Thanks. I'll go and buy some wood now.\\n",
+			"means": "(마크가 이웃 칼로스와 얘기한다)\\n마크 : 칼로스 자네 담이 무너지려는 것 같아.\\n칼로스 : 그래 맞아 마크. 이제 한물 가려나봐.\\n마크 : 이래 저래 조만간 무너질 거야.\\n칼로스 : 그냥 무너지도록 놔두려고. \\n마크 : 누가 다칠 수도 있어. 이 동네에는 뛰어노는 아이들이 많잖아.\\n칼로스 : 맞아. 가만 있지 말고 어서 고쳐야지.\\n마크 : 원한다면 내가 도와줄게. \\n칼로스 : 그래줄래? \\n마크 : 물론이지. 나한테 연장도 많거든. \\n칼로스 : 좋아. 고마워. 나는 지금 가서 나무를 좀 사올게.\\n"
 		},
 		{
-			"title": "(Two friends are shopping at the mall…)",
-			"explains": "Andrea : A friend of mine gave me two kittens.\\nMia : Did she pay you to take them?\\nAndrea : Of course not. I wanted them.\\nMia : How can you stand two cats?\\nAndrea : Because I love cats.\\nMia : Won't they tie you down?\\nAndrea : I'm not gone that much. I don't travel a lot.\\nMia : If you are gone I can get a friend to look after them.\\nAndrea : I have to take them to get their shots.\\nMia : And sooner or later they'll be expensive.\\n",
+			"title": "How can you stand two cats?",
+			"explains": "(Two friends are shopping at the mall…)\\nAndrea : A friend of mine gave me two kittens.\\nMia : Did she pay you to take them?\\nAndrea : Of course not. I wanted them.\\nMia : How can you stand two cats?\\nAndrea : Because I love cats.\\nMia : Won't they tie you down?\\nAndrea : I'm not gone that much. I don't travel a lot.\\nMia : If you are gone I can get a friend to look after them.\\nAndrea : I have to take them to get their shots.\\nMia : And sooner or later they'll be expensive.\\n",
 			"means": "(친구 둘이 몰에서 샤핑을 하며…)\\n앤드리어 : 어떤 친구가 고양이를 두 마리 줬어. \\n미아 : 고양이 데려가는 조건으로 너한테 돈 줬어? \\n앤드리어 : 물론 아니지. 내가 달라고 한 거야. \\n미아 : 고양이 두 마리를 어떻게 견딜 수 있겠어? \\n앤드리어 : 나 고양이 좋아하잖니. \\n미아 : 고양이 때문에 묶여 있어야 되지 않을까?\\n앤드리어 : 난 별로 안 돌아 다니잖아. 여행도 많이 안 하고. \\n미아 : 어디 가야 되면 내 친구한테 고양이 봐달라고 해줄게. \\n앤드리어 : 고양이 주사 맞추러 가봐야 돼. \\n미아 : 그리고 있지 조만간 돈 많이 들 거야.\\n"
 		},
 		{
@@ -1661,7 +1661,7 @@
 			"means": "A : 총액이 얼마인가요?\\nB : 세금과 배송(료) 포함하여 32불 50센트입니다. 어떻게 지불하실 것인가요?\\nA : 신용카드로 결제하고 싶습니다.\\nB : 신용카드 번호를 알려주시겠습니까?\\nA : 제 이름은 제임스 박이 구요. 카드번호는 038 20XX40 57XX1입니다.\\nB : 유효기간은 언제까지인가요?\\nA : 2015년 3월까지입니다.\\nB : 감사합니다. 제품은 이번 주 금요일까지는 받으실 수 있습니다."
 		},
 		{
-			"title": "A : Do you think it's worthwhile to invest in blue chip stocks?",
+			"title": "Do you think it's worthwhile to invest in blue chip stocks?",
 			"explains": "A : Do you think it's worthwhile to invest in blue chip stocks?\\nB : Of course! They are stable investment.\\nA : But they are expensive compared to other stocks.\\nB : Yes, they are expensive but those companies grow steadily.\\nB : So you have to pay a premium for reliability.\\nA : I guess I should save more money to buy some blue chip stocks.\\n",
 			"means": "A : 우량주에 투자하는 것이 가치가 있다고 생각해?\\nB : 물론이지! 안정된 투자야.\\nA : 하지만 다른 주들보다 비싸잖아.\\nB : 더 비싸긴 하지만 꾸준히 성장하는 회사들이잖니.\\nB : 그러한 신뢰성[확실성]이 있으니 웃돈을 주어야지.\\nA : 그럼 우량주를 사기 위해서 돈을 더 모아야겠다."
 		},
@@ -2041,17 +2041,17 @@
 			"means": "A : 무엇이 문제인 것 같나요? (어디가 아프세요?) \\nB : 소화불량이 있어요. \\nA : 얼마나 오랫동안 아프셨나요? \\nB : 일주일 정도 된 것 같아요. \\nA : 이전에도 이런 문제가 있었던 적이 있었나요? \\nB : 아니요. 한 번도 이런 적이 없었어요. \\nA : 몇 가지 테스트를 해봐야 할 것 같아요.\\n"
 		},
 		{
-			"title": "Grace: Why are you dragging your feet?",
-			"explains": "(Eric comes home from work and is greeted by his wife Grace …)\\nGrace: Why are you dragging your feet?\\nEric: I'm wiped out.\\nGrace: Did you have a rough day at work?\\nEric: Yes. It was terrible!\\nGrace: I'm all ears.\\nEric: Well my computer wasn't working.\\nGrace: Really?\\nEric: And I lost two important reports that my boss wanted.\\nGrace: Did your boss get angry?\\nEric: Yes. I feel like I want to stay in bed for a month.\\n",
-			"means": "(에릭이 퇴근해 집에 오는 걸 아내 그레이스가 반긴다 …)\\n그레이스: 당신 걸음을 왜 그리 늦게 걸어요? \\n에릭: 완전히 녹초가 돼서 그래. \\n그레이스: 오늘 일이 힘들었군요? \\n에릭: 응. 아주! \\n그레이스: 얘기해보세요. \\n에릭: 우선 내 컴퓨터가 고장났어. \\n그레이스: 정말요? \\n에릭: 그래서 상사가 기다리던 보고서 두 개를 날려버렸어. \\n그레이스: 그래서 상사가 화를 냈어요? \\n에릭: 응. 한 달간 병가라도 얻고 싶은 심정이야. \\n"
+			"title": "Did you have a rough day at work?",
+			"explains": "(Eric comes home from work and is greeted by his wife Grace …)\\nGrace : Why are you dragging your feet?\\nEric : I'm wiped out.\\nGrace : Did you have a rough day at work?\\nEric : Yes. It was terrible!\\nGrace : I'm all ears.\\nEric : Well my computer wasn't working.\\nGrace : Really?\\nEric : And I lost two important reports that my boss wanted.\\nGrace : Did your boss get angry?\\nEric : Yes. I feel like I want to stay in bed for a month.\\n",
+			"means": "(에릭이 퇴근해 집에 오는 걸 아내 그레이스가 반긴다 …)\\n그레이스 : 당신 걸음을 왜 그리 늦게 걸어요? \\n에릭 : 완전히 녹초가 돼서 그래. \\n그레이스 : 오늘 일이 힘들었군요? \\n에릭 : 응. 아주! \\n그레이스 : 얘기해보세요. \\n에릭 : 우선 내 컴퓨터가 고장났어. \\n그레이스 : 정말요? \\n에릭 : 그래서 상사가 기다리던 보고서 두 개를 날려버렸어. \\n그레이스 : 그래서 상사가 화를 냈어요? \\n에릭 : 응. 한 달간 병가라도 얻고 싶은 심정이야. \\n"
 		},
 		{
-			"title": "Dennis: I need some bread.",
-			"explains": "(Dennis is talking to his older brother Joe … )\\nDennis: Hey Joe, can I ask you a favor?\\nJoe: Sure, what is it?\\nDennis: I need some bread.\\nJoe: How much do you need?\\nDennis: Two hundred dollars.\\nJoe: Two hundred dollars?\\nDennis: I want to put it towards a computer.\\nJoe: What's in it for me?\\nDennis: Of course I'll pay you back and I'll wash your car for three months.\\nJoe: Okay. I'll hold you to it.\\n",
-			"means": "(데니스가 형 조우와 얘기한다…)\\n데니스: 조우형, 뭐 좀 물어봐도 돼?\\n조우: 그래 뭔데?\\n데니스: 나 돈이 좀 필요한데.\\n조우: 얼마나 필요해?\\n데니스: 200달러.\\n조우: 200달러?\\n데니스: 컴퓨터 사는데 쓰려고.\\n조우: 그럼 나한테 뭐가 돌아오지?\\n데니스: 물론 돈을 갚을게. 그리고 3개월동안 형 차를 닦아줄게.\\n조우: 좋아. 약속 지켜야한다.\\n"
+			"title": "I want to put it towards a computer.",
+			"explains": "(Dennis is talking to his older brother Joe … )\\nDennis : Hey Joe, can I ask you a favor?\\nJoe : Sure, what is it?\\nDennis : I need some bread.\\nJoe : How much do you need?\\nDennis : Two hundred dollars.\\nJoe : Two hundred dollars?\\nDennis : I want to put it towards a computer.\\nJoe : What's in it for me?\\nDennis : Of course I'll pay you back and I'll wash your car for three months.\\nJoe : Okay. I'll hold you to it.\\n",
+			"means": "(데니스가 형 조우와 얘기한다…)\\n데니스 : 조우형, 뭐 좀 물어봐도 돼?\\n조우 : 그래 뭔데?\\n데니스 : 나 돈이 좀 필요한데.\\n조우 : 얼마나 필요해?\\n데니스 : 200달러.\\n조우 : 200달러?\\n데니스 : 컴퓨터 사는데 쓰려고.\\n조우 : 그럼 나한테 뭐가 돌아오지?\\n데니스 : 물론 돈을 갚을게. 그리고 3개월동안 형 차를 닦아줄게.\\n조우 : 좋아. 약속 지켜야한다.\\n"
 		},
 		{
-			"title": "A : I have a horrible rash from an allergic reaction to using coconut oil.",
+			"title": "I need to call in sick today.",
 			"explains": "A : May I speak to Mina, please?\\nB : This is Mina. How may I help you?\\nA : Hi, Mina, this is Jason, and I need to call in sick today.\\nB : What is wrong with you?\\nA : I have a horrible rash from an allergic reaction to using coconut oil.\\nB : How long have you had it?\\nA : The doctor said that I probably have had it a few days.\\nB : Have you been treated for it?\\nA : The doctor prescribed an ointment and gave me a shot.\\nB : I hope you get better by tomorrow. I'll see you tomorrow when you return to work.\\n",
 			"means": "A : 민아씨와 통화를 할 수 있을까요? \\nB : 제가 민아입니다. 무엇을 도와드릴까요? \\nA : 안녕하세요. 민아씨 제이슨 입니다. 오늘 병가를 내야 할 것 같아요. \\nB : 무슨 문제이신가요? \\nA : 코코넛 오일 알레르기 반응으로 발진이 심해요. \\nB : 얼마 동안 그러신 건가요? \\nA : 의사 선생님께서는 지난 며칠 동안 그런 것 같다고 하세요. \\nB : 치료는 받으셨나요? \\nA : 의사 선생님께서 연고를 처방해주시고 주사도 놓아주셨어요. \\nB : 내일까지는 나아지시길 바래요. 내일 회사에 오시면 뵙도록 하겠습니다.\\n"
 		},
@@ -2926,7 +2926,7 @@
 			"means": "A : 무슨 일이 있었는지 얘기 들었어?\\nB : 무슨 일 있었어?\\nA : 모니카가 지난 금요일에 애를 낳았데.\\nB : 정말? 왜 아무도 나에게 얘기해주지 않은 거지?\\nA : 난 네가 아는지 알았어.\\nB : 나 정말 아무런 얘기도 못 들었어.\\nA : 아이가 3.8킬로그램이었데.\\nB : 와, 잘 됐다.\\nA : 그녀에게 언제 한번 가볼 거니?\\nB : 물론 가봐야지.\\nA : 그냥 너에게 무슨 일이 있었는지 알려주고 싶었어.\\nB : 얘기해줘서 고마워.\\n"
 		},
 		{
-			"title": "A : I feel out of step with everyone at work.",
+			"title": "I feel out of step with everyone at work.",
 			"explains": "A : I feel out of step with everyone at work.\\nB : Don't worry. You will be fine.\\nA : I want to fit in better with my colleagues.\\nB : It's been only a week. You will be fit in eventually.\\n",
 			"means": "A : 같이 일하는 사람들하고 잘 안 맞는 것 같아.\\nB : 걱정 마. 괜찮을 거야.\\nA : 동료들과 더 잘 어울리고 싶어.\\nB : 이제 일주일 됐잖아. 결국 잘 어울리게 될 거야.\\n"
 		},
@@ -2981,22 +2981,22 @@
 			"means": "(케빈이 장인 더그와 통화한다…)\\n더그: 여보세요.\\n케빈: 안녕하세요. 저 케빈이에요.\\n더그: 어 잘 있었나. 웬 일이지?\\n케빈: 저 돈좀 빌려주실 수 있을까 해서요.\\n더그: 얼마나 필요한데?\\n케빈: 200달러요. 색소폰을 거절할 수 없을만큼 좋은 가격에 살 수 있게 됐어요.\\n더그: 그런데 200달러가 모자른다 이거야?\\n케빈: 네. 제가 신용있는 것 아시잖아요. 2주 후면 갚을 수 있어요.\\n더그: 그래. 우리 집에 오면 수표를 써줄께.\\n케빈: 정말 고마워요. 이건 정말 좋은 색소폰인데 너무 싸요.\\n"
 		},
 		{
-			"title": "A : Are you through with the laptop?",
+			"title": "Are you through with the laptop?",
 			"explains": "A : Are you through with the laptop?\\nB : Yes. It's all yours now.\\nA : Are you done with your assignment?\\nB : Yes. I just ask my friends to proofread it.\\nA : Do you want to see a movie tonight?\\nB : Yes, let's do that.\\n",
 			"means": "A : 노트북은 다 썼니?\\nB : 응. 이제 (네가) 써도 돼.\\nA : 과제는 다 했어?\\nB : 응. 친구에게 교정해달라고 부탁만 하면 돼.\\nA : 오늘 저녁 영화 볼래?\\nB : 그래, 그러자.\\n"
 		},
 		{
-			"title": "(Neil is talking to John at work…)",
-			"explains": "Neil: Wow! It is so hot out there!\\nJohn: I know.\\nNeil: I can't take hot weather like this.\\nJohn: I hear you.\\nNeil: Let's turn on the A.C.\\nJohn: Why don't we use the fans?\\nNeil: The air conditioner is much cooler.\\nJohn: Did you park outside or under the building?\\nNeil: I parked under the building.\\nJohn: I did the same.\\n",
-			"means": "(닐이 직장에서 잔과 이야기를 나누며…)\\n닐: 와! 밖에 정말 덥다!\\n잔: 맞아.\\n닐: 이렇게 더운 날씨는 질색이야.\\n잔: 나도 그래.\\n닐: 에어컨 켜자.\\n잔: 선풍기 트는 건 어떨까?\\n닐: 에어컨이 훨씬 시원해.\\n잔: 밖에 주차했니 건물 지하에 주차했니?\\n닐: 지하에 주차했어.\\n잔: 나도 그랬어.\\n"
+			"title": "I hear you.",
+			"explains": "(Neil is talking to John at work…)\\nNeil : Wow! It is so hot out there!\\nJohn : I know.\\nNeil : I can't take hot weather like this.\\nJohn : I hear you.\\nNeil : Let's turn on the A.C.\\nJohn : Why don't we use the fans?\\nNeil : The air conditioner is much cooler.\\nJohn : Did you park outside or under the building?\\nNeil : I parked under the building.\\nJohn : I did the same.\\n",
+			"means": "(닐이 직장에서 잔과 이야기를 나누며…)\\n닐 : 와! 밖에 정말 덥다!\\n잔 : 맞아.\\n닐 : 이렇게 더운 날씨는 질색이야.\\n잔 : 나도 그래.\\n닐 : 에어컨 켜자.\\n잔 : 선풍기 트는 건 어떨까?\\n닐 : 에어컨이 훨씬 시원해.\\n잔 : 밖에 주차했니 건물 지하에 주차했니?\\n닐 : 지하에 주차했어.\\n잔 : 나도 그랬어.\\n"
 		},
 		{
-			"title": "(Debbie is talking to her husband Al … )",
-			"explains": "Debbie: You just missed Dick's call.\\nAl: What did he want?\\nDebbie: He wants you to go fishing with him tomorrow.\\nAl: I can't go on the spur of the moment.\\nDebbie: I told him you would.\\nAl: You're not serious!\\nDebbie: Yes I am. It will do you good.\\nAl: But I don't even have a fishing license. I'd better call him and back out of it.\\nDebbie: You can still buy a license today. He's a good friend. Don't let him down.\\nAl: Okay. You're right. I'm sure I'll have a good time.\\n",
-			"means": "(데비가 남편 앨과 얘기한다 …)\\n데비: 막 딕이 전화했었는데.\\n앨: 왜?\\n데비: 내일 당신하고 낚시 가고 싶대.\\n앨: 그렇게 갑자기 갈 수야 없지.\\n데비: 그럴 거라고 했는데.\\n앨: 말도 안돼!\\n데비: 정말 그랬어. 당신한테 유익할 거야.\\n앨: 난 낚시 허가증도 없어. 전화해서 취소해야겠어.\\n데비: 면허는 오늘 사도 돼. 딕은 좋은 친구잖아. 실망시키지 마.\\n앨: 알았어. 당신 말이 맞아. 분명 재밌긴 할테지.\\n"
+			"title": "I can't go on the spur of the moment.",
+			"explains": "(Debbie is talking to her husband Al … )\\nDebbie : You just missed Dick's call.\\nAl : What did he want?\\nDebbie : He wants you to go fishing with him tomorrow.\\nAl : I can't go on the spur of the moment.\\nDebbie : I told him you would.\\nAl : You're not serious!\\nDebbie : Yes I am. It will do you good.\\nAl : But I don't even have a fishing license. I'd better call him and back out of it.\\nDebbie : You can still buy a license today. He's a good friend. Don't let him down.\\nAl : Okay. You're right. I'm sure I'll have a good time.\\n",
+			"means": "(데비가 남편 앨과 얘기한다 …)\\n데비 : 막 딕이 전화했었는데.\\n앨 : 왜?\\n데비 : 내일 당신하고 낚시 가고 싶대.\\n앨 : 그렇게 갑자기 갈 수야 없지.\\n데비 : 그럴 거라고 했는데.\\n앨 : 말도 안돼!\\n데비 : 정말 그랬어. 당신한테 유익할 거야.\\n앨 : 난 낚시 허가증도 없어. 전화해서 취소해야겠어.\\n데비 : 면허는 오늘 사도 돼. 딕은 좋은 친구잖아. 실망시키지 마.\\n앨 : 알았어. 당신 말이 맞아. 분명 재밌긴 할테지.\\n"
 		},
 		{
-			"title": "A : I can't believe I missed the season finale of my favorite TV show!",
+			"title": "They'll do a rerun sooner or later.",
 			"explains": "A : I can't believe I missed the season finale of my favorite TV show!\\nB : They'll do a rerun sooner or later. Or you can just watch it online.\\nB : You know, I also like to watch this show that airs every Saturday at 5. But, I prefer watching it online.\\n",
 			"means": "A : 내가 제일 좋아하는 TV 프로그램 마지막 회를 놓쳤다니 믿을 수 없어.\\nB : 조만간 재방송해주겠지! 아니면 온라인에서 볼 수도 있어.\\nB : 나도 매주 토요일 5시에 방송되는 프로그램 무지 좋아하잖아. 그런데 난 온라인으로 보는 것을 선호해.\\n"
 		},
@@ -3026,9 +3026,9 @@
 			"means": "A : Dr. William 병원 입니다.\\nB : 네. William 선생님께 진료를 예약하고 싶습니다.\\nA : 처음 방문하시는 것인가요?\\nB : 네. 초진입니다.\\nA : 성함이 어떻게 되시나요?\\nB : 네. Matt Damon 입니다.\\nB : 오늘 예약이 가능한 시간이 있나요?\\nA : 오늘 2시에 William 선생님 예약 가능합니다.\\nB : 좋습니다!\\n"
 		},
 		{
-			"title": "(Mark and John work for a theater company and they are having lunch…)",
-			"explains": "Mark: John I want to bounce something off you.\\nJohn: Sure what is it?\\nMark: I have this idea I call adopt a senior citizen.\\nJohn: What is it? How does it work?\\nMark: People donate money whatever they can and we buy theater tickets with the money.\\nJohn: I don't follow.\\nMark: We buy theater tickets with the donated money and give away the tickets to senior citizens so they can see a play or musical for free. It's a gift to them.\\nJohn: That's a great idea.\\nMark: Let's run this by the boss after lunch.\\nJohn: Okay. I think he'll like it.\\n",
-			"means": "(극단에서 일하는 마크와 잔이 점심을 먹으며…)\\n마크: 잔 네 의견을 듣고 싶어.\\n잔: 그래 뭔데?\\n마크: 노인 입양이라는 아이디어가 하나 떠올랐거든.\\n잔: 그게 뭔데? 어떻게 운영되는 건데?\\n마크: 사람들이 돈이든 뭐든 기부하면 그 돈으로 극장 표를 사는 거야.\\n잔: 이해가 안 가.\\n마크: 기부금으로 극장 표를 사서 노인들에게 나눠주면 노인들은 공짜로 연극이나 뮤지컬을 볼 수 있잖아. 노인들한텐 선물이 되는 거지.\\n잔: 그거 좋은 생각이다.\\n마크: 점심 먹고 단장님 의견을 물어보자.\\n잔: 좋아. 단장님이 좋아하실 거야.\\n"
+			"title": "I have this idea I call adopt a senior citizen.",
+			"explains": "(Mark and John work for a theater company and they are having lunch…)\\nMark : John I want to bounce something off you.\\nJohn : Sure what is it?\\nMark : I have this idea I call adopt a senior citizen.\\nJohn : What is it? How does it work?\\nMark : People donate money whatever they can and we buy theater tickets with the money.\\nJohn : I don't follow.\\nMark : We buy theater tickets with the donated money and give away the tickets to senior citizens so they can see a play or musical for free. It's a gift to them.\\nJohn : That's a great idea.\\nMark : Let's run this by the boss after lunch.\\nJohn : Okay. I think he'll like it.\\n",
+			"means": "(극단에서 일하는 마크와 잔이 점심을 먹으며…)\\n마크 : 잔 네 의견을 듣고 싶어.\\n잔 : 그래 뭔데?\\n마크 : 노인 입양이라는 아이디어가 하나 떠올랐거든.\\n잔 : 그게 뭔데? 어떻게 운영되는 건데?\\n마크 : 사람들이 돈이든 뭐든 기부하면 그 돈으로 극장 표를 사는 거야.\\n잔 : 이해가 안 가.\\n마크 : 기부금으로 극장 표를 사서 노인들에게 나눠주면 노인들은 공짜로 연극이나 뮤지컬을 볼 수 있잖아. 노인들한텐 선물이 되는 거지.\\n잔 : 그거 좋은 생각이다.\\n마크 : 점심 먹고 단장님 의견을 물어보자.\\n잔 : 좋아. 단장님이 좋아하실 거야.\\n"
 		},
 		{
 			"title": "I'll have to make a return trip.",
@@ -3036,8 +3036,8 @@
 			"means": "(찰리와 아든이 수퍼마켓에서 장을 보고 막 집에 와서…)\\n찰리 : (샤핑백을 들여다 보며) 아니 이런.\\n아든 : 뭐가 잘못됐어?\\n찰리 : 커피를 잘 못 골랐어. 난 보통 커피 마시는데 이건 카페인 없는 거야.\\n아든 : 반품할 거야?\\n찰리 : 응. 디캐프는 내 취향이 아니야.\\n아든 : 안 웃겨.\\n찰리 : 다시 마켓에 가야겠다.\\n아든 : 참 마켓에서 재활용하게 비닐봉투 갖고 가.\\n찰리 : 알았어. 마켓 가는 김에 우리 다른 거 필요한 거 없어?\\n아든 : 오렌지 주스 한 쿼트 더 있으면 쓰겠다. 우리 주스 진짜 많이 마시잖아.\\n"
 		},
 		{
-			"title": "A : Dad. What's for breakfast? ",
-			"explains": "A : Dad. What's for breakfast? \\nB : There's a banana on the kitchen counter. \\nA : That banana is bruised. \\nB : Then there's some cereal. \\nA : But there's no milk. \\nB : Alright. I will make some pancakes for you. \\n",
+			"title": "That banana is bruised.",
+			"explains": "A : Dad. What's for breakfast? \\nB : There's a banana on the kitchen counter. \\nA : That banana is bruised.\\nB : Then there's some cereal.\\nA : But there's no milk.\\nB : Alright. I will make some pancakes for you.\\n",
 			"means": "A : 아빠. 오늘 아침은 뭐예요?\\nB : 부엌 조리대에 바나나가 있어.\\nA : 그 바나나는 너무 익었잖아요.\\nB : 그럼 시리얼도 있어.\\nA : 하지만 우유가 없잖아요.\\nB : 좋아. 너를 위해 팬케이크를 만들어 줄게.\\n"
 		},
 		{
@@ -3181,9 +3181,9 @@
 			"means": "(일요일 밤에 매리언이 남편 짐과 이야기를 나누는데…)\\n매리언: 회사에서 가져온 그 보고서 전부 읽는 거 다 끝냈어?\\n짐: 응 다 끝냈는데 너무 많이 읽었는지 머리가 지끈거리며 아파.\\n매리언: 아스피린 먹어.\\n짐: 저녁 때 먹은 닭 요리 남은 거 있어?\\n매리언: 응. 데워줄게.\\n짐: 고마워.\\n매리언: 그래 내일 출근 준비는 다 한 거야?\\n짐: 응. 오늘 읽은 걸 바탕으로 사장님한테 보고서를 제출할 거야.\\n매리언: 그 다음엔 어떻게 되는 거야?\\n짐: 결정은 사장님이 하는 거지. 또 다른 회사를 매입할지 말지 사장님이 결정해야 돼.\\n"
 		},
 		{
-			"title": "(Erin and Kurt are looking at a new house for the second time…)",
-			"explains": "Erin: This house is almost twice as big as ours.\\nKurt: Yes but it feels cold. It's not as comfortable as our house.\\nErin: Are you thinking about backing out?\\nKurt: I'm just telling you how I feel.\\nErin: But you said you loved this house.\\nKurt: I said I liked it. I didn't say I loved it.\\nErin: You said you didn't want to miss out on it.\\nKurt: I'm not sure now. I'm having second thoughts.\\nErin: I guess you want to keep our house.\\nKurt: Yes that's true. Unless you have to have this house.\\n",
-			"means": "(에린과 커트가 새 집을 두 번째 보면서…)\\n에린: 이 집은 우리 집보다 거의 두 배는 크다.\\n커트: 그렇긴 한데 썰렁한 느낌이 들어. 우리 집처럼 편하지 않아.\\n에린: 발 뺄 생각하는 거야?\\n커트: 그냥 내 느낌을 얘기하는 거야.\\n에린: 이 집 아주 좋다고 그랬잖아.\\n커트: 좋다고 그랬지. 아주 좋다고 말하지 않았어.\\n에린: 이 기회 놓치고 싶지 않다고 했잖아.\\n커트: 지금은 확실히 모르겠어. 생각을 다시 하고 있어.\\n에린: 당신은 우리 집을 그대로 갖고 있고 싶은 거 같아.\\n커트: 응 맞아. 당신이 이 집 꼭 사야 되는 거 아니면.\\n"
+			"title": "Are you thinking about backing out?",
+			"explains": "(Erin and Kurt are looking at a new house for the second time…)\\nErin : This house is almost twice as big as ours.\\nKurt : Yes but it feels cold. It's not as comfortable as our house.\\nErin : Are you thinking about backing out?\\nKurt : I'm just telling you how I feel.\\nErin : But you said you loved this house.\\nKurt : I said I liked it. I didn't say I loved it.\\nErin : You said you didn't want to miss out on it.\\nKurt : I'm not sure now. I'm having second thoughts.\\nErin : I guess you want to keep our house.\\nKurt : Yes that's true. Unless you have to have this house.\\n",
+			"means": "(에린과 커트가 새 집을 두 번째 보면서…)\\n에린 : 이 집은 우리 집보다 거의 두 배는 크다.\\n커트 : 그렇긴 한데 썰렁한 느낌이 들어. 우리 집처럼 편하지 않아.\\n에린 : 발 뺄 생각하는 거야?\\n커트 : 그냥 내 느낌을 얘기하는 거야.\\n에린 : 이 집 아주 좋다고 그랬잖아.\\n커트 : 좋다고 그랬지. 아주 좋다고 말하지 않았어.\\n에린 : 이 기회 놓치고 싶지 않다고 했잖아.\\n커트 : 지금은 확실히 모르겠어. 생각을 다시 하고 있어.\\n에린 : 당신은 우리 집을 그대로 갖고 있고 싶은 거 같아.\\n커트 : 응 맞아. 당신이 이 집 꼭 사야 되는 거 아니면.\\n"
 		},
 		{
 			"title": "(Roger is showing Darren around the school where Darren will now start working…)",
@@ -3336,14 +3336,14 @@
 			"means": "(새라와 캐럴이 점심을 먹고 있다 …)\\n새라: 뭘 먹어야할지 전혀 생각이 안나네.\\n캐럴: 지금 쳐다보지는 마 근데 지금 데이빗 롱이 타냐하고 점심을 먹고 있어.\\n새라: 그 남자는 결혼한지 오래 됐잖아.\\n캐럴: 이 식당에서 점심을 먹더니 큰 모험이군.\\n새라: 난 데이빗이 행복한 결혼생활을 하는 줄 알았네.\\n캐럴: 난 모르겠지만 별로 좋아보이진 않네.\\n새라: 사업상 먹는 점심이라고 믿고 싶어.\\n캐럴: 너무 믿지는 마.\\n새라: 넌 어떻게 그렇게 확신해?\\n캐럴: 손을 잡고 있잖아.\\n"
 		},
 		{
-			"title": "(Erica sees her co-worker Darren while she's shopping at a market … )",
-			"explains": "Erica: Hi Darren.\\nDarren: Oh hi Erica.\\nErica: Shopping for dinner?\\nDarren: Yes. I'm picking up a few things for the week.\\nErica: Same here.\\nDarren: I usually shop just once a week for the week.\\nErica: I try to do the same.\\nDarren: Did you grade papers for all your students' final examination?\\nErica: Yes. I did it already. I like to do that right after exams are finished.\\nDarren: That's a good idea. I don't like to bring work home with me.\\n",
-			"means": "(에리카가 마킷에서 샤핑하다가 동료 대런을 본다….)\\n에리카: 안녕 대런.\\n대런: 어 안녕 에리카.\\n에리카: 저녁 먹을 것 사는 거야?\\n대런: 응. 이번 주 먹을 것들 몇 가지 사는 거야.\\n에리카: 나도 그래.\\n대런: 난 보통 그 주 필요한 것을 주중 한 번 샤핑해.\\n에리카: 나도 그러려고 노력은 해.\\n대런: 너희 반 학생들 기말고사 시험은 다 성적 냈어?\\n에리카: 응. 벌써 했어. 난 시험 끝나자마자 하는 걸 좋아해 .\\n대런: 그거 좋은 생각이네. 나도 집에 일을 가져오는 게 싫거든.\\n"
+			"title": "I usually shop just once a week for the week.",
+			"explains": "(Erica sees her co-worker Darren while she's shopping at a market … )\\nErica : Hi Darren.\\nDarren : Oh hi Erica.\\nErica : Shopping for dinner?\\nDarren : Yes. I'm picking up a few things for the week.\\nErica : Same here.\\nDarren : I usually shop just once a week for the week.\\nErica : I try to do the same.\\nDarren : Did you grade papers for all your students' final examination?\\nErica : Yes. I did it already. I like to do that right after exams are finished.\\nDarren : That's a good idea. I don't like to bring work home with me.\\n",
+			"means": "(에리카가 마킷에서 샤핑하다가 동료 대런을 본다….)\\n에리카 : 안녕 대런.\\n대런 : 어 안녕 에리카.\\n에리카 : 저녁 먹을 것 사는 거야?\\n대런 : 응. 이번 주 먹을 것들 몇 가지 사는 거야.\\n에리카 : 나도 그래.\\n대런 : 난 보통 그 주 필요한 것을 주중 한 번 샤핑해.\\n에리카 : 나도 그러려고 노력은 해.\\n대런 : 너희 반 학생들 기말고사 시험은 다 성적 냈어?\\n에리카 : 응. 벌써 했어. 난 시험 끝나자마자 하는 걸 좋아해 .\\n대런 : 그거 좋은 생각이네. 나도 집에 일을 가져오는 게 싫거든.\\n"
 		},
 		{
-			"title": "(Joyce and Liz are having lunch…)",
-			"explains": "Joyce: I think my boss has it in for me.\\nLiz: Why do you say that?\\nJoyce: She complained all morning about a small mistake I made.\\nLiz: Maybe she got it out of her system.\\nJoyce: Probably not.\\nLiz: Why do you say that?\\nJoyce: Every time I talk to her she bites my head off.\\nLiz: Why does she do that? You're a good employee.\\nJoyce: I think so too. I just wish she would give me a break occasionally.\\n",
-			"means": "(조이스와 리즈가 점심을 먹으며…)\\n조이스: 직장 상사가 날 못 잡아 먹어 안달인 것 같아.\\n리즈: 왜 그런 말을 해?\\n조이스: 내가 작은 실수를 하나 한 것 갖고 아침 내내 투덜거리잖아.\\n리즈: 네 상사도 그 만큼 했으면 그만 할 때도 된 것 같은데.\\n조이스: 그래도 계속 할 거야.\\n리즈: 왜 그렇게 말 해?\\n조이스: 내가 무슨 말을 꺼내기만 하면 화를 버럭 내.\\n리즈: 왜 그런대? 너 괜찮은 직원이잖아.\\n조이스: 내 생각에도 그래. 그냥 가끔은 날 좀 내버려 뒀으면 좋겠어.\\n"
+			"title": "I think my boss has it in for me.",
+			"explains": "(Joyce and Liz are having lunch…)\\nJoyce : I think my boss has it in for me.\\nLiz : Why do you say that?\\nJoyce : She complained all morning about a small mistake I made.\\nLiz : Maybe she got it out of her system.\\nJoyce : Probably not.\\nLiz : Why do you say that?\\nJoyce : Every time I talk to her she bites my head off.\\nLiz : Why does she do that? You're a good employee.\\nJoyce : I think so too. I just wish she would give me a break occasionally.\\n",
+			"means": "(조이스와 리즈가 점심을 먹으며…)\\n조이스 : 직장 상사가 날 못 잡아 먹어 안달인 것 같아.\\n리즈 : 왜 그런 말을 해?\\n조이스 : 내가 작은 실수를 하나 한 것 갖고 아침 내내 투덜거리잖아.\\n리즈 : 네 상사도 그 만큼 했으면 그만 할 때도 된 것 같은데.\\n조이스 : 그래도 계속 할 거야.\\n리즈 : 왜 그렇게 말 해?\\n조이스 : 내가 무슨 말을 꺼내기만 하면 화를 버럭 내.\\n리즈 : 왜 그런대? 너 괜찮은 직원이잖아.\\n조이스 : 내 생각에도 그래. 그냥 가끔은 날 좀 내버려 뒀으면 좋겠어.\\n"
 		},
 		{
 			"title": "A : We're going to miss the plane.",
@@ -3616,28 +3616,28 @@
 			"means": "A : 아, 모기 때문에 잠을 잘 못 자겠어요.\\nB : 모기요? 그럼 제라늄을 사지 그래요?\\nA : 모기약이 아니고요?\\nB : 제라늄이 모기를 쫓아내는 데 도움이 되거든요.\\nA : 그건 몰랐네요.\\nB : 모기가 제라늄 향을 싫어해요.\\nA : 그거 일종의 방향 요법인 것 같네요.\\n"
 		},
 		{
-			"title": "A : Oh, I'm looking forward to fall.",
+			"title": "I like layering with cardigans, vests, and blouses.",
 			"explains": "A : Oh, I'm looking forward to fall.\\nB : Because of the cool weather in fall?\\nA : No, I just love fall fashions. Summer fashions are very limited.\\nB : Right. We only wear shorts, shirts, and sandals.\\nA : I like layering with cardigans, vests, and blouses.\\nB : I only wear shirts and pants all year long.\\nA : In white, black, and gray.\\n",
 			"means": "A : 아, 가을이 빨리 왔으면 좋겠다.\\nB : 가을의 시원한 날씨 때문에?\\nA : 아니, 그냥 가을 패션이 좋아서. 여름 패션은 너무 제한적이잖아.\\nB : 맞아. 고작 반바지랑 셔츠, 샌들뿐이지.\\nA : 나는 카디건이랑 조끼, 블라우스를 겹쳐 입는 게 좋아.\\nB : 나는 일 년 내내 셔츠랑 바지만 입는걸.\\nA : 흰색이랑 검은색, 회색으로.\\n"
 		},
 		{
-			"title": "A : Miranda, can you play any musical instruments?",
+			"title": "He just played by ear.",
 			"explains": "A : Miranda, can you play any musical instruments?\\nB : Yes, I can play the guitar a little.\\nA : Did you take guitar lessons?\\nB : No, my father taught me, but he just played by ear.\\nA : Oh, was he self-taught?\\nB : That's right. So learning from him was not easy.\\nA : I see.\\n",
 			"means": "A : 미란다, 악기 다룰 수 있나요?\\nB : 네, 기타를 조금 칠 수 있어요.\\nA : 기타 수업을 받았나요?\\nB : 아니요, 아버지가 가르쳐 주셨는데요, 아버지는 그냥 듣고 연주하세요.\\nA : 아, 독학하셨어요?\\nB : 맞아요. 그래서 아버지한테서 배우는 게 쉽지는 않았죠.\\nA : 그렇군요.\\n"
 		},
 		{
-			"title": "A : Honey, I went to my high school reunion today.",
+			"title": "Did you happen to see your first love there?",
 			"explains": "A : Honey, I went to my high school reunion today.\\nB : How was it? Was it fun?\\nA : Yes, first of all, a lot of people showed up. Actually, I was expecting a low turnout.\\nB : Have you stayed in touch with your high school classmates?\\nA : Yes, I've stayed in contact with some of them.\\nB : Wait. Did you happen to see your first love there?\\n",
-			"means": "A: 여보, 나 오늘 고등학교 동창회 다녀왔어요.\\nB: 어땠어요? 재미있었어요?\\nA: 네, 무엇보다도, 아주 많이 왔더라고요. 사실, 사람들이 적게 올 거라고 생각했었거든요.\\nB: 고등학교 친구들이랑 연락을 하고 지냈어요?\\nA: 네, 몇 명이랑은 연락을 하고 지냈죠.\\nB: 잠깐. 당신 거기서 혹시 첫사랑을 만난 거예요?\\n"
+			"means": "A : 여보, 나 오늘 고등학교 동창회 다녀왔어요.\\nB : 어땠어요? 재미있었어요?\\nA : 네, 무엇보다도, 아주 많이 왔더라고요. 사실, 사람들이 적게 올 거라고 생각했었거든요.\\nB : 고등학교 친구들이랑 연락을 하고 지냈어요?\\nA : 네, 몇 명이랑은 연락을 하고 지냈죠.\\nB : 잠깐. 당신 거기서 혹시 첫사랑을 만난 거예요?\\n"
 		},
 		{
-			"title": "A : So you're about to go on a business trip?",
-			"explains": "A : So you're about to go on a business trip?\\nB : Yes, I'm going to Istanbul, Turkey.\\nA : Are you going to use the company card to stay at a five-star hotel?\\nB : No, I'll stay at inexpensive accommodations.\\nA : What kind of food will you eat?\\nB : If I'm eating by myself, I'll eat on the cheap.\\nB : But with my clients, I'll eat nice meals.\\n",
-			"means": "A : 그래서 출장을 간다고요?\\nB : 네, 터키 이스탄불로 가요.\\nA : 법인 카드를 써서 5성급 호텔에서 묵을 건가요?\\nB : 아니에요, 저렴한 숙소에 있을 거예요.\\nA : 어떤 음식을 먹을 건데요?\\nB : 혼자서 먹는다면, 싼 걸 먹을 거예요.\\nB : 하지만 고객이랑 먹는다면, 근사한 식사를 하겠죠.\\n"
+			"title": "No, I'll stay at inexpensive accommodations.",
+			"explains": "A : So you're about to go on a business trip?\\nB : Yes, I'm going to Istanbul, Turkey.\\nA : Are you going to use the company card to stay at a five-star hotel?\\nB : No, I'll stay at inexpensive accommodations.\\nA : What kind of food will you eat?\\nB : If I'm eating by myself, I'll eat on the cheap. But with my clients, I'll eat nice meals.\\n",
+			"means": "A : 그래서 출장을 간다고요?\\nB : 네, 터키 이스탄불로 가요.\\nA : 법인 카드를 써서 5성급 호텔에서 묵을 건가요?\\nB : 아니에요, 저렴한 숙소에 있을 거예요.\\nA : 어떤 음식을 먹을 건데요?\\nB : 혼자서 먹는다면, 싼 걸 먹을 거예요. 하지만 고객이랑 먹는다면, 근사한 식사를 하겠죠.\\n"
 		},
 		{
 			"title": "Jason: I'm looking for a desktop personal computer.",
-			"explains": "Jason: I'm looking for a desktop personal computer.\\nAssistant: OK, we have a wide selection.\\nJason: Can you show me something with a reasonable price yet with good performance?\\nAssistant: I think you'll like this. It has a very powerful CPU, and a graphic card in it.\\nJason: Are there any other specifications you can tell me?\\nAssistant: All of the services are free of charge for 1 year and it comes with a warranty.\\nJason: I like it better and better.\\nAssistant: Today is your lucky day. You are getting this at a bargain price!\\nJason: Really? Why?\\nAssistant: This item is already marked down plus the 10% discount for the special 1 year opening sale.\\n",
+			"explains": "Jason : I'm looking for a desktop personal computer.\\nAssistant : OK, we have a wide selection.\\nJason : Can you show me something with a reasonable price yet with good performance?\\nAssistant : I think you'll like this. It has a very powerful CPU, and a graphic card in it.\\nJason : Are there any other specifications you can tell me?\\nAssistant : All of the services are free of charge for 1 year and it comes with a warranty.\\nJason: I like it better and better.\\nAssistant: Today is your lucky day. You are getting this at a bargain price!\\nJason: Really? Why?\\nAssistant: This item is already marked down plus the 10% discount for the special 1 year opening sale.\\n",
 			"means": "Jason: 데스크탑 컴퓨터를 좀 사고 싶은데요. \\nAssistant: 이쪽에 종류가 많습니다. \\nJason: 적당한 가격에 좋은 성능을 갖춘 것을 보여 주시겠어요? \\nAssistant: 이것 아마 마음에 드실 것 입니다. 아주 강한 CPU 와 성능 좋은 그래픽 카드를 가지고 있죠. \\nJason: 추가적으로 말해 주실 사항이 있나요? \\nAssistant: 1년 동안 무료로 AS해 드리며 품질보증서가 들어 있습니다.\\nJason: 보면 볼수록 마음에 드는걸요. \\nAssistant: 오늘 아주 운이 좋으시군요. 아주 싼 가격에 사시는 겁니다! \\nJason: 정말요? 왜죠? \\nAssistant: 이 제품은 이미 할인된 가격인데다가 개점 1주년 기념 10%를 추가적으로 할인해 드리거든요.\\n"
 		},
 		{
@@ -3766,14 +3766,14 @@
 			"means": "선생님 : 4학년 전체, 선생님 하는 말 잘 들으세요. 우리는 곧 설악산에 도착할 거에요. 모두들 산을 오르는 다른 등산객들에게 공간을 만들어 주세요. 그들이 지나갈 수 있게 해 주세요. 여러분은 반드시 여러분의 짝과 함께 있어야 합니다. 만일 짝을 잃어버렸 으면 반드시 바로 우리에게 알려 주세요. 다음으로 점심 식사는 2시에 버스 뒤에서 합니다. 점심을 먹으러 돌아올 때는 반드시 종이에 사인을 해주세요. 그래서 우리가 여러분이 모두 돌아 왔다는 사실을 알 수 있게요. 만일 짝이 도착하지 않았다면 짝의 점심도 같이 챙겨서 Sam 선생님에게 가세요. 그리고 선생님에게 짝의 이름을 알 려 주세요. 모두들 이해했나요? \\n"
 		},
 		{
-			"title": "M: 'Fashion of the decayed?' I don't think we could find a lot of information for that.",
-			"explains": "W: We need to finish our presentation plan by tomorrow. I already have an idea. We can do 'Fashion of the decade'. I know an excellent website where we can access a lot of information. The only thing we need to do is to sign up.\\nM: 'Fashion of the decayed?' I don't think we could find a lot of information for that.\\nW: Of course we can! It's any fashion of the last 10 years. It's easy!\\nM: Oh, you said 'decade'! In that case, I think we will find an excess of information!\\n",
-			"means": "여: 우리는 발표 계획을 내일까지 끝내야 해. 나에게 이미 아이디어 하나가 있어. 우리가 '십 년 동안의 패션'에 대해 (발표) 할 수 있어. 많은 정보에 접근할 수 있는 훌륭한 웹사이트를 하나 알고 있거든. 우리가 해야 될 것은 가입하는 것뿐이야.\\n남: '부패한 패션'이라고? 거기에 대해서 정보를 많이 찾을 수 있을 것 같진 않은데.\\n여: 당연히 찾을 수 있지! 지난 10년 동안의 어떤 패션이든 괜찮다구. 쉽잖아! \\n남: 아, 너는 '십 년'이라고 말했었구나! 그런 경우라면, 넘치게 많은 정보를 찾을 수 있을 거야!\\n"
+			"title": "It's any fashion of the last 10 years.",
+			"explains": "W : We need to finish our presentation plan by tomorrow. I already have an idea. We can do 'Fashion of the decade'. I know an excellent website where we can access a lot of information. The only thing we need to do is to sign up.\\nM : 'Fashion of the decayed?' I don't think we could find a lot of information for that.\\nW : Of course we can! It's any fashion of the last 10 years. It's easy!\\nM : Oh, you said 'decade'! In that case, I think we will find an excess of information!\\n",
+			"means": "여 : 우리는 발표 계획을 내일까지 끝내야 해. 나에게 이미 아이디어 하나가 있어. 우리가 '십 년 동안의 패션'에 대해 (발표) 할 수 있어. 많은 정보에 접근할 수 있는 훌륭한 웹사이트를 하나 알고 있거든. 우리가 해야 될 것은 가입하는 것뿐이야.\\n남 : '부패한 패션'이라고? 거기에 대해서 정보를 많이 찾을 수 있을 것 같진 않은데.\\n여 : 당연히 찾을 수 있지! 지난 10년 동안의 어떤 패션이든 괜찮다구. 쉽잖아! \\n남 : 아, 너는 '십 년'이라고 말했었구나! 그런 경우라면, 넘치게 많은 정보를 찾을 수 있을 거야!\\n"
 		},
 		{
-			"title": "Sukhee: Excuse me! You dropped these documents in the hallway.",
-			"explains": "Sukhee: Excuse me! You dropped these documents in the hallway.\\nJason: Oh, thank you so much, I was looking for those.\\nSukhee: Anytime. Are these important documents?\\nJason: You don't understand how important they are to me. I can't thank you enough.\\nSukhee: Like I said, it's not a big deal.\\nJason: I wouldn't have been able to do my presentation without them.\\nJason: I want to repay your kindness. Can I take you out for a cup of coffee?\\nSukhee: Don't make too much of it. It was nothing.\\nJason: Come on! Please give me a chance to express my appreciation.\\nSukhee: Well, all right. If you insist!\\n",
-			"means": "Sukhee: 저기요! 이 문서들을 복도에 떨어뜨리셨는데요. \\nJason: 오, 정말 감사합니다, 이 문서들을 찾고 있었는데. \\nSukhee: 뭘요. 중요한 문서인가 보죠? \\nJason: 이 문서가 얼마나 중요한건지 모르실 거예요. 어떻게 감사를 드려야 할지 모르겠네요. \\nSukhee: 말씀드린 것처럼 괜찮습니다. \\nJason: 이 문서없인 프레젠테이션을 못했을 겁니다.\\nJason: 당신의 친절함에 보답하고 싶은데요. 커피 한 잔 사드려도 될까요? \\nSukhee: 너무 대단하게 생각하지 마세요. 별것도 아닌데요, 뭘. \\nJason: 아니에요! 제 감사를 표현할 수 있도록 기회를 주세요. \\nSukhee: 흠... 정 그러시다면 그러죠.\\n"
+			"title": "Don't make too much of it. It was nothing.",
+			"explains": "Sukhee : Excuse me! You dropped these documents in the hallway.\\nJason : Oh, thank you so much, I was looking for those.\\nSukhee : Anytime. Are these important documents?\\nJason : You don't understand how important they are to me. I can't thank you enough.\\nSukhee : Like I said, it's not a big deal.\\nJason : I wouldn't have been able to do my presentation without them.\\nJason : I want to repay your kindness. Can I take you out for a cup of coffee?\\nSukhee : Don't make too much of it. It was nothing.\\nJason : Come on! Please give me a chance to express my appreciation.\\nSukhee : Well, all right. If you insist!\\n",
+			"means": "Sukhee : 저기요! 이 문서들을 복도에 떨어뜨리셨는데요. \\nJason : 오, 정말 감사합니다, 이 문서들을 찾고 있었는데. \\nSukhee : 뭘요. 중요한 문서인가 보죠? \\nJason : 이 문서가 얼마나 중요한건지 모르실 거예요. 어떻게 감사를 드려야 할지 모르겠네요. \\nSukhee : 말씀드린 것처럼 괜찮습니다. \\nJason : 이 문서없인 프레젠테이션을 못했을 겁니다.\\nJason : 당신의 친절함에 보답하고 싶은데요. 커피 한 잔 사드려도 될까요? \\nSukhee : 너무 대단하게 생각하지 마세요. 별것도 아닌데요, 뭘. \\nJason : 아니에요! 제 감사를 표현할 수 있도록 기회를 주세요. \\nSukhee : 흠... 정 그러시다면 그러죠.\\n"
 		},
 		{
 			"title": "Is it true or is he trying to make money by cheating a tourist?",
@@ -4051,14 +4051,14 @@
 			"means": "Seller: 보고 계시는 건 아주 훌륭한 작품입니다. 오래된 골동품이죠. 진품이고 하나밖에 없는 겁니다.\\nBuyer: 얼마에 파시는 건데요?\\nSeller: 이러면 어떨까요… 현금으로 사시면 좋은 할인가에 드리겠습니다.\\nBuyer: 현금 지불하는 건 문제 없습니다. 그래서 얼만데요?\\nSeller: 손님, 이렇게 섬세하게 세공한 걸 보신 적 있으세요? 두 눈으로 보시고도 믿지 못할 겁니다. 여기 들어간 장인의 솜씨를 보여 드리죠.\\nBuyer: 이 보세요. 저도 그 탁자에 대해서 알아야할 건 다 압니다. 가격만 말씀해 주시면 이걸 살지 안 살지 정할려고 하는데요.\\nSeller: 헐값에 드리도록 하죠. 500 불만 주세요.\\nBuyer: 잠깐만요. 500 불만이라고요? 세상에! 이건 50 불의 값어치도 안 되는데. 50 불 줄테니 팔던지 말던지 하세요.\\nSeller: 60 불 주세요.\\nBuyer: 55 불 줄게요. 그걸로 끝입니다.\\n"
 		},
 		{
-			"title": "Andrew: Lisa, what have you been keeping busy with these days?",
-			"explains": "Andrew: Lisa, what have you been keeping busy with these days? I haven't seen you at all around campus.\\nLisa: You know… keeping up with my blog; downloading some of the latest movies; and, of course, gaming!\\nAndrew: (sarcastically) Well, aren't we “Miss Active”! Have you thought about getting some fresh air or something?\\nLisa: With it being so hot these days, I just couldn't imagine stepping foot outside. Besides, I don't have time. I'm too busy with my toys!\\nAndrew: To each his own; however, haven't you seen the news lately? From what I gathered, a sedentary body is the precursor to obesity.\\nLisa: Although it's a concern for many, I'm far from obese, Andrew. Just look at me. I'm skin and bones!\\nAndrew: Strangely enough, you do have a point. Well, it was worth a try.\\nHey, you mind if I join in on the next game?\\nLisa: Absolutely not! I thought you'd never ask.\\n",
-			"means": "Andrew: 리사, 요즘 뭣 때문에 계속 바쁜 거야? 학교근처에서 통 볼 수가 없으니 말이야.\\nLisa: 있잖아…나 블로그 관리도 하고 최신영화 다운도 받고 그래. 당연히 게임도 하지!\\nAndrew: (비웃으며) 흠, ‘미스 활동녀'네! 신선한 공기 쐬볼 생각은 해본 거야?\\nLisa: 요즘 너무 더워서 밖에 나갈 생각조차 못하겠어. 게다가 나 시간도 없거든. 장난감가지고 노느라 너무 바빠.\\nAndrew: 저마다 취향은 다른거니까 뭐. 근데 최근에 뉴스 들어봤어? 종합해보면 몸을 움직이지 않는다는 건 비만이 될 수 있다는 신호인거야.\\nLisa: 많은 사람들이 관심을 갖고 있긴 한데 난 비만과는 거리가 멀어 앤드류. 나 봐봐. 순 뼈만 남았잖아.\\nAndrew: 희한하게도 네 말이 맞다. 뭐 그냥 한번 말해본 거야. 다음 게임에 같이 해도 돼?\\nLisa: 당연하지. 왜 안 물어보나 했어.\\n"
+			"title": "From what I gathered, a sedentary body is the precursor to obesity.",
+			"explains": "Andrew : Lisa, what have you been keeping busy with these days? I haven't seen you at all around campus.\\nLisa : You know… keeping up with my blog; downloading some of the latest movies; and, of course, gaming!\\nAndrew : (sarcastically) Well, aren't we \"Miss Active\"! Have you thought about getting some fresh air or something?\\nLisa : With it being so hot these days, I just couldn't imagine stepping foot outside. Besides, I don't have time. I'm too busy with my toys!\\nAndrew : To each his own; however, haven't you seen the news lately? From what I gathered, a sedentary body is the precursor to obesity.\\nLisa : Although it's a concern for many, I'm far from obese, Andrew. Just look at me. I'm skin and bones!\\nAndrew : Strangely enough, you do have a point. Well, it was worth a try. Hey, you mind if I join in on the next game?\\nLisa : Absolutely not! I thought you'd never ask.\\n",
+			"means": "Andrew : 리사, 요즘 뭣 때문에 계속 바쁜 거야? 학교근처에서 통 볼 수가 없으니 말이야.\\nLisa : 있잖아…나 블로그 관리도 하고 최신영화 다운도 받고 그래. 당연히 게임도 하지!\\nAndrew : (비웃으며) 흠, ‘미스 활동녀'네! 신선한 공기 쐬볼 생각은 해본 거야?\\nLisa : 요즘 너무 더워서 밖에 나갈 생각조차 못하겠어. 게다가 나 시간도 없거든. 장난감가지고 노느라 너무 바빠.\\nAndrew : 저마다 취향은 다른거니까 뭐. 근데 최근에 뉴스 들어봤어? 종합해보면 몸을 움직이지 않는다는 건 비만이 될 수 있다는 신호인거야.\\nLisa : 많은 사람들이 관심을 갖고 있긴 한데 난 비만과는 거리가 멀어 앤드류. 나 봐봐. 순 뼈만 남았잖아.\\nAndrew : 희한하게도 네 말이 맞다. 뭐 그냥 한번 말해본 거야. 다음 게임에 같이 해도 돼?\\nLisa : 당연하지. 왜 안 물어보나 했어.\\n"
 		},
 		{
-			"title": "James: Fred, the party was great! The food was superb, the music was fantastic, and there was a great turnout.",
-			"explains": "James: Fred, the party was great! The food was superb, the music was fantastic, and there was a great turnout.\\nTasha: I agree ?this will be a night I'll always remember. Doing the tango and swing dancing all in the same night ?who would believe it?\\nJames: Let's not forget Ralph's proposal to Cindy. Hahaha!\\nFred: Well, it looks like it turned out to be a success after all! I was actually worried that it was going to rain on us.\\nTasha: That's right. The weatherman said there was a high chance of showers this evening.\\nFred: Anyway, thank you all for making this a fabulous 30th birthday for me. I ended up with more than anyone could ask for.\\nTasha: The pleasure was ours! Thank you so much for inviting us.\\nJames: Hey, Fred! So when do you think you'll be popping the question to Erica?\\nFred: Well, if worse comes to worst, maybe never. But let's not talk about that now. Thank you all for coming!\\n",
-			"means": "James: 프레드, 파티 정말 재밌었어! 음식 최고였고 음악 끝내줬고 사람들도 많이 오구.\\nTasha: 동감이야. 기억에 남을 밤이 될거야. 탱고와 스윙을 모두 같은 날 밤에 하다니 누가 그럴거라 생각했겠어?\\nJames: 랠프가 신디한테 프러포즈한 거도 잊으면 안되지. 하하하.\\nFred: 음, 모든게 성공적으로 끝난 것 같다. 실은 비가 올까봐 걱정했어.\\nTasha: 맞아. 오늘 저녁에 소나기 올 확률이 높다고 그랬는데.\\nFred: 어쨌든 서른번째 생일을 멋지게 해줘서 모두한테 고마워. 기대한 것 이상으로 모든 게 다 잘 끝난 것 같아.\\nTasha: 우리가 오히려 즐거웠지. 초대해줘서 고마워.\\nJames: 프레드! 너 에리카한테 언제 프러포즈할 건데?\\nFred: 음, 최악의 경우엔 못할지도 몰라. 그 문제는 지금 얘기하지 말자. 모두들 와줘서 고마워.\\n"
+			"title": "Well, it looks like it turned out to be a success after all!",
+			"explains": "James : Fred, the party was great! The food was superb, the music was fantastic, and there was a great turnout.\\nTasha : I agree this will be a night I'll always remember. Doing the tango and swing dancing all in the same night who would believe it?\\nJames : Let's not forget Ralph's proposal to Cindy. Hahaha!\\nFred : Well, it looks like it turned out to be a success after all! I was actually worried that it was going to rain on us.\\nTasha : That's right. The weatherman said there was a high chance of showers this evening.\\nFred : Anyway, thank you all for making this a fabulous 30th birthday for me. I ended up with more than anyone could ask for.\\nTasha : The pleasure was ours! Thank you so much for inviting us.\\nJames : Hey, Fred! So when do you think you'll be popping the question to Erica?\\nFred: Well, if worse comes to worst, maybe never. But let's not talk about that now. Thank you all for coming!\\n",
+			"means": "James : 프레드, 파티 정말 재밌었어! 음식 최고였고 음악 끝내줬고 사람들도 많이 오구.\\nTasha : 동감이야. 기억에 남을 밤이 될거야. 탱고와 스윙을 모두 같은 날 밤에 하다니 누가 그럴거라 생각했겠어?\\nJames : 랠프가 신디한테 프러포즈한 거도 잊으면 안되지. 하하하.\\nFred : 음, 모든게 성공적으로 끝난 것 같다. 실은 비가 올까봐 걱정했어.\\nTasha : 맞아. 오늘 저녁에 소나기 올 확률이 높다고 그랬는데.\\nFred : 어쨌든 서른번째 생일을 멋지게 해줘서 모두한테 고마워. 기대한 것 이상으로 모든 게 다 잘 끝난 것 같아.\\nTasha : 우리가 오히려 즐거웠지. 초대해줘서 고마워.\\nJames : 프레드! 너 에리카한테 언제 프러포즈할 건데?\\nFred : 음, 최악의 경우엔 못할지도 몰라. 그 문제는 지금 얘기하지 말자. 모두들 와줘서 고마워.\\n"
 		},
 		{
 			"title": "Iris: Honey, what should we do for Thanksgiving this year?",
@@ -4201,9 +4201,9 @@
 			"means": "Iris: 이봐! 바깥공기 쐬러 잠깐 나갈까? 몇 분 정도 휴식을 갖자고.\\nEric: 아! 정말 필요했던 거야. 다섯 시간 동안이나 계속해서 모니터를 바라보고 있었거든.\\nIris: 나라면 세 시간마다 짧은 휴식을 가질 거야. 내 생각엔 그게 휠씬 더 생산적이야.\\nEric: 노력해 볼게. 난 여기서 일을 시작한지 네 달밖에 안됐잖아.\\nIris: 그게 다야? 그것 보다 훨씬 오랫동안 여기서 일한 것처럼 느껴지는 건 왜 그럴까? 지금까지는 어때?\\nEric: 모두가 친절한 것 같아. 아직까지는 회사 분위기에 적응하고 있는 중이야.\\nIris: 맞아! 많은 업무량이 가끔은 스트레스가 되기도 하지만 그렇게 나쁜 건 아니야. 어쨌거나 문제가 있으면 누굴 찾아야 하는지 알고 있지?\\nEric: 고마워. 말만 들어도 도움이 되는 걸.\\n"
 		},
 		{
-			"title": "Iris: I saw your E-mail about the marketing strategy meeting. Do I also have to attend?",
-			"explains": "Iris: I saw your E-mail about the marketing strategy meeting. Do I also have to attend?\\nEric: Yes, everyone in the marketing department ought to be present at the meeting, even the junior assistant.\\nIris: I heard it is an important meeting discussing next quarter's marketing tactics. Are you ready for it?\\nEric: I spent all last week preparing for this meeting. I also had to work during the weekend.\\nIris: You worked during the weekend as well? It must be above reproach. \\nEric: I hope so. I blew my brain out day and night all week for this. I heard all the managers are coming.\\nIris: You'd better prepare for all the questions they're going to throw at you.\\nEric: I did my absolute best to come up with possible questions and answers to them. I'll see you at 3 P.M.\\n",
-			"means": "Iris: 마케팅 전략 회의에 대한 이메일을 확인했어. 나도 회의에 참석해야 돼?\\nEric: 응, 사무관도 포함해서 마케팅 부서 전원이 그 회의에 참석해야 하거든.\\nIris: 다음 분기의 마케팅 전략을 논의할 중요한 회의라고 들었어. 준비는 다 된거야?\\nEric: 지난주 내내 준비했어. 주말까지 일해야 했지.\\nIris: 주말에도 일했단 말이야? 나무랄 데 없이 좋은 내용 이겠는걸.\\nEric: 그랬으면 해. 이것 때문에 한 주 내내 밤낮으로 열심히 일했거든. 매니저 전원이 참석한다고 들었어.\\nIris: 너한테 쏟아질 모든 질문들에 대해 준비해 두는 게 좋을 거야.\\nEric: 최선을 다해서 나올 법한 질문과 답변을 준비해 두었지. 오후 3시에 보자구.\\n"
+			"title": "I heard it is an important meeting discussing next quarter's marketing tactics.",
+			"explains": "Iris: I saw your E-mail about the marketing strategy meeting. Do I also have to attend?\\nEric : Yes, everyone in the marketing department ought to be present at the meeting, even the junior assistant.\\nIris : I heard it is an important meeting discussing next quarter's marketing tactics. Are you ready for it?\\nEric : I spent all last week preparing for this meeting. I also had to work during the weekend.\\nIris : You worked during the weekend as well? It must be above reproach. \\nEric : I hope so. I blew my brain out day and night all week for this. I heard all the managers are coming.\\nIris : You'd better prepare for all the questions they're going to throw at you.\\nEric : I did my absolute best to come up with possible questions and answers to them. I'll see you at 3 P.M.\\n",
+			"means": "Iris : 마케팅 전략 회의에 대한 이메일을 확인했어. 나도 회의에 참석해야 돼?\\nEric : 응, 사무관도 포함해서 마케팅 부서 전원이 그 회의에 참석해야 하거든.\\nIris : 다음 분기의 마케팅 전략을 논의할 중요한 회의라고 들었어. 준비는 다 된거야?\\nEric : 지난주 내내 준비했어. 주말까지 일해야 했지.\\nIris : 주말에도 일했단 말이야? 나무랄 데 없이 좋은 내용 이겠는걸.\\nEric : 그랬으면 해. 이것 때문에 한 주 내내 밤낮으로 열심히 일했거든. 매니저 전원이 참석한다고 들었어.\\nIris : 너한테 쏟아질 모든 질문들에 대해 준비해 두는 게 좋을 거야.\\nEric : 최선을 다해서 나올 법한 질문과 답변을 준비해 두었지. 오후 3시에 보자구.\\n"
 		},
 		{
 			"title": "You don't need to walk up any stairs.",
@@ -5191,7 +5191,7 @@
 			"means": "A : 소식 들었어! 취직한 거 축하해!\\nB : 고마워! 크리스마스가 일찍 온 것만 같아.\\nA : 진심으로 축하해.\\n\\nFeels like Christmas came early.\\n(기대치 못한 좋은 소식을 듣거나 행운이 찾아왔을 때)\\n"
 		},
 		{
-			"title": "Take my word for it.",
+			"title": "Take my word for it. (1)",
 			"explains": "A : Do you want to do some volunteer work this weekend?\\nB : I don't know.\\nA : Take my word for it. It's really fun and rewarding.\\nB : Okay, I'll try it. What kind of work are we going to do?\\n",
 			"means": "A : 너 이번 주말에 봉사 활동 좀 해 볼래?\\nB : 글쎄.\\nA : 나만 믿어. 정말 재미도 있고 보람도 있어.\\nB : 그래, 해 보자, 무슨 일을 할 거니?\\n"
 		},
@@ -5301,48 +5301,48 @@
 			"means": "A : 연휴 계획 있니?\\nB : 올해는 장식과 파티는 생략하고 불우한 이웃을 돕는데 집중하기로 했어.\\nA : 대단하다. 진정한 크리스마스 정신을 살리는 좋은 방법이다.\\n"
 		},
 		{
-			"title": "Don’t touch the dial.",
-			"explains": "A : I don’t like this song. I’m going to switch the channel.\\nB : Don’t touch that dial. I have to keep listening.\\nA : Why? You don’t like this song, either.\\nB : I know, but I want to listen to the DJ after the song.\\n",
+			"title": "Don't touch the dial.",
+			"explains": "A : I don't like this song. I'm going to switch the channel.\\nB : Don't touch that dial. I have to keep listening.\\nA : Why? You don't like this song, either.\\nB : I know, but I want to listen to the DJ after the song.\\n",
 			"means": "A : 나 이 노래 별로야. 채널 돌려야겠어.\\nB : 채널 돌리지 마, 난 계속 들어야 해.\\nA : 왜? 너도 이 노래 안 좋아하잖아.\\nB : 알아, 하지만 노래 끝나면 진행자 얘기를 듣고 싶어.\\n"
 		},
 		{
 			"title": "That really hits the spot.",
-			"explains": "A : It’s so cold today! Maybe I shouldn’t have come out.\\nB : Here, have some of this coffee. It might help.\\nA : That really hits the spot. How did you keep it so hot?\\nB : I kept it in my thermos.\\n",
+			"explains": "A : It's so cold today! Maybe I shouldn't have come out.\\nB : Here, have some of this coffee. It might help.\\nA : That really hits the spot. How did you keep it so hot?\\nB : I kept it in my thermos.\\n",
 			"means": "A : 오늘 너무 춥다! 나오질 말 걸 그랬나 봐.\\nB : 여기, 이 커피 좀 마셔. 좀 나아질지도 몰라.\\nA : 정말 딱 좋다. 어떻게 이렇게 뜨겁게 보관했어?\\nB : 보온변에 담아 뒀지.\\n"
 		},
 		{
-			"title": "I can’t help myself.",
-			"explains": "A : Can I have another bowl of rice please?\\nB : Again? This is your third bowl. I’ve never seen you eat so much.\\nA : I can’t help myself. This marinated shrimp is so good.\\nB : Be careful not to eat too much, or joy might get sick.\\n",
+			"title": "I can't help myself.",
+			"explains": "A : Can I have another bowl of rice please?\\nB : Again? This is your third bowl. I've never seen you eat so much.\\nA : I can't help myself. This marinated shrimp is so good.\\nB : Be careful not to eat too much, or joy might get sick.\\n",
 			"means": "A : 밥 한공기만 더 줄래?\\nB : 또? 이번에 세 공기째잖아. 이렇게 많이 먹는 것은 처음 보네.\\nA : 도저히 자제를 못 하겠어. 이 양념 새우가 너무 맛있어.\\nB : 너무 많이 먹지는 않도록 조심해. 배탈이 날 수도 있으니까.\\n"
 		},
 		{
-			"title": "I’ll be back before you know it.",
-			"explains": "A : I need you to make a hundred copies of this document.\\nB : Okay. Do you need color copies, or just black and white?\\nA : It doesn’t matter. Do you think it will take a long time?\\nB : Don’t worry. I’ll be back before you know it.\\n",
+			"title": "I'll be back before you know it.",
+			"explains": "A : I need you to make a hundred copies of this document.\\nB : Okay. Do you need color copies, or just black and white?\\nA : It doesn't matter. Do you think it will take a long time?\\nB : Don't worry. I'll be back before you know it.\\n",
 			"means": "A : 이 문서 100부 복사해 줘.\\nB : 알았어. 컬러 복사가 필요해, 아니면 흑백으로 할까?\\nA : 상관 없어. 오래 걸릴 것 같아?\\nB : 걱정 마. 금방 올게.\\n"
 		},
 		{
 			"title": "Stop obsessing.",
-			"explains": "A : Why do you look so upset?\\nB : I keep losing more and more hair. It’s really stressful.\\nA : Stop obsessing. I told you, you look fine.\\nB : Don’t say that. You don’t know how stressful it is.\\n",
+			"explains": "A : Why do you look so upset?\\nB : I keep losing more and more hair. It's really stressful.\\nA : Stop obsessing. I told you, you look fine.\\nB : Don't say that. You don't know how stressful it is.\\n",
 			"means": "A : 왜 그렇게 속상해 보여?\\nB : 머리가 점점 더 많이 빠져. 정말 스트레스 받아.\\nA : 너무 신경 쓰지 마. 말했잖아. 멀쩡해 보인다고.\\nB : 그런 말 하지 마. 넌 그게 얼마나 스트레스 받는 일인지 모를 거야.\\n"
 		},
 		{
-			"title": "I’m thinking about it.",
-			"explains": "A : Look at these facial wrinkles. I look so old!\\nB : Are you thinking of getting cosmetic treatment?\\nA : I’m thinking about it. But it’s so expensive.\\nB : You don’t need it. Your skin looks great.\\n",
+			"title": "I'm thinking about it.",
+			"explains": "A : Look at these facial wrinkles. I look so old!\\nB : Are you thinking of getting cosmetic treatment?\\nA : I'm thinking about it. But it's so expensive.\\nB : You don't need it. Your skin looks great.\\n",
 			"means": "A : 이 얼굴 주름 좀 봐. 나 너무 늙어 보여!\\nB : 미용 시술이라도 받게?\\nA : 고려는 하고 있어. 그런데 너무 비싸더라.\\nB : 넌 필요 없어. 피부 정말 좋아 보여.\\n"
 		},
 		{
-			"title": "I can’t take my eyes away.",
-			"explains": "A : What are you watching? Is that a single-person broadcast?\\nB : Yeah. I’m watching this person eat dinner.\\nA : Really? Why would you watch that? Is it fun?\\nB : I can’t take my eyes away. I don’t know why.\\n",
+			"title": "I can't take my eyes away.",
+			"explains": "A : What are you watching? Is that a single-person broadcast?\\nB : Yeah. I'm watching this person eat dinner.\\nA : Really? Why would you watch that? Is it fun?\\nB : I can't take my eyes away. I don't know why.\\n",
 			"means": "A : 뭐 보고 있어? 개인 인터넷 방송이야?\\nB : 응. 이 사람 저녁 먹는 것을 지켜보고 있어.\\nA : 정말? 그런 걸 왜 봐? 재미있어?\\nB : 눈을 땔 수가 없어. 왜 그런지 나도 모르겠어.\\n"
 		},
 		{
-			"title": "It could’ve been worse.",
-			"explains": "A : Did you take your laptop to the service center?\\nB : Yeah, I went yesterday. They found out what the problem was.\\nA : What was it?\\nB : It was a small glitch. It could’ve been worse.\\n",
+			"title": "It could've been worse.",
+			"explains": "A : Did you take your laptop to the service center?\\nB : Yeah, I went yesterday. They found out what the problem was.\\nA : What was it?\\nB : It was a small glitch. It could've been worse.\\n",
 			"means": "A : 너 노트북 서비스 센터에 가지고 가 봤어?\\nB : 응, 어제 갔지. 뭐가 문제인지 찾아냈어.\\nA : 뭐가 문제래?\\nB : 작은 결함이었다. 최악의 상황은 아니었어.\\n"
 		},
 		{
-			"title": "Why don’t you get it dry-cleaned?",
-			"explains": "A : Look at this sweater. It’s so dirty, I can’t wear it any more.\\nB : If it’s so dirty, why don’t you get it dry-cleaned?\\nA : I don’t know of any dry cleaner’s nearby.\\nB : Just search for a number. They probably have pick-up services.\\n",
+			"title": "Why don't you get it dry-cleaned?",
+			"explains": "A : Look at this sweater. It's so dirty, I can't wear it any more.\\nB : If it's so dirty, why don't you get it dry-cleaned?\\nA : I don't know of any dry cleaner's nearby.\\nB : Just search for a number. They probably have pick-up services.\\n",
 			"means": "A : 이 스웨터 좀 봐. 너무 더러워서 더 이상 못 입겠어.\\nB : 그렇게 더러우면 세탁소에 맡기지 그래?\\nA : 이 근처에 세탁소가 있나 모르겠네.\\nB : 세탁소 번호 한번 검색해 봐. 아마 수거해 가는 서비스가 있을 거야.\\n"
 		},
 		{
@@ -5351,8 +5351,8 @@
 			"means": "A : 존 얘기 들었어?\\nB : 아니, 왜? 존한테 무슨 일 있었어?\\nA : 음주 운전 하다가 걸렸어. 엄청난 벌금을 내야 된대.\\nB : 쌤통이다! 절대로 술 먹고 운전하면 안 돼.\\n"
 		},
 		{
-			"title": "It’s right up your alley.",
-			"explains": "A : I found a cafe I think you’ll like. It’s right up your alley.\\nB : Why is it so special? There are cafes everywhere these days.\\nA : It’s a dog cafe. There are dozens of dogs there.\\nB : Really? Let’s go right now. Is it far from here?\\n",
+			"title": "It's right up your alley.",
+			"explains": "A : I found a cafe I think you'll like. It's right up your alley.\\nB : Why is it so special? There are cafes everywhere these days.\\nA : It's a dog cafe. There are dozens of dogs there.\\nB : Really? Let's go right now. Is it far from here?\\n",
 			"means": "A : 네가 좋아할 만한 카페를 찾았어. 딱 네 취향이야.\\nB : 뭐가 그리 특별한데? 요즘은 카페가 어디에든 있잖아.\\nA : 애견 카페야. 개가 수십 마리 있어.\\nB : 정말? 지금 당장 가자, 여기서 멀어?\\n"
 		},
 		{
@@ -5381,8 +5381,8 @@
 			"means": "A : 퇴근 후 볼링 치러 갈까?\\nB : 안돼. 저녁에 막바지 쇼핑해야 해.\\nA : 정말? 너는 보통 선물을 미리 다 준비해 두지 않니?\\n"
 		},
 		{
-			"title": "They need to grasp the fact that I’m an adult.",
-			"explains": "A : Whenever I go out, my parents always ask me a ton of questions, like who I’m meeting and when I’ll be home.\\nB : That’s normal. No matter how old you get, parents want to take care of you.\\nA : But they’re too invasive. They need to grasp the fact that I’m an adult.\\nB : That may be true, but don’t forget that they have been and will always be an instrumental part of your life.\\nA : I know, I know. I’ll try to be more understanding.\\n",
+			"title": "They need to grasp the fact that I'm an adult.",
+			"explains": "A : Whenever I go out, my parents always ask me a ton of questions, like who I'm meeting and when I'll be home.\\nB : That's normal. No matter how old you get, parents want to take care of you.\\nA : But they're too invasive. They need to grasp the fact that I'm an adult.\\nB : That may be true, but don't forget that they have been and will always be an instrumental part of your life.\\nA : I know, I know. I'll try to be more understanding.\\n",
 			"means": "A : 내가 밖에 나갈 때마다 우리 부모님은 항상 질문을 정말 많이 하셔, 누구 만나니, 언제 올거니 같은.\\nB : 그건 정상이지. 네가 나이를 아무리 먹어도, 부모님은 너를 보살피고 싶어 하시니까.\\nA : 그런데 부모님은 너무 파고드셔, 부모님은 내가 어른이라는 걸 이해하셔야 돼.\\nB : 그 말이 맞을 수도 있지. 하지만 지금까지 그래 왔고 앞으로도 그렇듯이 부모님은 네 삶의 중요한 부분이라는 걸 잊지 마.\\nA : 알아, 알아. 좀 더 이해하려고 노력할게.\\n"
 		},
 		{
@@ -5407,18 +5407,838 @@
 		},
 		{
 			"title": "Vulnerability in public speaking is common.",
-			"explains": "A : I hate making speeches. I feel like I repel other people as soon as I open my mouth.\\nB : That’s just your imagination. You’re actually a very good speaker.\\nA : I get all nervous, thought. And then I start talking too fast and run out of breath.\\nB : Vulnerability in public speaking is common. However, most people won’t notice how nervous you feel.\\nA : Thanks. I’ll keep that in mind the next time I give a speech, which is tomorrow!\\n",
+			"explains": "A : I hate making speeches. I feel like I repel other people as soon as I open my mouth.\\nB : That's just your imagination. You're actually a very good speaker.\\nA : I get all nervous, thought. And then I start talking too fast and run out of breath.\\nB : Vulnerability in public speaking is common. However, most people won't notice how nervous you feel.\\nA : Thanks. I'll keep that in mind the next time I give a speech, which is tomorrow!\\n",
 			"means": "A : 난 발표하는 게 싫어. 입을 떼자마자 남들을 쫓아내 버리는 기분이야.\\nB : 그건 단지 네 상상일 뿐이야, 넌 사실 발표를 아주 잘해.\\nA : 그렇지만 난 긴장이 많이 돼. 그럼 말을 너무 빨리 하게 되고 숨이 차.\\nB : 사람들 앞에서 말할 때 약해지는 건 흔한 일이야. 하지만 대부분의 사람들은 네가 얼마나 긴장했는지 알아채지 못할걸.\\nA : 고마워. 다음번에 발표를 할 때 참고할게. 바로 내일이야!\\n"
 		},
 		{
-			"title": "I hope you weren’t stranded there for too long.",
-			"explains": "A : Last weekend, I was driving down the highway at night when I got a flat tire and had to stop.\\nB : I’m sorry to hear that. I hope you weren’t stranded there for too long.\\nA : It only took 30 minutes for help to arrive. But while I was waiting, I felt like the loneliest person on the planet.\\nB : I imagine it was scary being stuck on the highway along.\\nA : It was. I kept thinking some sort of catastrophe might happen to me.\\n",
+			"title": "I hope you weren't stranded there for too long.",
+			"explains": "A : Last weekend, I was driving down the highway at night when I got a flat tire and had to stop.\\nB : I'm sorry to hear that. I hope you weren't stranded there for too long.\\nA : It only took 30 minutes for help to arrive. But while I was waiting, I felt like the loneliest person on the planet.\\nB : I imagine it was scary being stuck on the highway along.\\nA : It was. I kept thinking some sort of catastrophe might happen to me.\\n",
 			"means": "A : 지난 주말에, 밤에 고속도로를 달리고 있었는데 타이어가 펑크 나서 멈춰야 했어.\\nB : 저런, 거기서 너무 오랫동안 발이 묶여 있지 않았길.\\nA : 도와주러 오는 데 30분밖에 안 걸렸어. 하지만 기다리는 동안, 이 행성에서 제일 외로운 사람인 것 같은 기분이었어.\\nB : 고속도로에 혼자 갇혀 있어서 무서웠겠다.\\nA : 맞아. 난 어떤 재앙이 나한테 일어날 수도 있다는 생각이 계속 들었어.\\n"
 		},
 		{
 			"title": "We should try to surprise him.",
 			"explains": "A : Do you have any ideas for Greg's birthday?\\nB : We should try to surprise him.\\nA : I agree but how? He doesn't leave his house.\\nB : Why don't we take the party to him?\\nA : You mean surprise him in his own place?\\nB : We could ask his family to be quiet, then knock on his door...\\nA : And when he opens the door, we'll all crowd in and sing happy birthday!\\n",
 			"means": "A : 렉의 생일에 뭐 좋은 생각 있니?\\nB : 놀라게 해보는 게 좋을 것 같아.\\nA : 그러게, 그런데 어떻게? 집에서 나오질 않잖아.\\nB : 우리가 가서 파티를 열어주면 어떨까?\\nA : 그렉의 집에서 깜짝 파티를 열어 주자는 말이야?\\nB : 가족들에게 조용히 해 달라고 말하고, 그리고 나서 방문을 노크하고...\\nA : 그렉이 문을 열면, 우리 모두 몰려 들어가서 생일 축하 노래를 불러 주는거야!\\n"
+		},
+		{
+			"title": "If you try to override your boss's authority, it could negatively affect your relationship.",
+			"explains": "A : My boss told me to do something that's not right. It's making me so stressed.\\nB : Maybe you should do it anyway because your boss told you to.\\nA : I don't know. I kind of want to talk to the senior manager about all this.\\nB : If you try to override your boss's authority, it could negatively affect your relationship.\\nA : It seems like no matter what I do, there will be a negative impact.\\n",
+			"means": "A : 내 상사가 어떤 옳지 않은 일을 하라고 나에게 지시했어. 정말 스트레스 받아.\\nB : 넌 어쨌든 그걸 해야 되지 않을까? 상사가 하라고 했으니까.\\nA : 모르겠어. 이 모든 상황에 대해 고위 간부랑 이야기하고 싶기도 해.\\nB : 상사의 권한을 무시하려고 하면, 그 사람과의 관계에 부정적인 영향을 줄 수도 있어.\\nA : 내가 어떻게 하든 간에 부정적인 영향이 있을 것 같아.\\n"
+		},
+		{
+			"title": "But I think it's ethically wrong to litter.",
+			"explains": "A : Hey, are you going to just leave your empty water bottle on the ground like that?\\nB : I couldn't find any trash bin anywhere in this park.\\nA : But I think it's ethically wrong to litter.\\nB : Sorry. But why did they get rid of the trash bins?\\nA : There was some controversy over that, but you still shouldn't litter.\\n",
+			"means": "A : 빈 물병을 그냥 땅에 그렇게 놔둘 거야?\\nB : 이 공원 어디에서도 쓰레기통을 못 찾겠어.\\nA : 그래도 쓰레기를 함부로 버리는 건 윤리적으로 잘못됐다고 생각해.\\nB : 미안해. 그런데 왜 쓰레기통을 다 없앴지?\\nA : 그거에 대해서는 논란이 좀 있었지만, 그래도 쓰레기를 함부로 버리면 안 돼.\\n"
+		},
+		{
+			"title": "The doctor recommended a range of things to prevent another stroke in the future.",
+			"explains": "A : Is your uncle okay? I heard he had a stroke recently.\\nB : Fortunately, he's recovering well. The doctor recommended a range of things to prevent another stroke in the future.\\nA : Oh, is there some medicine he can take to lower his blood pressure?\\nB : That's one option. But there are also natural ways to get healthier, like exercising regularly.\\nA : That's good to hear. I hope your uncle will follow the doctor's suggestions.\\n",
+			"means": "A : 너희 삼촌 괜찮으셔? 최근에 뇌졸증을 일으키셨다고 들었어.\\nB : 다행히 잘 회복 중이셔. 의사가 향후에 또 발생할 수 있는 뇌졸증 예방을 위해 여러 가지 것들을 추천해 줬어.\\nA : 오, 협압을 낮추기 위해서 복용할 수 있는 약들이 좀 있어?\\nB : 그것도 한 방법이야. 하지만 정기적으로 운동하는 것처럼, 건강해지기 위한 자연적인 방법들도 있어.\\nA : 다행이다. 삼촌이 의사의 제안을 잘 따르면 좋겠다.\\n"
+		},
+		{
+			"title": "I promised my dad I would help clean the hole house, from the attic to the basement.",
+			"explains": "A : The weather's supposed to be warm today. Do you want to go for a walk along the coastline?\\nB : That sounds awesome, but I promised my dad I would help clean the hole house, from the attic to the basement.\\nA : Can't you do that another day? It's too nice out to stay inside.\\nB : Tomorrow we're donating everything we don't need, like old clothes and condiments, so we have to finish cleaning today.\\nA : All right. Then let's meet up next weekend!\\n",
+			"means": "A : 오늘 날씨가 따뜻할 거라는데. 해안으로 산책 갈래?\\nB : 좋지, 근데 다락방부터 지하실까지, 집안 대청소를 돕겠다고 아빠와 약속했어.\\nA : 다른 날 하면 안 돼? 실내에 있기에는 바깥 날씨가 너무 좋아.\\nB : 내일은 헌 옷이나 조미료처럼 필요하지 않은 것들을 전부 기부하기로 해서, 오늘 청소를 마쳐야 돼.\\nA : 알았어. 그럼 다음 주말에 만나자.\\n"
+		},
+		{
+			"title": "as time goes by, people will gradually lose interest in him.",
+			"explains": "A : Did you meet the new guy in the office? All the girls seem to love him.\\nB : That's just because of his accent and good looks. Personally, I don't think he's that interesting.\\nA : Ha, you're obviously jealous of all the attention he's getting.\\nB : Not at all. Just wait and see ? as time goes by, people will gradually lose interest in him.\\nA : Or maybe he'll do a really good job here, and everyone will love him even more!\\n",
+			"means": "A : 사무실에 새로 온 남자 만났어? 모든 여자들이 그를 좋게 보는 것 같아.\\nB : 그야 그 남자 억양이랑 잘생긴 외모 덕분이지. 개인적으로, 나는 그가 그다지 흥미롭지 않다고 생각해.\\nA : 하, 너 분면 그 사람이 받는 모든 관심을 질투하고 있구나.\\nB : 절대 아니야. 지켜보자고, 시간이 가면, 사람들은 점차 그에게서 흥미를 잃을 거야.\\nA : 아니면 그 사람이 여기에서 일을 정말 잘해서, 모두가 그를 더 좋아하게 될지도 모르지!\\n"
+		},
+		{
+			"title": "Let me have a go.",
+			"explains": "A : Did you ask the concierge how to get to the airport?\\nB : I tried, but he doesn't speak any English.\\nA : Let me have a go. I speak a little French.\\nB : Wow! When did you learn how to speak French?\\n",
+			"means": "A : 공항까지 어떻게 가면 되는지 접객 직원한테 물어봤어?\\nB : 시도는 해 봤는데, 영어를 하나도 못 하더라고.\\nA : 내가 한번 해 볼게, 나 불어 조금 하거든.\\nB : 와! 불어는 언제 배웠어?\\n"
+		},
+		{
+			"title": "Take my word for it. (2)",
+			"explains": "A : I'm going to Jeonju next week. Where should I stay?\\nB : You should stay at a hanok guest house. They are great.\\nA : Really? Aren't they uncomfortable?\\nB : Take my word for it. You will love it.\\n",
+			"means": "A : 나 다음 주에 전주로 여행 가. 어디서 묵는 게 좋을까?\\nB : 한옥 게스트 하우스에 묵어 봐. 정말 좋아.\\nA : 진짜? 불편하지는 않아?\\nB : 내 말 믿어. 정말 마음에 들 거야.\\n"
+		},
+		{
+			"title": "He used to love to walk.",
+			"explains": "A : How is Brutus feeling today?\\nB : He hasn't been himself lately.\\nA : What are his symptoms?\\nB : His appetite is off. He's not even eating his favorite foods.\\nA : Anything else I should know?\\nB : Yes, he doesn't want to go for a walk. He used to love to walk.\\nA : Okay, let me give him an examination first.\\n",
+			"means": "A : 오늘은 브루터스가 어떤가요?\\nB : 요즘엔 브루터스답지가 않더라고요.\\nA : 증상이 어떤데요?\\nB : 식욕이 없어요. 심지어 가장 좋아하는 먹이도 먹지 않아요.\\nA : 그 밖에 제가 더 알아야 할 게 있나요?\\nB : 네, 산책하는 것도 싫어해요. 전에는 산책하는 걸 아주 좋아했거든요.\\nA : 알겠습니다, 먼저 검사를 해 보도록 하죠.\\n"
+		},
+		{
+			"title": "Do you really clean your house up every summer?",
+			"explains": "A : The time has come!\\nB : For what?\\nA : Summer cleaning, of course.\\nB : Do you really clean your house up every summer?\\nA : Isn't that why it's called summer cleaning?\\nB : I don't know. To be honest, I don't see the point of summer cleaning.\\nA : Why is that?\\nB : Because I keep my place clean all the time.\\n",
+			"means": "A : 이제 때가 되었네!\\nB : 뭘?\\nA : 물론 여름 맞이 대청소지.\\nB : 넌 정말 여름마다 대청소를 하니?\\nA : 그러니까 여름 맞이 대청소라고 하는 거 아니겠어?\\nB : 난 잘 모르겠다. 솔직히, 여름 맞이 대청소를 왜 하는지 모르겠어.\\nA : 왜?\\nB : 난 늘 우리 집을 깨끗하게 유지하거든.\\n"
+		},
+		{
+			"title": "There's someone busking.",
+			"explains": "A : Miranda, there's someone busking. Let's check it out.\\nB : Okay. It sounds like a violin.\\nA : Right. Actually, I wanted to do street performing when I was young.\\nB : Did you want to sing or play a musical instrument?\\nA : I was thinking of singing while playing the guitar.\\nB : Why didn't you do that?\\nA : I didn't have enough courage.\\nB : You regret not doing it, right?\\nA : Yes, I wish I could go back to my twenties.\\n",
+			"means": "A : 미란다, 누군가가 길거리 공연을 하고 있네요. 가서 봅시다.\\nB : 그래요. 바이올린 소리 같은데요.\\nA : 맞아요. 사실은, 저도 젊었을 때 거리 공연을 하고 싶었답니다.\\nB : 노래를 하려고 하셨어요, 아니면 악기 연주를 하려고 하셨어요?\\nA : 기타를 치면서 노래를 할까 했었죠.\\nB : 왜 안 하셨어요?\\nA : 용기가 없었거든요.\\nB : 안 하셨던 걸 후회하시는군요, 그렇죠?\\nA : 네, 20대로 다시 돌아갈 수 있으면 좋겠네요.\\n"
+		},
+		{
+			"title": "Which do you recommend?",
+			"explains": "A : First, you should decide how to hold your paddle.\\nB : Is there more than one way to hold it?\\nA : Yes, you can use the pen grip or the handshake grip.\\nB : Which do you recommend?\\nA : I prefer the handshake grip.\\nB : Is this right? OK, what's next?\\nA : Keep your body low and turn your hips as you hit the ball.\\nB : This is really fun. Thanks for teaching me.\\n",
+			"means": "A : 먼저, 탁구채를 어떻게 잡을 건지 정해야 해요.\\nB : 탁구채를 잡는 법이 여러 가지인가요?\\nA : 네, 펜을 쥐듯이 잡을 수도 있고, 악수하듯이 쥘 수도 있죠.\\nB : 어떤 게 더 좋은가요?\\nA : 저는 악수하듯 쥐는 게 더 좋더라고요.\\nB : 이렇게요? 아, 다음엔요?\\nA : 몸을 낮추고, 공을 치면서 엉덩이를 돌려요.\\nB : 정말 재미있네요. 가르쳐 주셔서 고마워요.\\n"
+		},
+		{
+			"title": "I mostly read books before bed.",
+			"explains": "A : John, I'm looking for a new book to read. Do you have any recommendations?\\nB : Oh, how about this one? It's called 'Real Life and Freedom'.\\nA : Have you finished it?\\nB : Yes, I have. I'm sure you'll like it.\\nA : But isn't it too complicated or intense?\\nB : Kind of. Are you looking for something that is relaxing?\\nA : Yes. I mostly read books before bed. I read a book with a little lamp on, and then I turn over, switch it off, and go to sleep.",
+			"means": "A : 존, 나 새로 읽을 책을 좀 고르고 있는데. 권해 주고 싶은 거 있어?\\nB : 아, 이건 어때? '진정한 삶과 자유'라는 책이야.\\nA : 넌 다 읽었어?\\nB : 응, 읽었어. 분명히 너도 마음에 들어 할 거야.\\nA : 그런데 이거 너무 복잡하거나 진지한 책 아닌가?\\nB : 좀 그렇지. 편하게 읽을 수 있는 걸 찾고 있는 거야?\\nA : 응. 난 주로 자기 전에 책을 읽거든. 작은 스탠드 하나 켜 놓고 책을 읽다가, 돌아누워서 스위치를 끄고 잠이 들지.\\n"
+		},
+		{
+			"title": "In a class of its own",
+			"explains": "A : So, why should we buy your company's brake pads?\\nB : Our pads are in a class of their own. They are German engineered and made of high-quality ceramic.\\nA : That sounds good, but we would like to see some research data before we decide.\\n",
+			"means": "A : 귀 회사의 브레이크 패드의 장점을 말씀해 주세요.\\nB : 저희의 패드는 단연 우수합니다. 독일식 기술을 자랑하며 고품격 도자기로 만들어졌습니다.\\nA : 그렇군요. 하지만 결정을 내리기 전에 연구 결과를 더 보고 싶습니다.\\n"
+		},
+		{
+			"title": "To cram",
+			"explains": "A : Have you taken the test for your accounting certification, yet?\\nB : Not yet, it's tomorrow. I plan to cram for it tonight.\\nA : I see. Well, good luck. I hope everything works out of you.\\n",
+			"means": "A : 회계 자격증 시험 봤니?\\nB : 아니, 아직. 내일이야. 오늘 밤 벼락치기 할 생각이야.\\nA : 그렇구나. 행운을 빈다. 좋은 결과가 있기를 바래.\\n"
+		},
+		{
+			"title": "Old school",
+			"explains": "A : How is working for Mr. Orwell? Is he still old school?\\nB : Yeah, he still manages the company's finiances by pen and paper.\\nA : Well, it has worked for him all these years. Why change it?\\n",
+			"means": "A : 오웰 씨와 함께 일하는 건 어떤가요? 아직도 구식이세요?\\nB : 네. 아직도 회사 재정을 펜과 종이로 관리하고 계세요.\\nA : 지금까지 잘 해오셨다면 방식을 바꿀 이유가 없겠죠?\\n"
+		},
+		{
+			"title": "Do you have a moment to talk?",
+			"explains": "A : Professor Miller, do you have a moment to talk?\\nB : Sure, Taylor, how can I help?\\nA : I wanted to learn more about today's lecture topic 'The human genome.'\\nB : Glad to hear that. Check out the links on my webpage.\\nA : That's great. What can I see there?\\nB : You can find links to articles and links to videos and podcasts.\\n",
+			"means": "A : 밀러 교수님, 말씀 나눌 시간 좀 있으세요?\\nB : 그럼, 테일러, 뭘 도와주면 되지?\\nA : 오늘 강의 주제인 '인간 게놈'에 대해서 좀 더 알고 싶어서요.\\nB : 반가운 얘기군 그래. 내 홈페이지에 링크되어 있는 사이트를 보게.\\nA : 잘 됐네요. 거기서 뭘 볼 수 있나요?\\nB : 기사에 링크되어 있는 거랑 동영상이나 팟캐스트와 링크된 것들을 볼 수 있네.\\n"
+		},
+		{
+			"title": "The chef's recipes are really quick and easy.",
+			"explains": "A : (Helen and Linda are watching a cooking show together.) Linda, have you seen this cooking show before?\\nB : Yes, I'm a big fan of it.\\nA : The chef's recipes are really quick and easy.\\nB : Right. And almost all of the ingredients are ones we have at home.\\nA : He makes me feel confident in the kitchen.\\nB : Wait! I'm going to take a picture of the recipe.\\nA : You don't have to do that, Linda. You can download the recipe on the Internet.\\n",
+			"means": "A : (헬렌과 린다가 같이 요리 프로그램을 보고 있다.) 린다, 전에 이 요리 프로그램 본 적 있어요?\\nB : 네, 저 이 프로그램 열성 팬이에요.\\nA : 저 요리사의 레시피들은 정말 빠르고 쉽죠.\\nB : 맞아요. 그리고 대부분의 재료들이 집에 있는 것들이고요.\\nA : 부엌에서 자신감을 갖게 해 준다니까요.\\nB : 잠깐만요! 저 레시피 사진 찍어야겠어요.\\nA : 그럴 필요 없어요, 린다. 인터넷에서 레시피를 다운받으면 돼요.\\n"
+		},
+		{
+			"title": "To have one's nose in a book",
+			"explains": "A : Let's go get some dinner. I want to see if Robbie will join us. Where's he at?\\nB : I think he's in the library again. Let's head over there.\\nA : Boy, every time I see that guy, he has his nose in a book.\\n",
+			"means": "A : 저녁 먹으러 가자. 로비도 오고 싶어하는지 볼까? 어디 있니?\\nB : 또 도서관에 간 것 같아. 그쪽으로 가보자\\nA : 와, 그 아이는 볼 때마다 책에 얼굴을 파묻다시피 한다니까.\\n"
+		},
+		{
+			"title": "To make the grade",
+			"explains": "A : I see that you have mostly worked technical jobs.\\nB : That is ture. However, as you can see on my resume, I have taken several business courses in the evenings after work. If you were to hire me, I'm sure you will find that my business expertise makes the grade.\\n",
+			"means": "A : 대부분 기술적인 일을 하셨군요.\\nB : 맞습니다. 하지만 이력서에 젹혀 있듯이 퇴근 후 저녁 시간에 비즈니스 수업을 여러 가지 들었습니다. 저를 채용하시면 비즈니스 관련 전문 시직이 충분하다고 느끼실 겁니다."
+		},
+		{
+			"title": "Big man on campus",
+			"explains": "A : I wish I was back in college. Those were the days.\\nB : Yeah, I heard you were the big man on campus.\\nA : You bet I was! I had a ton of frineds.\\n",
+			"means": "A : 대학교로 돌아가고 싶다. 그때가 좋았지.\\nB : 그래. 대학 시절에 네가 꽤 인기가 많았다고 들었어.\\nA : 물론이지! 친구들이 엄청나게 많았어."
+		},
+		{
+			"title": "To cut class",
+			"explains": "A : You finished nearly at the top of your class at this university. Do you have any advice for us?\\nB : Yes. Never cut class. I believe it's important to attend each and every lecture, even the ones that seem less important. \\nA : Okay, thanks for your words of wisdom. I intend on having perfect attendance this semester.\\n",
+			"means": "A : 대학교에서 반의 상위권으로 졸업하셨네요. 우리에게 해주실 조언이 있으신가요?\\nB : 네, 절대 수업을 빼먹지 마세요. 비교적 중요하지 않다고 느껴지는 수업마저도 빠짐없이 매 수업에 참석하는 게 매우 중요하다고 생각합니다.\\nA : 알겠습니다. 지혜의 말씀 감사합니다. 이번 학기는 완벽한 출석률을 이루어 내겠습니다.\\n"
+		},
+		{
+			"title": "I really need a drink or two tonight.",
+			"explains": "A : Hey, Sam, here's your coffee.\\nB : Thanks, I really need a drink or two tonight.\\nA : Me too. Work has been rough lately.\\nB : You can say that again. More work for less pay.\\nA : I'd quit today if I didn't have a family to support.\\nB : Yeah, I'd like to find a less stressful work environment.\\n",
+			"means": "A : 이봐, 샘, 여기 커피 받아요.\\nB : 고맙습니다, 오늘 저녁엔 정말이지 한두 잔 마셔야겠어요.\\nA : 저도 그래요. 요즘 일이 힘들어지네요.\\nB : 그러게 말이예요. 일은 많고 보수는 적죠.\\nA : 부양가족만 없다면 오늘이라도 그만두고 싶네요.\\nB : 그러게요, 스트레스를 덜 받는 근무 환경을 찾고 싶어요.\\n"
+		},
+		{
+			"title": "How about delivering newspapers?",
+			"explains": "A : Barbara, I'd really like to work. I'm almost broke, and I need to make a living.\\nB : How about delivering newspapers?\\nA : No way. I can't get up that early.\\nB : Then what about working at a convenience store?\\nA : That doesn't pay well.\\nB : Don't be too picky. You should find a job soon.\\n",
+			"means": "A : 바바라, 나 정말 일하고 싶어. 돈도 거의 바닥났고, 생활비를 벌어야 해.\\nB : 신문을 돌리는 건 어때?\\nA : 말도 안 돼. 나 그렇게 일찍 못 일어나.\\nB : 그럼 편의점에서 일하는 건 어때?\\nA : 그건 별로 돈벌이가 안 돼.\\nB : 너무 이것저것 고르지 마. 빨리 일자리를 구해야 하잖아.\\n"
+		},
+		{
+			"title": "The school of hard knocks",
+			"explains": "A : Our company's founder will be visiting next week. I'm looking forward to that.\\nB : Yes, me too. That's a man who has survived the school of hard knocks. We can all learn from him.\\nA : Certainly. I hope I get the chance to speak to him one on one.\\n",
+			"means": "A : 우리 회사를 설립하신 분이 다음 주에 방문하신답니다. 기대되는데요.\\nB : 네, 저도 기대돼요. 삶의 역경을 모두 극복하신 분이잖아요. 배울 점이 많은 분이세요. \\nA : 물론이에요. 개인적으로 말씀을 나눌 기회가 있었으면 좋겠어요.\\n"
+		},
+		{
+			"title": "To be saved by the bell",
+			"explains": "A : I'm in trouble. I'm not ready to give this presentation today.\\nB : Well, it's your lucky day. Today's meeting has to be cut short.\\nA : Wow, that's great! I'm saved by the bell!\\n",
+			"means": "A : 나 큰일 났어. 오늘 발표할 준비가 안 되었어.\\nB : 오늘 운 좋은 날이다. 오늘 회의는 간략하게 해야 한데.\\nA : 우와 잘됐다! 간신히 난처함은 면했네!\\n"
+		},
+		{
+			"title": "What did you get for your birthday this year?",
+			"explains": "A : What did you get for your birthday this year?\\nB : I got a new handheld gaming system.\\nA : Lucky! My parents just got me a bunch of books.\\nB : Bummer. You can borrow my gaming system if you want.\\nA : Oh, thank you so much. Can I borrow it next week?\\nB : Of course not! It's brand new and exciting. Let me get tired of it first and then I'll lend it to you.\\n",
+			"means": "A : 너 이번 생일에 뭐 받았어?\\nB : 게임기 받았어.\\nA : 좋겠다! 우리 부모님은 책을 엄청 사 주셨어.\\nB : 안됐네. 네가 원하면 내 게임기 빌려도 돼.\\nA : 아, 진짜 고마워. 다음 주에 빌려도 돼?\\nB : 당연히 안 되지! 이건 진짜 새 거고, 신나는 건데. 내가 먼저 싫증 날 때까지 하고 나서 너 빌려 줄게.\\n"
+		},
+		{
+			"title": "Are you starting a band?",
+			"explains": "A : Sean, you said that you play the guitar, right?\\nB : Yes, but just for fun.\\nA : Do you happen to be interested in joining a band?\\nB : A band? Are you starting a band?\\nA : Yes, it'll be a lot of fun. I play the synthesizer.\\nB : Maybe we can go on tour around the world.\\nA : Oh, come on. Let's just have a good time.\\nB : When are we getting together?\\n",
+			"means": "A : 숀, 기타 친다고 하셨죠, 그렇죠?\\nB : 네, 그냥 재미로 하는 거예요.\\nA : 혹시 밴드에 가입하실 생각 있으세요?\\nB : 밴드요? 밴드 만드는 거예요?\\nA : 네, 아주 재미있을 거예요. 저는 신시사이저를 해요.\\nB : 우리 그럼 세계 일주 투어를 할 수도 있겠네요.\\nA : 아, 뭘 그렇게까지. 그냥 재미있게 해 보자고요.\\nB : 언제 모이는 거예요?\\n"
+		},
+		{
+			"title": "You didn't seem to enjoy the movie.",
+			"explains": "A : Taylor, you didn't seem to enjoy the movie.\\nB : It was bad because of the man next to me.\\nA : Oh, yeah. He kept talking during the movie, didn't he?\\nB : He even answered his phone in the middle of the movie.\\nA : Right. He said, \"Hello. I'm watching a movie. Yes, I'm watching a movie. I'll call you back.\"\\nB : He should've turned his phone off.\\nA : That's why you couldn't concentrate on the movie.\\n",
+			"means": "A : 테일러, 너 영화를 재미있게 보는 것 같지 않더라.\\nB : 내 옆에 있던 사람 때문에 안 좋았어.\\nA : 아, 그래. 그 사람 영화 보는 내내 계속 얘기를 하지 않았니?\\nB : 그 사람 심지어 영화 중간에 전화도 받았잖아.\\nA : 맞아. 그 사람 그랬지, “여보세요. 나 영화 보고 있어. 응, 영화 보고 있다고. 다시 전화할게.”\\nB : 전화기를 꺼 놨어야지.\\nA : 그래서 영화에 집중을 못했구나\\n"
+		},
+		{
+			"title": "I want to quit going to cram school.",
+			"explains": "A : Mom, I want to quit going to cram school.\\nB : Why, what's wrong? Going to cram school is important for your future.\\nA : I know. You've told me that a thousand times.\\nB : How will you take your examinations this month?\\nA : I just don't need to go anymore.\\nB : Tell me the truth or I'll call over there.\\nA : Wait! No matter how hard I try, my English is hopeless.\\n",
+			"means": "A : 엄마, 저 학원 다니는 거 그만두고 싶어요.\\nB : 왜, 무슨 일이니? 학원에 가는 건 네 장래를 위해서 중요해.\\nA : 알아요. 천 번은 말씀하셨죠.\\nB : 이번 달 시험은 어떻게 볼래?\\nA : 어쨌든 이젠 더 이상 갈 필요가 없다고요.\\nB : 사실대로 말하지 않으면 학원에 전화 걸어 볼 거야.\\nA : 잠깐만요! 아무리 열심히 해도, 영어는 가망이 없어요.\\n"
+		},
+		{
+			"title": "I can live with that.",
+			"explains": "A : Didn't you say you wanted to buy a bicycle?\\nB : Yeah, but I don't have a lot of money. I want to buy one second-hand.\\nA : I am selling mine, but it's scratched in a few places.\\nB : I can live with that.\\n",
+			"means": "A : 너 자전거 사고 싶다고 그러지 않았어?\\nB : 응, 그런데 돈이 별로 없어. 중고로 한 대 사고 싶어.\\nA : 내 거 팔 건대, 군데군데 좀 긁혔어.\\nB : 그 정도는 넘어갈 수 있어.\\n"
+		},
+		{
+			"title": "Keep your chin up.",
+			"explains": "A : Why do you look so depressed these days?\\nB : I am a high school senior now. It's very stressful.\\nA : Keep your chin up. You will do fine.\\nB : I will. Thanks for the encouragement.\\n",
+			"means": "A : 너 요즘 왜 그렇게 우울해 보여?\\nB : 저도 이제 고3이잖아요. 스트레스가 아주 심해요.\\nA : 기운 내. 넌 잘할 거야.\\nB : 그럴께요. 격려해 주셔서 감사해요.\\n"
+		},
+		{
+			"title": "Don't wear yourself out.",
+			"explains": "A : Are you doing anything fun this weekend?\\nB : I have lessons with my tutor on the weekend.\\nA : You study too hard. Don't wear yourself out.\\nB : Don't worry. It's not that bad.\\n",
+			"means": "A : 이번 주말에 뭐 재미있는 것 안 해?\\nB : 주말에 과외 수업이 있어.\\nA : 넌 공부를 너무 많이 해. 너무 무리하지 마.\\nB : 걱정하지 마. 그렇게 힘들지는 않아.\\n"
+		},
+		{
+			"title": "I don't know how I can repay you.",
+			"explains": "A : I am so sorry to hear of your father's diagnosis.\\nB : Well, he has been sick for weeks.\\nA : Could I bring by some home cooked food?\\nB : Oh, thank you. My mother and I haven't had the energy to cook.\\nA : It's the very least I can do for such a good friend.\\nB : I don't know how I can repay you.\\nA : Don't mention it. After all, what are friends for?\\n",
+			"means": "A : 너희 아버님 진단 결과를 들었는데 정말 유감이다.\\nB : 음, 몇 주 동안 편찮으셨거든.\\nA : 집에서 만든 음식을 좀 가져가도 될까?\\nB : 아, 고마워. 우리 엄마랑 내가 요리할 여력이 없었는데.\\nA : 정말 좋은 친구에게 내가 해 줄 수 있는 최소한의 일이야.\\nB : 어떻게 보답해야 할지 모르겠다.\\nA : 그런 소리 마. 어쨌든, 친구 좋다는 게 뭐겠어?\\n"
+		},
+		{
+			"title": "Can we go to the top of them?",
+			"explains": "A : Look at those towers! They look fantastic!\\nB : Oh, they are the Gothia Towers.\\nA : Can we go to the top of them?\\nB : Sure. We can get a splendid view of Gothenburg from the top.\\nA : Let's have dinner there if there's a restaurant.\\nB : That sounds good. And do you know what? The towers even have a glass-bottomed pool.\\nA : A glass-bottomed pool? Amazing!\\n",
+			"means": "A : 저 타워들 좀 보세요! 정말 근사하군요!\\nB : 아, 저건 고티아 타워예요.\\nA : 저 타워 꼭대기에 올라가 볼 수 있나요?\\nB : 그럼요. 저기 꼭대기에서 예테보리의 멋진 전망을 감상할 수 있어요.\\nA : 식당이 있으면 저기에서 저녁을 먹읍시다.\\nB : 그거 좋은 생각이네요. 그리고 그거 아세요? 저 타워에는 바닥이 유리로 된 수영장도 있답니다.\\nA : 바닥이 유리로 된 수영장이요? 놀라운데요!\\n"
+		},
+		{
+			"title": "Everyone goes through it.",
+			"explains": "A : I start my military service next month.\\nB : How do you feel? Are you nervous?\\nA : I'm okay. Everyone goes through it.\\nB : Well, take good care of yourself.\\n",
+			"means": "A : 나 다음 달에 군 입대해.\\nB : 기분이 어때? 긴장되니?\\nA : 괜찮아. 누구나 겪는 일이야.\\nB : 아무튼 건강 관리 잘하렴.\\n"
+		},
+		{
+			"title": "I'm under a lot of stress at work.",
+			"explains": "A : Sean, I found clumps of your hair in the shower. Are you okay?\\nB : Oh, I'm under a lot of stress at work.\\nA : Please be more specific.\\nB : My boss has given me so many new projects...\\nA : Can't you just get some help?\\nB : It's no use. My team members are buried under a lot of work, too. And they're afraid of my boss.\\n",
+			"means": "A : 숀, 샤워실에 당신 머리카락이 한 웅큼 있더라고요. 당신 괜찮아요?\\nB : 아, 회사에서 스트레스가 심해서요.\\nA : 좀 자세히 말해 봐요.\\nB : 우리 팀장님이 새로운 프로젝트를 너무 많이 주시는 바람에…\\nA : 도움을 좀 받을 수는 없어요?\\nB : 소용없어요. 우리 팀원들도 일이 엄청 많다고요. 그리고 다들 팀장님을 무서워하고요.\\n"
+		},
+		{
+			"title": "How long will it take to get here?",
+			"explains": "A : Hi, this is EBC apartment. I've just received a pizza.\\nB : Yes, is there a problem?\\nA : It arrived ice cold.\\nB : I'm sorry. Would you like us to send you a replacement?\\nA : How long will it take to get here? I'm starving.\\nB : You'll have it in 30 minutes or less.\\nA : That'll be fine.\\nB : We'll prepare that fresh and then send it to you.\\n",
+			"means": "A : 안녕하세요, 여기 EBC아파트인데요. 지금 피자를 받았거든요.\\nB : 네, 문제가 있나요?\\nA : 얼음처럼 차갑게 온 거 있죠.\\nB : 죄송합니다. 다시 새것으로 보내 드릴까요?\\nA : 여기 오는 데 얼마나 걸릴까요? 배가 고파 죽겠는데.\\nB : 30분 이내로 받으실 겁니다.\\nA : 그럼 괜찮겠네요.\\nB : 신선하게 준비해서 보내 드리겠습니다.\\n"
+		},
+		{
+			"title": "Getting old isn't all bad.",
+			"explains": "A : Do you know what? I sometimes feel like I'm getting old.\\nB : Me, too. But I think we have to admit that we're getting old. Getting old isn't all bad.\\nA : When I buy clothes, I pick them up to see how heavy they are.\\nB : I totally understand you. I can't wear something that weighs too much.\\nA : It's the same for bags. I prefer carrying light ones.\\nB : Right. I often go out with as few things as possible in my pockets.\\n",
+			"means": "A : 있잖아요? 가끔씩 제가 늙어 간다는 걸 느껴요.\\nB : 저도 그래요. 하지만 우리가 나이를 먹어 간다는 것을 받아들여야 해요. 늙어 간다는 게 다 나쁜 것만은 아니잖아요.\\nA : 저는 옷을 살 때 얼마나 무거운지 보려고 옷을 들어 본답니다.\\nB : 전적으로 동감이에요. 저도 너무 무거운 옷은 못 입겠어요.\\nA : 가방도 마찬가지예요. 저는 가벼운 걸 드는 게 더 좋더라고요.\\nB : 맞아요. 가끔은 정말 필요한 것만 주머니에 넣고 나가기도 해요.\\n"
+		},
+		{
+			"title": "Focus on the other person and less on yourself.",
+			"explains": "A : Please remember that small talk isn't just about entertaining.\\nB : It's the first step to building meaningful relationships, right?\\nA : Yes. Small talk breaks the ice and puts people at ease. Focus on the other person and less on yourself. And avoid controversial issues.\\nB : Like politics and religion?\\nA : That's right. It's also not good to ask very personal questions.\\n",
+			"means": "A : 소소한 대화는 그냥 재미있으라고만 하는 건 아니라는 걸 기억하세요.\\nB : 의미 있는 관계를 구축하는 첫걸음인 거죠, 맞죠?\\nA : 네. 소소한 대화는 어색함을 깨고, 사람들을 편안하게 해 줍니다. 자신이 아니라 상대방에게 집중하세요. 그리고 논란이 될 만한 주제는 피하시고요.\\nB : 정치와 종교 같은 거요?\\nA : 맞아요. 너무 개인적인 질문을 하는 것도 좋지 않습니다.\\n"
+		},
+		{
+			"title": "Then everything should be okay.",
+			"explains": "A : (Mike spilt milk on his sister's computer.) You're so clumsy! Look what you've done!\\nB : I'm sorry. But I didn't spill my milk on your computer on purpose.\\nA : What am I supposed to do now? I have a term paper to finish.\\nB : Dry the keyboard off. Then everything should be okay.\\nA : That's easy for you to say.\\nB : Let me lend you my computer.\\n",
+			"means": "A : (마이크가 누나의 컴퓨터에 우유를 쏟았다.) 너 참 침착하지 못하구나! 무슨 짓을 했는지 보라고!\\nB : 미안해. 하지만 일부러 누나 컴퓨터에 우유를 쏟은 건 아니야.\\nA : 이제 어떻게 해? 끝내야 하는 기말 보고서가 있단 말이야.\\nB : 키보드를 말려 봐. 그러면 괜찮아질 거야.\\nA : 너 말은 참 쉽게 한다.\\nB : 내 컴퓨터를 빌려 줄게.\\n"
+		},
+		{
+			"title": "Which bus are you waiting for?",
+			"explains": "A : Excuse me, but do you know the bus schedule?\\nB : Which bus are you waiting for?\\nA : The number A21 bus to get to the airport.\\nB : Oh, that bus comes only once every 20 minutes. Try the number N21 bus.\\nA : Will it get me there faster?\\nB : Uh huh, it comes every 6 to 8 minutes.\\nA : Thank you very much.\\nB : No problem.\\n",
+			"means": "A : 실례지만, 버스 시간표를 아시나요?\\nB : 어떤 버스를 기다리시는데요?\\nA : 공항가는 A21번 버스요.\\nB : 아, 그 버스는 20분마다 겨우 한 번 오는데요. N21번 버스를 타세요.\\nA : 그게 더 빠를까요?\\nB : 네, 6분에서 8분마다 오거든요.\\nA : 정말 감사합니다.\\nB : 천만에요.\\n"
+		},
+		{
+			"title": "Is this your first time to Portugal?",
+			"explains": "A : (In Portugal) Welcome to the Gallery Hostel.\\nB : Thanks. Wow, this place is impressive.\\nA : Thank you. Is this your first time to Portugal?\\nB : Yes, it is. When is breakfast?\\nA : You can have breakfast anytime between 7:30 and 10:00.\\nB : Okay. Is there a free walking tour every day?\\nA : Yes. You can go with the guide at 10:30.\\nB : I see. And we'd like to reserve dinner for this evening.\\nA : All right. The dinner at our hostel is 10 euros each. And these are coupons for free welcome drinks.\\n",
+			"means": "A : (포르투갈에서) 갤러리 호스텔에 오신 것을 환영합니다.\\nB : 감사합니다. 와, 여기 참 좋네요.\\nA : 감사합니다. 포르투갈에는 처음이신가요?\\nB : 네. 아침 식사는 언제죠?\\nA : 아침 식사는 7시 30분에서 10시 사이에 아무 때나 드실 수 있습니다.\\nB : 알겠습니다. 무료 도보 관광은 매일 있나요?\\nA : 네. 10시 반에 가이드와 함께 가시면 됩니다.\\nB : 그렇군요. 그리고 오늘 저녁에 식사 예약을 하고 싶은데요.\\nA : 그러시죠. 저희 호스텔 저녁은 한 분당 10유로입니다. 그리고 이건 서비스로 제공하는 무료 음료 쿠폰이에요.\\n"
+		},
+		{
+			"title": "To school someone on something",
+			"explains": "A : Hey, did you hear the news? I'll be transferring to your team next week.\\nB : Yeah, I heard. That's good news. We will have to school you on some things, though.\\nA : Ha, I thought you might say something like that.\\n",
+			"means": "A : 소식 들으셨어요? 다음 주에 제가 그쪽 부서로 이동합니다.\\nB : 네, 들었어요. 좋은 소식이에요. 하지만 우리가 가르쳐 드려야 할 것이 몇가지 있을 거에요.\\nA : 하하, 그렇게 말씀하실 것만 같았어요.\\n"
+		},
+		{
+			"title": "To pass with flying colors",
+			"explains": "A : You had your test last week, didn't you? Did you get the certification?\\nB : Yes, the test was easier than I expected. I passed with flying colors.\\nA : Excellent. Now you'll be able to transfer to our real estate division.\\n",
+			"means": "A : 지난주 시험 봤지? 자격증은 땄니?\\nB : 응. 생각보다 시험이 쉬었어. 거뜬히 패스했어.\\nA : 훌륭해. 너도 이제 우리 부동산 부서로 이동할 수 있겠구나.\\n"
+		},
+		{
+			"title": "To go back to basics",
+			"explains": "A : Are you learning a lot from those manuals?\\nB : It's tough. I may not have the basic engineering skills to understand all of it.\\nA : Well, maybe we should go back to basics.\\n",
+			"means": "A : 설명서가 도움되나요?\\nB : 어렵습니다. 모두 다 이해하기에는 기초 엔지니어링 기술이 부족한 것 같습니다.\\nA : 음, 그렇다면 기초로 돌아가야겠군요.\\n"
+		},
+		{
+			"title": "A class act",
+			"explains": "A : I noticed that you clocked out really late last night.\\nB : Yeah, I'm covering for Joe. His wife should be having her baby soon.\\nA : You are a real class act. Joe must be grateful.\\n",
+			"means": "A : 어제 꽤 늦게 퇴근한 것 같던데.\\nB : 응. 조 대신 일을 맡았어. 아내분이 곧 출산을 하신데.\\nA : 훌륭한데. 조가 매우 고마워하겠어.\\n"
+		},
+		{
+			"title": "A quick study",
+			"explains": "A : How easily can you learn new skills?\\nB : I have always been a quick study. For example, I took a Spanish immersion course in Mexico last year, and I was able to speak fairly proficiently in only a few months. I have kept up with my studies even after my return, and now I would say I am nearly fluent.\\n",
+			"means": "A : 새로운 기술은 얼마나 빨리 터득하시나요?\\nB : 저는 이해가 빠른 편입니다. 예를 들어 작년에 멕시코에서 스페인어 집중과정을 듣고 몇 달 사이 꽤 능숙하게 말을 할 수 있게 되었습니다. 여행에서 돌아온 뒤 꾸준히 공부했더니 이제는 거의 유창하게 말할 수 있습니다.\\n"
+		},
+		{
+			"title": "I'm craving their chocolate cake.",
+			"explains": "A : Have you tried the new dessert place?\\nB : No, where is it?\\nA : Just across the street from the library.\\nB : Oh, I saw a lot of people lining up for something.\\nA : That's where the new dessert store is.\\nB : Wow, that place was very busy.\\nA : Let's go. I'm craving their chocolate cake.\\n",
+			"means": "A : 너 새로 오픈한 디저트 가게 가 봤어?\\nB : 아니, 어딘데?\\nA : 도서관에서 바로 길 건너편에 있어.\\nB : 아, 사람들이 뭐 사려고 잔뜩 줄 서 있는 거 봤어.\\nA : 거기가 바로 그 새 디저트 가게야.\\nB : 와, 그 집 정말 사람 많더라.\\nA : 가자. 거기 초콜릿 케이크가 너무 먹고 싶어.\\n"
+		},
+		{
+			"title": "I'll help you find it.",
+			"explains": "A : (A girl looks for something on the sidewalk.) Excuse me. Did you drop something?\\nB : Yes, I dropped my USB. It's a small black one.\\nA : Okay. I'll help you find it.\\nB : (Jake puts down his umbrella and looks around for a minute.) Oh, is this it?\\nA : Thank you.\\nB : (Jake starts to leave without taking his umbrella with him.) Wait. Isn't this umbrella yours?\\nA : Oh, yes, that's mine. I often lose my umbrella when it stops raining during the day.\\nB : That's happened to me, too. I hope you don't lose your umbrella today.\\nA : Ha ha! Thanks.\\n",
+			"means": "A : (한 소녀가 인도에서 뭔가를 찾고 있다.) 실례합니다. 뭘 떨어뜨리셨어요?\\nB : 네, USB를 떨어뜨렸어요. 작고 검은 거예요.\\nA : 그렇군요. 제가 찾는 거 도와 드릴게요.\\nB : (제이크가 우산을 내려놓고 잠시 찾아본다.) 아, 이게 그건가요?\\nA : 고맙습니다.\\nB : (제이크가 우산을 챙기지 않고 가려고 한다.) 잠깐만요. 이 우산 아저씨 것 아니에요?\\nA : 아, 네, 제 거예요. 저는 낮에 비가 그치면 종종 우산을 잃어버려요.\\nB : 저도 그랬어요. 오늘은 우산을 안 잃어버리시길 바랄게요.\\nA : 하하! 고맙습니다.\\n"
+		},
+		{
+			"title": "A school of thought",
+			"explains": "A : What approach does this company take with refunds?\\nB : I know there are many schools of thought on the subject. But we believe it's best to accept all refunds regardless of the reason.\\nA : Yeah, that seems to be the trend these days in the retail industry.\\n",
+			"means": "A : 이 회사는 환불을 어떻게 대처 하나요?\\nB : 이 주제에 대해 학설이 많다는 걸 잘 알고 있습니다. 하지만 이유 불문하고 모든 환불 요청은 받아드려야 한다고 생각합니다.\\nA : 네. 요즘 유통산업에서는 다들 그렇게 하죠.\\n"
+		},
+		{
+			"title": "To be put to the test",
+			"explains": "A : We just received our biggest order to date from our customers in Chicago.\\nB : That's great, but we still are having issues at our production facility.\\nA : Well, it's time to put our repair technicians to the test.\\n",
+			"means": "A : 방금 시카고에 있는 고객으로부터 지금까지 중 가장 큰 주문을 받았어요.\\nB : 좋은 소식이네요. 하지만 생산 공장에 아직도 문제가 있어요.\\nA : 음, 수리공들을 시험대에 올릴 좋은 기회군요.\\n"
+		},
+		{
+			"title": "I'll give you a crash course.",
+			"explains": "A : Thanks for offering to help us out next month. We could really use an extra hand.\\nB : I'm happy to help. But I must admit, I don't know much about waht you guys do over here.\\nA : That's okay. I'll give you a crash course on a few things first, then you'll be able help us out immensely.",
+			"means": "A : 다음 달에 도와주기로 해주셔서 감사해요. 도움이 절실히 필요했습니다.\\nB : 천만에요. 하지만 솔직히 말씀드리자면 저는 이쪽 부서에서 무슨 일을 하는지 아는 바가 별로 없습니다.\\nA : 괜찮습니다. 몇 가지만 집중적으로 가르쳐 드리면 저희에게 큰 도음을 주실 수 있을 겁니다.\\n"
+		},
+		{
+			"title": "Does it taste especially good?",
+			"explains": "A : This is the most expensive cappuccino ever.\\nB : How much was it?\\nA : It was 5 euros for this small cup.\\nB : Wow! Does it taste especially good?\\nA : Not really. There are even some coffee grinds on the bottom. I can't finish it.\\nB : Maybe they charged us the tourist price.\\n",
+			"means": "A : 이건 여태까지 마셔 본 것 중에서 제일 비싼 카푸치노예요.\\nB : 얼마였는데요?\\nA : 이 작은 컵이 5유로였다고요.\\nB : 와! 맛이 특별히 좋은가요?\\nA : 별로요. 바닥에 커피 가루까지 남아 있는걸요. 다 마실 수가 없어요.\\nB : 우리에게 관광객에게 부과하는 가격을 물렸나 보네요.\\n"
+		},
+		{
+			"title": "I also have difficulty remembering names.",
+			"explains": "A : Sean, I'd like to become a great salesperson, but I'm afraid of meeting strangers.\\nB : Well, imagine that they will bring new opportunities your way.\\nA : I see. And I also have difficulty remembering names.\\nB : Use their names at least three times.\\nA : Three times? Like how?\\nB : Oh, you're Fred. Nice to meet you, Fred.\\nA : And then? Nice talking to you, Fred?\\nB : You've got it. That'll help.\\n",
+			"means": "A : 숀, 저는 훌륭한 세일즈맨이 되고 싶지만, 모르는 사람들을 만나는 게 겁이 나요.\\nB : 음, 그 사람들이 당신 인생에 새로운 기회를 가져다줄 거라고 상상해 봐요.\\nA : 그렇군요. 그리고 저는 이름을 잘 못 외워요.\\nB : 사람들의 이름을 최소한 세 번은 말해 보세요.\\nA : 세 번요? 어떻게요?\\nB : 아, 프레드 씨군요. 만나서 반갑습니다, 프레드 씨.\\nA : 그다음에는요? 얘기 나누어서 즐거웠습니다, 프레드?\\nB : 그렇죠. 그게 도움이 될 거예요.\\n"
+		},
+		{
+			"title": "To learn something from the bottom up",
+			"explains": "A : I'm starting my own business soon. Could you give me some advice?\\nB : For starters, do a lot of reading. It's imperative that you learn your industry from the bottom up in order to succeed.\\nA : Yes, of course. I've spent many hours at the library doing research.\\n",
+			"means": "A : 제가 곧 개인사업을 시작할 예정입니다. 조언을 좀 해주실 수 있나요?\\nB : 우선, 책을 많이 읽으세요. 성공하기 위해서는 그 분야에 대해 기초부터 철저히 배우는 것이 매우 중요합니다.\\nA : 네, 맞습니다. 도서관에서 조하사는데 많은 시간을 보냈어요.\\n"
+		},
+		{
+			"title": "To hit the books",
+			"explains": "A : Tell me about a time when you failed.\\nB : Well, after I finished law scheel, I took the bar exam almost immediately. That was a mistake because I wasn't properly prepared. So, I failed the test. But afterwards, I hit the books really hard and was able to pass the exam on the second try.\\n",
+			"means": "A : 실패한 경험담에 대해 말씀해 주세요.\\nB : 법대를 졸업한 뒤 바로 사법고시를 봤습니다. 그때는 제대로 준비가 되어있지 않아서 저에게는 큰 실수였습니다. 그래서 시험도 떨어졌고요. 하지만 그 뒤로 매우 열심히 공부해서 두 번째 시도에 붙었습니다.\\n"
+		},
+		{
+			"title": "To pass the hat",
+			"explains": "A : Julia's birthday is next week. Are we going to get anything for her?\\nB : Yes. Actually, we passed the hat around yesterday when you were gone.\\nA : Oh, really? Well, if you want to give me what you collected, I can go buy her something this afternoon.\\n",
+			"means": "A : 다음 주가 줄이아 생일이야. 선물 사줄까?\\nB : 응. 사실 어제 네가 없을 때 돈을 다 걷었어.\\nA : 아 그래? 모든 돈을 내게 주면, 내가 오후에 나가서 선물 사올게."
+		},
+		{
+			"title": "Be my guest.",
+			"explains": "A : Can I use your restroom?\\nB : Be my guest.\\n",
+			"means": "A: 화장실 좀 쓸 수 있을까요?\\nB: 네, 그러세요.\\n"
+		},
+		{
+			"title": "Beats me.",
+			"explains": "A : Do you know where Emily is?\\nB : Beats me. I haven't seen her all day\\n",
+			"means": "A : Emily는 어디있니?\\nB : 나도 몰라. 하루 종일 못 본걸.\\n"
+		},
+		{
+			"title": "Big deal!",
+			"explains": "A : Congratulations! I heard you got accepted to Harvard. Big deal!\\nB : Thanks, I'm really excited about going.\\n",
+			"means": "A : 축하해. 너 Harvard에 입학 허가를 받았다고 들었어. 대단하구나.\\nB : 고마워. 나도 거기 간다는 생각에 들떠 있어.\\n"
+		},
+		{
+			"title": "Count me in.",
+			"explains": "A : Would you like to go camping with us this weekend?\\nB : Count me in.\\n",
+			"means": "A : 이번 주말에 우리랑 캠핑 갈래?\\nB : 그래, 나도 갈거야.\\n"
+		},
+		{
+			"title": "Count me out.",
+			"explains": "A : We're going to a party tonight. Want to come?\\nB : I have to study for a Economics test. Count me out.\\n",
+			"means": "A : 우리는 오늘 밤 파티에 갈건데, 너도 갈래?\\nB : 난 경제학 시험 공부해야해. 난 빼고 가.\\n"
+		},
+		{
+			"title": "Don't be silly.",
+			"explains": "A : Are you avoiding me, Jan? I haven't been able to get a hold of you all weekend.\\nB : Don't be silly. I told you I was going out-of-town for a few days.\\nA : Oh, that's right! It completely slipped my mind.\\n",
+			"means": "A :  Jan, 너 나를 피하는 거니? 주말 내내 널 볼 수가 없었어.\\nB : 무슨 엉뚱한 소리야. 내가 며칠 동안 시내에 없을 거라고 말했었잖아.\\nA : 맞다. 내가 완전히 잊고 있었어.\\n"
+		},
+		{
+			"title": "Don't bet on it.",
+			"explains": "A : Do you think the professor will give me an extension on my paper?\\nB : Don't bet on it. He never makes exceptions for anyone.\\n",
+			"means": "A: 네가 생각하기에 교수님이 리포트 기한을 연장해 주실까?\\nB: 기대하지마. 교수님은 누구에게도 예외를 주시지 않아.\\n"
+		},
+		{
+			"title": "Don't look at me.",
+			"explains": "A : Somebody broke my CD player!\\nB : Don't look at me. I just got home.\\n",
+			"means": "A : 누군가 내 CD 플레이어를 망가뜨렸어.\\nB : 난 아니야. 난 지금 집에 왔어.\\n"
+		},
+		{
+			"title": "Don't take it out on me.",
+			"explains": "A : I'm so frustrated. I swear I could kill somebody right now.\\nB : I know you're upset, but don't take it out on me.\\n",
+			"means": "A : 난 정말 절망이야. 지금 기분으론 누구라도 죽이고 싶어.\\nB : 네가 화난 건 알겠는데, 나한테 화내지는 마.\\n"
+		},
+		{
+			"title": "Don't tell me.",
+			"explains": "A : I have some bad news.\\nB : Don't tell me. You have to cancel our date again?\\n",
+			"means": "A : 좋지 않은 소식이 있어.\\nB : 뭔지 알겠어. 너 또 우리 약속을 취소하려는 거니?\\n"
+		},
+		{
+			"title": "First thing's first.",
+			"explains": "A : Have you decided on what courses to take next semester?\\nB : First thing's first. I want to make sure I pass all my classes this semester before I decide on what to take.\\n",
+			"means": "A : 너 다음 학기에 어떤 과목을 들을 지 정했니?\\nB : 우선 급한 일이 먼저야. 다음에 무엇을 들을 지 정하기 전에 이번 학기 수업 먼저 다 통과했으면 하는게 내 바람이야.\\n"
+		},
+		{
+			"title": "Get out of here.",
+			"explains": "A : You won't believe this. I just won the lottery!\\nB : Get out of here. Are you being serious?\\n",
+			"means": "A : 너도 믿지 못할거야. 내가 복권에 당첨됐다구.\\nB : 농담하지마. 너 진담이야?\\n"
+		},
+		{
+			"title": "Go for it.",
+			"explains": "A : I'm thinking about running for student government.\\nB : Go for it. You know just about everyone on campus and I'm sure you'd have a lot of support.\\n",
+			"means": "A : 학생회에 출마할까 생각 중이야.\\nB : 그렇게 해. 넌 캠퍼스의 사람들을 거의 다 알고 있고, 나도 네가 많은 지지를 받을거라고 확신해\\n"
+		},
+		{
+			"title": "Help yourself",
+			"explains": "A : Do you have anything to drink?\\nB : Yeah, helf yourself to whatever is in the fridge.\\n",
+			"means": "A: 마실 것 좀 있니?\\nB: 응, 냉장고 안에 있으니 마음대로 마셔.\\n"
+		},
+		{
+			"title": "How did it go?",
+			"explains": "A : I heard you had a basketball tournament last week. How did it go?\\nB : Not good. We got eliminated in the first round.\\n",
+			"means": "A : 너 지난 주에 농구 경기가 있었다고 들었어. 어떻게 되었니?\\nB : 별로 좋지 않아. 1라운드에서 탈락했어.\\n"
+		},
+		{
+			"title": "How's it going?",
+			"explains": "A : Didn't you just get a job at the bookstore? How's it going?\\nB : It's going pretty well. The hours are flexible and the pay is good.\\n",
+			"means": "A : 서점에서 일하기 시작했다며? 일은 어때?\\nB : 꽤 괜찮아. 시간도 자유롭고 급여도 좋아.\\n"
+		},
+		{
+			"title": "I don't blame you.",
+			"explains": "A : I'm sorry I got into an accident with your car.\\nB : I don't blame you. It wasn't your fault.\\n",
+			"means": "A : 미안해. 네 차를 가지고 사고를 냈어.\\nB : 괜찮아. 네 잘못이 아니었으니까.\\n"
+		},
+		{
+			"title": "I wouldn't put it past him.",
+			"explains": "A : Some people are saying that Eric is the one behind the recent thefts.\\nB : Do you really think he'd do something like that?\\nA : I wouldn't put it past him. He doesn't exactly have the best reputation.\\n",
+			"means": "A : 어떤 사람들은 최근의 도난 사건에 대해 Eric을 의심한다고 했어.\\nB : 그가 정말 그런 일을 했을까?\\nA : 그렇지 않을 거라고 단정짓지마. 그는 평판이 좋지 않다구.\\n"
+		},
+		{
+			"title": "I wouldn't say that.",
+			"explains": "A : Mary and I never seem to see eye to eye on anything.\\nB : Do you guys dislike each other?\\nA : I wouldn't say that. We're just completely different people.\\n",
+			"means": "A : Mary와 난 어떤 일에도 의견을 같이 할 수 없어.\\nB : 너희들 서로 싫어하니?\\nA : 그렇다고 할 순 없어. 우리는 그냥 완전히 다른 사람들이야.\\n"
+		},
+		{
+			"title": "I'm up to my ears in work.",
+			"explains": "A : You look really tired. Did you not get enough sleep?\\nB : I was at the office all night. I'm up to my ears in work right now.\\n",
+			"means": "A : 너 정말 피곤해 보이는구나. 잠은 충분히 잤니?\\nB : 밤새 일했어. 지금 할 일이 너무 많아.\\n"
+		},
+		{
+			"title": "Is that all you have to say?",
+			"explains": "A : I'm sorry if I hurt your feelings.\\nB : You're sorry? Is that all you have to say?\\n",
+			"means": "A : 네 감정을 상하게 해서 미안해.\\nB : 미안하다고? 그게 다야?\\n"
+		},
+		{
+			"title": "It doesn't matter.",
+			"explains": "A : What time do you want to meet today?\\nB : It doesn't matter. Whenever is convenient for you, I'm free all day.\\n",
+			"means": "A : 오늘 몇 시에 만날까?\\nB : 아무래도 괜찮아. 너한테 좋은 시간으로 해. 난 오늘 하루 종일 약속이 없거든.\\n"
+		},
+		{
+			"title": "It makes no difference to me.",
+			"explains": "A : Where would you like to go for dinner?\\nB : It makes no difference to me. I'm not a picky eater.\\n",
+			"means": "A : 지녁 식사하러 어디로 갈까?\\nB : 아무래도 좋아. 난 먹는데 별로 까다롭지 않거든.\\n"
+		},
+		{
+			"title": "It never got off the ground.",
+			"explains": "A : Didn't you say you were going to start a business with your friends?\\nB : Oh, that? It really never got off the ground.\\n",
+			"means": "A : 네 친구랑 같이 사업을 시작할거라고 하지 않았니?\\nB : 아, 그 일? 시작도 못하고 포기했어.\\n"
+		},
+		{
+			"title": "It won't hurt.",
+			"explains": "A : Have you decided on what to wear to your interview tomorrow?\\nB : No, why? Do you think it's important?\\nA : Well, it won't hurt if you wear something nice.\\n",
+			"means": "A : 내일 면접 때 뭘 입고 갈지 정했니?\\nB : 아니, 왜? 복장이 중요할까?\\nA : 잘 입어서 나쁠 건 없지.\\n"
+		},
+		{
+			"title": "It's on me.",
+			"explains": "A : Let's go catch a movie tonight.\\nB : Well, I'm a little tight on money these days.\\nA : Don't worry, it's on me. I just got a raise at work.\\n",
+			"means": "A : 오늘 저녁 영화 보러 가자.\\nB : 글쎄. 요즘 돈이 궁한 편인데.\\nA : 걱정마. 내가 살게. 급여가 올랐거든.\\n"
+		},
+		{
+			"title": "over my head.",
+			"explains": "A : Hey Sam! Haven't you taken Professor Anderson's biology class already?\\nB : Yeah, I took it last semester.\\nA : Could you help me out? The material is way over my head.\\n",
+			"means": "A : Sam,  너  Anderson교수님의 생물 수업 듣지 않았니?\\nB : 응 지난 학기에 들었어.\\nA : 나 좀 도와 줄래? 교재를 도저히 이해할 수 없어.\\n"
+		},
+		{
+			"title": "It's still up in the air.",
+			"explains": "A : Have you decided if you're going to study abroad next semester?\\nB : I'm not sure yet. It's still up in the air.\\n",
+			"means": "A : 다음 학기에 해외 유학 가기로 했니?\\nB : 잘 모르겠어. 아직 미정이야.\\n"
+		},
+		{
+			"title": "It's up to you.",
+			"explains": "A : What movie do you want to see tonight?\\nB : I don't really care. It's up to you.\\n",
+			"means": "A : 오늘 밤 무슨 영화를 보고 싶니?\\nB : 아무래도 좋아. 네가 결정해.\\n"
+		},
+		{
+			"title": "It's your call.",
+			"explains": "A : Have you decided on what to do yet?\\nB : Nope, I'm still really confused. I don't know if I should take that job or go to grad school.\\nA : It's your call, but I would hurry up and get school over with.\\n",
+			"means": "A : 뭘 할지 결정했니?\\nB : 아니, 정말 헷갈려. 취업을 해야 할지 대학원에 가야 할지 모르겠어.\\nA : 결정은 네가 하겠지만, 나같으면 공부를 서둘러 끝내겠다.\\n"
+		},
+		{
+			"title": "Just my luck!",
+			"explains": "A : Hey, are you still looking for a roommate?\\nB : I'm sorry but I found someone a few days ago.\\nA : Just my luck! I guess I have to keep searching.\\n",
+			"means": "A : 너 아직 룸메이트 구하는 중이니?\\nB : 며칠 전에 구했어.\\nA : 난 운이 없어! 난 계속 찾아봐야 될 것 같아.\\n"
+		},
+		{
+			"title": "Let me put it this way.",
+			"explains": "A : What do you think are the chances of me getting a date with Linda?\\nB : Let me put it this way. You have a better chance of getting hit by lightning.\\n",
+			"means": "A : Linda랑 데이트할 기회가 나한테 올 거라 생각하니?\\nB : 쉽게 말하자면 말야. 번개에 맞는 게 더 쉬울걸.\\n"
+		},
+		{
+			"title": "No big deal.",
+			"explains": "A : I'm sorry I was so late today.\\nB : It's no big deal. I caught up on my reading.\\n",
+			"means": "A : 늦어서 미안해.\\nB : 괜찮아. 책 읽고 있었어.\\n"
+		},
+		{
+			"title": "No wonder.",
+			"explains": "A : Tom just broke up with his girlfriend.\\nB : No wonder he looked so sad today!\\n",
+			"means": "A : Tom이 여자 친구랑 헤어졌대.\\nB : 그래서 오늘 그렇게 슬퍼보였구나!\\n"
+		},
+		{
+			"title": "None to speak of.",
+			"explains": "A : Do you have any experience doing this kind of work?\\nB : None to speak of, but I'm very eager to learn.\\n",
+			"means": "A : 이런 일을 해 본 적이 있으신가요?\\nB : 없어요. 하지만 정말 배우고 싶어요.\\n"
+		},
+		{
+			"title": "Not much chance of that.",
+			"explains": "A : Did you ask your parents about the trip to Europe?\\nB : They told me I could go if I make a 4.0 this semester and there's not much chance of that happening.\\n",
+			"means": "A : 유럽 여행에 대해 부모님께 말씀드렸니?\\nB : 부모님은 내가 이번 학기에 4.0을 받으면 여행을 갈 수 있다고 하셨어. 하지만 그럴 가능성은 없어.\\n"
+		},
+		{
+			"title": "Not on your life.",
+			"explains": "A : A bunch of us are going to that heavy metal concert on Friday. Do you want to come along?\\nB : Not on your life! You couldn't pay me to go.\\n",
+			"means": "A : 우리 몇 명은 금요일날 헤비메탈 콘서트에 가려고 하는데, 너도 같이 갈래?\\nB : 절대 안가! 돈을 준다해도 안 갈거야.\\n"
+		},
+		{
+			"title": "Search me.",
+			"explains": "A : Do you know where we go to pay our tuition?\\nB : Search me. I paid mine online.\\n",
+			"means": "A : 등록금 내는 곳이 어딘지 아니?\\nB : 나도 몰라. 나는 온라인으로 냈거든.\\n"
+		},
+		{
+			"title": "I'll keep that in mind.",
+			"explains": "A : Nick, don't use that cutting board for vegetables!\\nB : Why not?\\nA : That's for raw meat like beef, pork or chicken.\\nB : You mean we should use different cutting boards?\\nA : Yes, for hygienic reasons.\\nB : I see. I'll keep that in mind.\\nA : We don't want to get sick, right?\\n",
+			"means": "A : 닉, 채소를 써는 데 그 도마 쓰지 마!\\nB : 왜?\\nA : 그건 소고기나 돼지고기, 닭고기 같은 생고기용이거든.\\nB : 그러니까 다른 도마를 써야 한다는 말이야?\\nA : 응, 위생상의 이유로.\\nB : 그렇구나. 기억하고 있을게.\\nA : 우리 탈 나면 안 되잖아, 그렇지?\\n"
+		},
+		{
+			"title": "A one-way ticket is less than 4 euros.",
+			"explains": "A : Oh, it's raining. Do you still want to go to Aveiro?\\nB : I heard that it's going to clear up this afternoon.\\nA : Then shall we go to the train station now?\\nB : Yes. There's a train almost every hour.\\nA : And it takes about an hour from here?\\nB : Right. A one-way ticket is less than 4 euros.\\nA : They are cheaper than I expected. Let's buy two bottles of water on the way.\\n",
+			"means": "A : 아, 비가 내리네요. 여전히 아베이루에 가고 싶어요?\\nB : 오후에는 갤 거라고 하던데요.\\nA : 그럼, 지금 기차역으로 갈까요?\\nB : 그래요. 거의 매 시간마다 기차가 있어요.\\nA : 그리고 여기에서 한 시간 정도 걸리죠?\\nB : 맞아요. 편도 티켓이 4유로가 안 돼요.\\nA : 생각보다 싸네요. 가면서 생수 두 병을 삽시다.\\n"
+		},
+		{
+			"title": "I'm wearing my Sunday best.",
+			"explains": "A : I feel a little awkward here at the wedding. Maybe I should have worn a jacket and tie.\\nB : No, don't be silly. There are lots of casually dressed people here. Don't worry about it.\\nA : That's easy for you to say. You're wearing your Sunday best.\\n",
+			"means": "A : 여기 결혼식 자리가 조금 어색해. 재킷 입고 넥타이도 하고 올 걸 그랬나봐.\\nB : 아니야, 무슨 소리니. 편한 차림인 사람들도 많아. 걱정 마.\\nA : 너야 그렇게 말하기 쉽겠지. 너는 최고로 차려입고 왔잖아."
+		},
+		{
+			"title": "The shoe is on the other foot.",
+			"explains": "A : Kevin helped you a lot last month when you needed him, right?\\nB : Yeah, and now the shoe is on the other foot. So, I'm happy to help him out.\\nA : That's really nice that you two work so well together.\\n",
+			"means": "A : 지난달 네가 도움이 필요할 때 케빈이 많이 도와줘어, 그렇지?\\nB : 응. 그리고 이제는 우리 입장이 뒤바뀌었어. 나도 기꺼이 돕고 있지.\\nA : 둘이 사이 좋게 일 할 수 있어서 참 좋은 것 같아.\\n"
+		},
+		{
+			"title": "A man of the cloth",
+			"explains": "A : I'm hoping that Father Thompson can join our table for dinner.\\nB : Yes, that would be nice. It's always a pleasure to dine with a man of the cloth.\\nA : Certainly. I wil ask him if he would like to come over.\\n",
+			"means": "A : 톰슨 신부님이 오늘 저녁 우리 테이블에서 같이 식사하셨으면 좋겠어요.\\nB : 네, 그러면 참 좋겠네요. 성직자와 식사하는 건 항상 즐거운 경험이죠.\\nA : 맞아요. 초대해볼게요.\\n"
+		},
+		{
+			"title": "White-collar",
+			"explains": "A : What are you best suited for, professionally?\\nB : Well, I've certainly worked white-collar jobs for most of my career. But I feel that I'm a very adaptable person who's willing to take on any kind of challenge in the workplace.\\n",
+			"means": "A : 직업적으로 어떠한 일이 본인에게 가장 잘 어울린다고 생각하시나요?\\nB : 음, 대부분 사무직 일을 쭉 해왔습니다. 하지만 저는 직장 내에서 어떠한 도전도 기꺼이 받아들이는 변통성이 있는 직원입니다.\\n"
+		},
+		{
+			"title": "Could I ask you a favor?",
+			"explains": "A : Paula, could I ask you a favor?\\nB : Sure, Jake.\\nA : I really have my hands full tonight. Could you help me this evening?\\nB : I'm sorry, but I can't work late tonight. How about tomorrow morning? I can get to work early.\\n",
+			"means": "A : 폴라, 부탁 하나 해도 돼?\\nB : 물론, 제이크.\\nA : 내가 오늘 밤에 정말 무지하게 바쁘거든. 저녁에 좀 도와줄 수 있어?\\nB : 미안한데, 오늘 저녁에는 나 야근 못해. 내일 아침에는 어때? 나 일찍 출근할 수 있는데.\\n"
+		},
+		{
+			"title": "Are you trying a new look?",
+			"explains": "A : Barbara, your hair looks different. Are you trying a new look?\\nB : No. I couldn't dry my hair.\\nA : Why didn't you dry your hair?\\nB : Because my hair dryer broke.\\nA : I see. I just use a towel to dry my hair.\\nB : After you wash your hair, you should dry the roots.\\nA : Should I use a blow dryer, too?\\nB : Yes. It'll help your hair stay healthy.\\nA : Okay. I'll give it a shot. Can I borrow yours?\\nB : Mine broke, Jake!\\n",
+			"means": "A : 바바라, 너 머리가 달라 보이는데. 새로운 스타일로 바꾸려고?\\nB : 아니. 머리를 못 말렸어.\\nA : 왜 못 말렸는데?\\nB : 내 드라이기가 망가졌거든.\\nA : 그렇구나. 나는 그냥 수건으로 머리 말리는데.\\nB : 머리 감고 나서, 모근을 말려 줘야 해.\\nA : 나도 드라이기를 써야 하는 거야?\\nB : 응. 그래야 모발이 건강하게 유지돼.\\nA : 알겠어. 해 볼게. 네 거 좀 빌릴 수 있을까?\\nB : 내 거 고장 났다고, 제이크!\\n"
+		},
+		{
+			"title": "Make some extra money on the side.",
+			"explains": "A : I haven't seen much of Brian these days. What is he up to?\\nB : He's working nights as a bartender to make some extra money on the side.\\nA : He must be exhausted. It's tough to work two jobs.\\n",
+			"means": "A : 요즘 브라이언이 통 안보이네. 브라이언은 요즘 뭐해?\\nB : 여윳돈을 모으려고 밤에는 바텐더로 일해.\\nA : 엄청 피곤하겠다. 두 직장을 다니는 것은 힘들잖아.\\n"
+		},
+		{
+			"title": "ace something",
+			"explains": "A : Hi, Mary. Why do you look so happy?\\nB : I just aced my history exam!\\nA : That's great. You were really worried about that, weren't you?\\nB : Yeah, but I wound up getting a perfect grade!\\n",
+			"means": "A : 안녕, 메리. 왜 그렇게 즐거운 표정이야?\\nB : 역사 시험 끝내주게 잘 봤거든!\\nA : 잘 됐네. 많이 걱정했잖아!\\nB : 응. 그런데 결국 만점을 받았지 뭐야!\\n"
+		},
+		{
+			"title": "Tthrow in the towel",
+			"explains": "A : Okay. I admit it. We've lost.\\nB : Yeah. It's time to throw in the towel.\\nA : I really thought we would make it this time.\\nB : Me too, but there is just no way that we can win.",
+			"means": "A : 좋아. 인전한다. 우리가 졌어.\\nB : 그래. 이제 표기해야 할 때야.\\nA : 이번에는 해낼 수 있을 줄 알았는데.\\nB : 나도. 하지만 도무지 이길 방법이 없어.\\n"
+		},
+		{
+			"title": "We are going to be scratch partners.",
+			"explains": "A : I'm going to open a business with Allen.\\nB : So who is going to be the majority partner?\\nA : Neither of us. We are going to be scratch partners.\\nB : It's good that you'll both have equal shares.\\n",
+			"means": "A : 앨런과 거래를 트려고 해.\\nB : 그럼 누가 주도권을 갖게 되는 거지?\\nA : 둘 다 아니야. 동등한 조건으로 파트너가 되는 거거든.\\nB : 둘이서 동등하게 출자하는 거라면 좋을 거 같은데.\\n"
+		},
+		{
+			"title": "Money is a little tight.",
+			"explains": "A : I have some time off next month. What do you think about taking a vacation?\\nB : I'll have to think about it. Money is a little tight these days.\\n",
+			"means": "A : 나 다음달에 휴가야. 우리 여행갈까?\\nB : 생각 좀 해봐야겠어. 요즘 경제 사정이 여의치 않아.\\n"
+		},
+		{
+			"title": "I'm trying to put away $500 per month.",
+			"explains": "A : Have you been sticking to your budget?\\nB : For the most part. I'm trying to put away $500 per month.\\nA : Wow! 500 bucks a month? That's ambitious.\\n",
+			"means": "A : 예산에 맞춰 살고 있어?\\nB : 거의 그래. 한 달에 500 달러씩 저축하려고 하고 있어.\\nA : 진짜! 한 달에 500 달러나? 쉽지 않을 텐데.\\n"
+		},
+		{
+			"title": "blow one's top",
+			"explains": "A : You know, you really need to control your anger.\\nB : Why do you say that?\\nA : Because you look like you're going to blow your top.\\nB : Well, I just can't take it anymore. I'm going to explode.\\n",
+			"means": "A : 있잖아, 넌 정말이지 화가 나더라도 좀 참을 필요가 있어.\\nB : 왜 그런 말을 하는 건데?\\nA : 네가 당장이라도 뚜껑이 열릴 것 같아 보여서 말야.\\nB : 그래, 이제 더 이상은 못 참겠어. 폭발해 버릴 것 같아.\\n"
+		},
+		{
+			"title": "hot under the collar",
+			"explains": "A : Hey, why are you so hot under the collar?\\nB : I just got in a fight with my girlfriend.\\nA : You need to relax. Your whole face is red.\\nB : Sorry, but she just gets me so angry sometimes.\\n",
+			"means": "A : 야, 너 왜 그렇게 화가 나서 씩씩거리고 있는 거야?\\nB : 방금 여자친구랑 싸웠어.\\nA : 좀 진정해. 얼굴이 벌게져 가지고 말이야.\\nB : 미안해, 하지만 걔는 가끔씩 날 너무 화나게 해.\\n"
+		},
+		{
+			"title": "foam at the mouth",
+			"explains": "A : What was wrong with Mr. Simpson?\\nB : I don't know, but he sure was angry.\\nA : No kidding. I've never seen anyone foam at the mouth like that.\\nB : He was so angry he wasn't making any sense.\\n",
+			"means": "A : 심슨 씨한테 무슨 일 있어?\\nB : 잘 모르겠지만 화가 난 게 분명해.\\nA : 장난 아니야. 저렇게 입에 거품 문 사람은 처음 보는 걸.\\nB : 왜 그렇게 화를 내는지 도통 이해가 안 가.\\n"
+		},
+		{
+			"title": "lose one's temper",
+			"explains": "A : Did Karen get angry when she saw her car?\\nB : Yeah, she really lost her temper.\\nA : I can understand. You put a big dent in her new car.\\nB : I apologized to her, but that didn't make her any happier.\\n",
+			"means": "A : 카렌이 차를 보고 화냈니?\\nB : 응, 안전히 이성을 잃었지.\\nA : 이해가 돼. 새 차가 크게 파였잖아.\\nB : 사과하긴 했는데 기분이 안 풀리더라고.\\n"
+		},
+		{
+			"title": "erupt like a volcano",
+			"explains": "A : Wow! Can you believe that staff meeting we just had?\\nB : Mr. Mitchell totally erupted like a volcano in there.\\nA : What was his problem anyway?\\nB : I guess he couldn't keep his anger bottled up any longer.\\n",
+			"means": "A : 와, 방금 있었던 직원회의 말이야, 대단하지 않았어?\\nB : 미첼 씨 완전히 화산처럼 폭발하더군.\\nA : 그런데 그 사람 왜 그런 거야?\\nB : 화가 치밀어 오르는 걸 더 이상 참을 수가 없었나봐.\\n"
+		},
+		{
+			"title": "push someone's buttons",
+			"explains": "A : Hey, don't let Greg get you so angry.\\nB : I can't help it. He knows how to push all my buttons.\\nA : That's because it's easy to get you angry.\\nB : But he needs to stop doing that.\\n",
+			"means": "A : 야, 그레그가 너 화나게 만들도록 놔두지 마.\\nB : 어쩔 수가 없어. 그 사람은 나를 화나게 하는 재주가 있다니까.\\nA : 그건 널 화나게 만드는 게 쉽기 때문이야.\\nB : 그래도 그 사람 이제 그런 짓 그만둬야 해.\\n"
+		},
+		{
+			"title": "jump for joy",
+			"explains": "A : Why was Bob jumping for joy a few minutes ago?\\nB : His favorite team just won the Super Bowl.\\nA : Oh, I forgot that he is such a big football fan.\\nB : You know Bob. Nothing makes him happier than watching football.\\n",
+			"means": "A : 왜 좀 전에 밥이 펄쩍펄쩍 뛰면서 좋아했던 거야?\\nB : 자기가 좋아하는 팀이 방금 수퍼볼 경기에서 우승했거든.\\nA : 아, 걔가 미식 축구광인 걸 깜빡했네.\\nB : 너도 밥 잘 알잖아. 축구 보는 것만큼 걔를 기쁘게 하는 것도 없지.\\n"
+		},
+		{
+			"title": "burst with joy",
+			"explains": "A : I feel like I'm about to burst with joy.\\nB : You've got a huge smile on you face. Why are you so happy?\\nA : I just got accepted to medical school. This is the happiest day of my life.\\nB : Congratulations. No wonder you're so happy.\\n",
+			"means": "A : 너무 기뻐서 터질 것 같아.\\nB : 얼굴에 웃음꽃이 활짝 폈는데. 왜 그렇게 기분이 좋지?\\nA : 방금 의대에 합격했어. 내 생애 가장 행복한 날이야.\\nB : 축하해. 그렇게 좋아할 만하네.\\n"
+		},
+		{
+			"title": "happy camper",
+			"explains": "A : Hey, try out my new hammock here.\\nB : Wow. It feels great. I could relax in this for hours.\\nA : I know. I'm going to be a real happy camper when I'm lying in this.\\nB : No kidding! I need to buy one of those for myself.\\n",
+			"means": "A : 이와, 여기 와서 내 새 그물침대에 한번 누워봐.\\nB : 와, 진짜 좋다. 몇 시간이고 누워 있겠는걸.\\nA : 그러게 말이야. 여기 누워 있으면 난 정말 부러울 게 없는 사람이 될 것 같아.\\nB : 정말? 나도 하나 사야겠다.\\n"
+		},
+		{
+			"title": "as happy as a clam",
+			"explains": "A : You know, you've had a smile on your face all day long.\\nB : I can't help it. I'm as happy as a clam.\\nA : I with I were as happy as you. I could really use some cheering up.\\nB : Don't worry so much, and then you might be as happy as me.\\n",
+			"means": "A : 있잖아, 너 하루 종일 얼굴에 웃음이 떠나질 않는 것 같다.\\nB : 어쩔 수가 없어. 입이 자꾸 벌어져서 말이야.\\nA : 나도 너처럼 행복했으면 좋겠다. 정말이지 기분 종하지게 하는 게 있었으면 좋겠어.\\nB : 너무 걱정하지 마, 그럼 너도 나처럼 행복할 수 있어.\\n"
+		},
+		{
+			"title": "grin from ear to ear",
+			"explains": "A : When are you going to wipe that smile off your face?\\nB : I can't help it. I'm just feeling so good right now.\\nA : I know. You've been grinning from ear to ear all day.\\nB : Yeah, I don't think anything can ruin my day today.\\n",
+			"means": "A : 언제나 돼야 그만 웃고 다닐래?\\nB : 어쩔 수가 없어. 나 지금 기분이 너무 좋아서 말이야.\\nA : 알아. 하루 종일 입이 귀에 걸려 있잖아.\\nB : 그래, 오늘은 뭘로도 이 기분 좋은 하루를 망치진 못할 거야.\\n"
+		},
+		{
+			"title": "on cloud nine",
+			"explains": "A : You did a great job in today's game.\\nB : Thanks. I really appreciate you saying that.\\nA : The whole team is on cloud nine because of your game winning home run.\\nB : I'm just glad that we won the game.\\n",
+			"means": "A : 너 오늘 경기에서 정말 잘했어.\\nB : 고마워. 그렇게 말해 줘서 정말 고맙다.\\nA : 네가 날린 승리의 홈런 한 방으로 우리 팀 모두가 하늘에 오를 듯한 기분이야.\\nB : 우리 팀이 이겨서 기쁠 뿐이야.\\n"
+		},
+		{
+			"title": "have a ball",
+			"explains": "A : This party is not too boring, is it?\\nB : No way. I'm having a ball here.\\nA : Do you really think so?\\nB : Yeah, it's easily the best party of the year.\\n",
+			"means": "A : 이 파티 그렇게 지루하지는 않다. 그치?\\nB : 지루하다니. 난 엄청 신나는걸.\\nA : 정말 그렇게 생각해?\\nB : 그래, 이 파티는 단연코 올해 최고의 파티야.\\n"
+		},
+		{
+			"title": "be in seventh heaven",
+			"explains": "A : Do you know whether you got accepted into the program?\\nB : No, I haven't heard anything yet.\\nA : Good luck. I know how eager you are to get in.\\nB : Yeah, if I get in, I'll be in seventh heaven.\\n",
+			"means": "A : 너 그 과정에 합격됐는지 알고 있니?\\nB : 아니, 아직 연락 못 받았는데.\\nA : 행운을 빈다. 난 네가 얼마나 들어가고 싶어하는지 알아.\\nB : 그래, 만약 붙는다면 천국에 있는 기분일 거야.\\n"
+		},
+		{
+			"title": "Someone's going to get in trouble.",
+			"explains": "A : Hi, I found these reports in the copy machine. Are they yours?\\nB : No, they are not.\\nA : These reports look confidential. Someone's going to get in trouble.\\nB : What will you do with them?\\nA : If they're not yours, I think I know whose they are.\\nB : Okay well, good luck with that!\\n",
+			"means": "A : 안녕, 내가 복사기에서 이 보고서를 발견했어. 이거 너희 거야?\\nB : 아니, 그거 우리 거 아니야.\\nA : 이 보고서 기밀 문서인 것 같아. 누군가 곤란해질 텐데.\\nB : 너 그거 어떻게 할 거야?\\nA : 이게 너희 것이 아니라면, 누구 건지 알 것 같아.\\nB : 그래 그럼, 잘해 봐!\\n"
+		},
+		{
+			"title": "How long will you be studying here as an exchange student?",
+			"explains": "A : Hello, Abdul. It's nice to meet you. I heard that you're from Switzerland, right?\\nB : Well, I'm from Morocco, but I've lived in Switzerland for 8 years.\\nA : Then do you speak French or German?\\nB : I speak French and a little Finnish and English.\\nA : And of course you speak Arabic.\\nB : That's right.\\nA : How long will you be studying here as an exchange student?\\nB : For one year.\\n",
+			"means": "A : 안녕, 압둘. 만나서 반가워. 너 스위스에서 왔다고 들었는데, 맞아?\\nB : 응, 모로코 사람인데, 스위스에서 8년 살았어.\\nA : 그럼 넌 프랑스어나 독일어를 하니?\\nB : 난 프랑스어랑 핀란드어 약간, 그리고 영어를 해.\\nA : 그리고 물론 아랍어도 하겠지.\\nB : 맞아.\\nA : 여기에서 교환 학생으로 얼마 동안 공부할 거야?\\nB : 1년.\\n"
+		},
+		{
+			"title": "It's for ages fifteen and up.",
+			"explains": "A : Mom, can you please take me to see this movie?\\nB : No, you're too young to watch that movie. It's for ages fifteen and up.\\nA : But my friends got their parents to take them!\\nB : Which friends? Maybe I should call their mothers.\\nA : No, please don't do that.\\n",
+			"means": "A : 엄마, 저 이 영화 보러 데려가 주실래요?\\nB : 안 돼, 넌 너무 어려서 그 영화 못 봐. 이건 15세 이상 관람가야.\\nA : 그렇지만 제 친구들은 부모님이 데려가 주셨단 말이에요!\\nB : 어떤 친구들? 내가 그 엄마들한테 전화를 해봐야겠다.\\nA : 안 돼요, 그러지 마세요.\\n"
+		},
+		{
+			"title": "These are office essentials.",
+			"explains": "A : (Filling the office supply cabinet) Sean, do you need these sticky notes or folders by any chance?\\nB : Yes, and I also need more binders, labels, and envelopes.\\nA : Okay. And here are some paper clips, rubber bands, and staplers.\\nB : Thank you, Paula. These are office essentials.\\nA : I know. We need them for a smooth-running office.\\nB : Oh, we're running out of time. The meeting is at 3 p.m., right?\\nA : No, it has been postponed until 4 p.m.\\n",
+			"means": "A : (사무용품 보관함을 채우면서) 숀, 혹시 이 접착식 메모지나 서류철 필요하세요?\\nB : 네, 그리고 바인더랑 라벨, 봉투도 더 필요해요.\\nA : 알겠습니다. 그리고 여기 클립이랑 고무줄, 스테이플러도 있어요.\\nB : 고마워요, 폴라. 이것들은 다 사무실에서 꼭 필요한 물품들이죠.\\nA : 맞아요. 사무실이 잘 돌아가려면 필요한 것들이에요.\\nB : 아, 우리 시간이 다 되어 가네요. 회의가 오후 3시죠, 맞죠?\\nA : 아니요, 오후 4시로 늦춰졌어요.\\n"
+		},
+		{
+			"title": "feel like a million dollars",
+			"explains": "A : How are you doing today?\\nB : I couldn't be better. In fact, I feel like a million dallars.\\nA : Why is that, Ed?\\nB : I just got back from working out, and I feel great.\\n",
+			"means": "A : 오늘 기분이 어때?\\nB : 최고야. 사실, 날아갈 것처럼 기뻐.\\nA : 왜 그런데, 에드?\\nB : 방금 운동하고 왔거든, 그래서 기분이 좋아.\\n"
+		},
+		{
+			"title": "Hang in there.",
+			"explains": "A : Why do you look so upset? Is something wrong?\\nB : I have to work late today. It’s the third time this week.\\nA : Hang in there.\\nB : Thanks.\\n",
+			"means": "A : 왜 그리 언짢아 보여? 무슨 일 있어?\\nB : 오늘 야근해야 돼. 이번 주에만 세 번째야.\\nA : 힘내.\\nB : 고마워\\n"
+		},
+		{
+			"title": "It’s a small price to pay.",
+			"explains": "A : We should go and get flu shots.\\nB : No way! I’m really scared of needles.\\nA : It’s a small price to pay. Do you want to get sick later?\\nB : Maybe I won’t get sick. I’ll be careful.\\n",
+			"means": "A : 우리 가서 독감 예방 접종 받자.\\nB : 싫어요! 주사가 너무 무서워요.\\nA : 작은 대가야. 나중에 더 많이 아프고 싶어?\\nB : 안 아플 수도 있잖아요. 조심할게요.\\n"
+		},
+		{
+			"title": "What is it about?",
+			"explains": "A : I want to read a good sci-fi book. Do you have any recommendations?\\nB : Sure. Have you heard of a book called Seveneves?\\nA : Oh, yes. The one President Obama read during his vacation?\\nB : Right. This was on his book list.\\nA : What is it about?\\nB : Earth is going to be destroyed and the human race has to escape.\\n",
+			"means": "A : 괜찮은 공상 과학 책을 읽고 싶네. 뭐 추천해 줄 만한 거 있어?\\nB : 그럼. 너 <세븐이브스>라는 책 들어 봤어?\\nA : 아, 응. 오바마 대통령이 휴가 때 읽었던 거지?\\nB : 맞아. 이게 그분의 도서 목록에 있었지.\\nA : 무슨 내용인데?\\nB : 지구가 멸망하려고 해서 인류가 탈출을 해야 하는 거야.\\n"
+		},
+		{
+			"title": "have a broken heart",
+			"explains": "A : How are you handling your breakup with Doug?\\nB : Not too well. He broke my heart.\\nA : Don't worry. Time heals all wounds.\\nB : Thanks for trying to cheer me up.\\n",
+			"means": "A : 너 더그랑 헤어지고 나서 어떻게 잘 지내고 있니?\\nB : 별로, 마음에 상처를 받았어.\\nA : 걱정하지 마. 시간이 지나면 다 괜찮아질 거야.\\nB : 나 기운나게 해주려고 애쓰는 거 고마워.\\n"
+		},
+		{
+			"title": "cry a river",
+			"explains": "A : What was wrong with Julie this aftermoon?\\nB : She heard some bad news from her family.\\nA : Oh, my God, that's terrible.\\nB : Yeah, nothing could stop her from crying a river.\\n",
+			"means": "A : 오늘 오후에 줄리한테 무슨 일 있었어?\\nB : 가족한테서 뭔가 안 좋은 소식을 들었나봐.\\nA : 저런, 너무 안됐다.\\nB : 그러게. 아무리 달래도 계속 엉엉 울기만 하더라.\\n"
+		},
+		{
+			"title": "feel blue",
+			"explains": "A : You look like you're feeling blue today.\\nB : Yeah, well, you know how I get on Mondays.\\nA : Don't worry, buddy. I'm feeling the same way too.\\nB : I just wish this day would end so I can go home.\\n",
+			"means": "A : 오늘 우울해 보이네.\\nB : 응, 그래. 내가 월요일마다 어떤 기분인지 알잖아.\\nA : 걱정 마, 친구. 나도 같은 기분이니까.\\nB : 빨리 끝내고 집에 갔으면 좋겠다.\\n"
+		},
+		{
+			"title": "They are a match made in heaven. (1)",
+			"explains": "A : John is getting married next month.\\nB : Have you met his girlfriend? What is she like?\\nA : They are a match made in heaven.\\nB : I’m glad to hear that. I hope they will be happy.\\n",
+			"means": "A : 존이 다음 달에 결혼한대.\\nB : 여자친구는 만나 봤어? 어떤 사람 같아?\\nA : 둘이 천생연분이야.\\nB : 그거 좋은 소식이네. 둘이 행복하면 좋겠다.\\n"
+		},
+		{
+			"title": "It shows.",
+			"explains": "A : Why are you so sweaty? Did something happen?\\nB : I was at the gym. I’ve been working out for weeks.\\nA : It shows. You look much thinner.\\nB : Thank you! I still need to lose more weight.\\n",
+			"means": "A : 왜 그렇게 땀 범벅이야? 무슨 일 있었어?\\nB : 헬스장에 있다 왔어. 몇 주째 운동하고 있어.\\nA : 티가 나네, 훨씬 날씬해 보여.\\nB : 고마워! 아직 살을 더 빼야 돼.\\n"
+		},
+		{
+			"title": "A cold is going around at work recently.",
+			"explains": "A : That's the third time you sneezed today.\\nB : I hope it's nothing. A cold is going around at work recently.\\nA : Oh, no! Not again! Do you want me to go get some cold medicine?\\nB : Would you do that for me? Thanks so much.\\nA : No worries. I hope you don't need it, but just in case.\\n",
+			"means": "A : 당신 재채기한 게 오늘 세 번째야.\\nB : 아무 일도 아니었으면 좋겠는데. 요새 회사에서 감기가 유행이거든.\\nA : 아, 이런. 또 걸리면 안 되는데! 내가 가서 감기약 좀 사올까?\\nB : 그렇게 해줄래? 정말 고마워.\\nA : 괜찮아. 당신, 약이 필요 없길 바라지만, 혹시 모르잖아.\\n"
+		},
+		{
+			"title": "This main street leads to the center of the city.",
+			"explains": "A : Now we're in Aveiro. Look at that statue. That's one of the symbols of Aveiro.\\nB : It's very unique! So now should we walk along the main street?\\nA : Yes, this main street leads to the center of the city.\\nB : Oh, there is a canal. It looks beautiful.\\nA : That's why Aveiro is called the Venice of Portugal.\\nB : And is Costa Nova close to here?\\nA : It takes about thirty minutes to get there by bus.\\nB : Where can we take the bus?\\nA : Right over there across the canal.\\n",
+			"means": "A : 이제 아베이루에 왔네요. 저기 조각상 좀 보세요. 아베이루의 상징 중 하나죠.\\nB : 아주 독특하네요! 그럼 이제 큰길을 따라 걸어가야 하나요?\\nA : 네, 이 큰길을 따라가면 도심이 나와요.\\nB : 아, 저기 운하가 있네요. 아름다운데요.\\nA : 그래서 아베이루를 포르투갈의 베니스라고 한답니다.\\nB : 그리고 코스타노바가 여기서 가까운가요?\\nA : 버스로 가면 30분 정도 걸려요.\\nB : 버스는 어디서 타죠?\\nA : 바로 저기, 운하 건너편에서요.\\n"
+		},
+		{
+			"title": "Misery loves company.",
+			"explains": "A : I heard that you just got fired from your job.\\nB : Yeah. I feel terrible about it. Why do you care?\\nA : Misery loves company. I just lost my job, too.\\nB : I guess since we're both upset we should hang out together.\\n",
+			"means": "A : 너 회사에서 해고됐다고 들었는데.\\nB : 응. 그것 때문에 기분이 너무 안 좋아. 근데 왜?\\nA : 동병상련이다. 나도 막 회사에서 잘렸거든.\\nB : 우리 둘 다 기분이 안 좋으니 같이 있자.\\n"
+		},
+		{
+			"title": "cry over spilt milk",
+			"explains": "A : I can't believe how many bad things have happened today. Today has been a disaster.\\nB : Hey, there is no use in crying over spilt milk.\\nA : What do you suggest that I do?\\nB : Why don't you just grin and bear it?\\n",
+			"means": "A : 오늘 나쁜 일들이 얼마나 많았는지 몰라. 정말 끔찍한 하루였어.\\nB : 야, 이미 엎질러진 물인데 울어봐야 소용 없잖아.\\nA : 내가 어떻게 했으면 좋겠니?\\nB : 그냥 씩 웃고 견뎌내는 거지 뭐.\\n"
+		},
+		{
+			"title": "have a long face",
+			"explains": "A : Hey, why do you have a long face today?\\nB : I'm okay. Don't worry about me.\\nA : Level with me, Johnny. I know that something has you down.\\nB : Well, you're right, but I don't feel like talking about in now.\\n",
+			"means": "A : 이봐, 오늘 왜 그렇게 울상을 하고 있는 거야?\\nB : 어, 별거 아냐. 걱정하지 마.\\nA : 그러지 말고 솔직히 말해 봐, 조니. 뭔가 우울한 일이 있는 것 같은데.\\nB : 네 말이 맞아. 하지만 지금은 말할 기분이 아니야.\\n"
+		},
+		{
+			"title": "eat one's heart out",
+			"explains": "A : Did you win yesterday's contest?\\nB : No, I lost. And now, I'm really eating my heart out because of it.\\nA : Why is that? Was it that important for you to win?\\nB : Yes, I prepared for the contest for the past 6 months.\\n",
+			"means": "A : 어제 대회에서 이겼어?\\nB : 아니, 졌어. 그래서 지금 그것 때문에 진짜 약올라 있어.\\nA : 왜 그래? 거기서 이기는 게 그렇게 중요한 일이었어?\\nB : 그럼, 난 지난 6개월 동안 그 대회를 준비했단 말이야.\\n"
+		},
+		{
+			"title": "have a heavy heart",
+			"explains": "A : Are you sure that everything is okay these days?\\nB : Oh, yeah, I'm handling the divorce alright.\\nA : I don't know. It just looks like you have a heavy heart.\\nB : I wouldn't say that, but there are some moments when I feel blue.\\n",
+			"means": "A : 너 요즘 잘 지내고 있는 거 확실하니?\\nB : 그래, 이혼이라는 거 잘 견디고 있어.\\nA : 난 모르겠다. 내가 보기엔 네 마음에 슬픔이 가득한 것 같아.\\nB : 그렇게까지 말할 수는 없지만, 때때로 기분이 우울해질 때가 있긴 해.\\n"
+		},
+		{
+			"title": "be down in the dumps",
+			"explains": "A : Sally looks like she's down in the dumps these days.\\nB : I know. Doesn't she look terrible?\\nA : Take it easy on her. She's going through some tough tiems.\\nB : Hey, why don't we try to lift her spirits and brighten her day?\\n",
+			"means": "A : 샐리가 요즘 기분이 말이 아닌 것 같아.\\nB : 알아. 걔 정말 힘들어 보이는 것 같지 않니?\\nA : 편안하게 대해 줘. 지금 흔들 시기를 겪고 있으니까.\\nB : 이봐, 우리가 기분 좀 좋아지게 기운을 북돋아주는 건 어떨까?\\n"
+		},
+		{
+			"title": "lose face",
+			"explains": "A : Are you just going to stand there and say nothing?\\nB : She can spread all the false rumors about me she wants. I don't care.\\nA : But if people believe her, it might cause you to lose face.\\nB : That's okay. It won't cause me any embarrassment if it's not true.\\n",
+			"means": "A : 그렇게 아무 말도 안 하고 수수방관하고 있을 거야?\\nB : 그녀가 나에 대한 거짓말을 마음대로 퍼뜨리고 다니든 말든 난 상관 안 해.\\nA : 하지만 사람들이 그녀가 한 말을 믿으면, 네 체면이 말이 아닐 텐데.\\nB : 그러라지. 그게 사실이 아닌 이상 내가 부끄러울 일은 없을 거야.\\n"
+		},
+		{
+			"title": "I scored tickets.",
+			"explains": "A : Do you want to go see that musical we talked about?\\nB : How? The show has been sold-out for months.\\nA : Don’t worry about that. I scored tickets.\\nB : Wow! How did you get them?\\n",
+			"means": "A : 지난번에 얘기했던 뮤지컬 보러 갈래?\\nB : 어떻게? 그 공연 몇 달간 매진됐잖아.\\nA : 걱정하지 마. 내가 표를 구했어.\\nB : 우와! 어떻게 구한 거야?\\n"
+		},
+		{
+			"title": "put one's foot in one's mouth",
+			"explains": "A : I can't believe you asked her about her past troubles.\\nB : Yeah, I guess I really put my foot in my mouth, didn't I?\\nA : You can say that again. Did you see the look on her face?\\nB : I am so embarrassed. I don't think I can ever see her again.\\n",
+			"means": "A : 걔 과거 문제에 대해 물어보다니 너 어떻게 그럴 수가 있니?\\nB : 그러게 말이야. 나 정말 말실수한 것 같아. 그치?\\nA : 두말하면 잔소리지. 걔 표정 봤어?\\nB : 나도 어찌나 무안하던지. 다시는 걔 얼굴 못 볼 것 같아.\\n"
+		},
+		{
+			"title": "put someone to shame",
+			"explains": "A : Who won the contest, Bill or Rick?\\nB : Rick put Bill to shame. He did much better than Bill.\\nA : Really? So the contest wasn't ever close?\\nB : No, Bill didn't perform very well. He should be embarrassed.\\n",
+			"means": "A : 그 시합에서 누가 이겼지? 빌이야, 아니면 릭이야?\\nB : 릭이 빌을 눌러버렸지. 빌보다 훨씬 잘하더라고.\\nA : 정말? 그럼 시함이 막상막하였던 것도 아니네?\\nB : 응, 빌이 잘 못했거든. 창피할 거야.\\n"
+		},
+		{
+			"title": "I had two wisdom teeth pulled out.",
+			"explains": "A : James, why are you mumbling?\\nB : I had two wisdom teeth pulled out.\\nA : I see. What's in your mouth now?\\nB : That's gauze. It helps stop the bleeding.\\nA : Don't talk too much, James. Let me text you when I need to talk to you.\\nB : Thanks.\\n",
+			"means": "A : 제임스, 왜 웅얼거리는 거야?\\nB : 나 사랑니 두 개 뺐어.\\nA : 그렇구나. 지금 입 속에 있는 게 뭐니?\\nB : 거즈야. 출혈을 멈추는 데 도움이 돼.\\nA : 말 너무 많이 하지 마, 제임스. 할 얘기가 있으면 문자를 보낼게.\\nB : 고마워.\\n"
+		},
+		{
+			"title": "My mother always tells me not to marry young.",
+			"explains": "A : My mother always tells me not to marry young. She advises me to go to many places and to do things.\\nB : That's good advice. Doing things means a lot more to us than having a lot of things.\\nA : Right. We should hold onto the present.\\nB : Many elderly people say that we shouldn't take life too seriously.\\nA : But we should study seriously this week, John.\\n",
+			"means": "A : 우리 엄마는 늘 나한테 일찍 결혼하지 말라고 하셔. 많은 곳에 가 보고 여러 가지를 해 보라고 조언하시지.\\nB : 그거 좋은 충고네. 여러 가지를 해 보는 게 물건을 많이 갖는 것보다 우리에게 훨씬 더 큰 의미가 있지.\\nA : 맞아. 현재에 집중해야 해.\\nB : 연세 드신 많은 분들이 인생을 너무 심각하게 생각하지 말라고 하시더라고.\\nA : 근데 우리는 이번 주에 공부를 열심히 해야 해, 존.\\n"
+		},
+		{
+			"title": "step on someone's toes",
+			"explains": "A : I can't believe Steven said those things to our boss.\\nB : He revealed some really embarrassing information about us.\\nA : I guess he just doesn't care about stepping on other people's toes.\\nB : Well, I'm sure he'll get what he deserves someday.\\n",
+			"means": "A : 스티븐이 우리 부장님한테 그런 애길 했다니 믿을 수가 없어.\\nB : 정말이지 우릴 난처하게 만드는 애길 했더군.\\nA : 그 사람은 다른 사람이 난처해지든 말든 신경 안 쓰나 봐.\\nB : 뭐, 그 사람 언젠가는 그 대가를 꼭 치르고 말 거야.\\n"
+		},
+		{
+			"title": "Hopefully it's good news.",
+			"explains": "A : I can't believe your boss booked a meeting at 8 AM.\\nB : Yes, I'm sorry that you have to attend.\\nA : Do you know what it will be about?\\nB : No, hopefully it's good news.\\nA : 8 AM meetings are never about good news.\\nB : Don't think about it too much or else you won't get any sleep.\\n",
+			"means": "A : 어떻게 너희 상사는 오전 8시에 회의를 잡으실 수가 있니?\\nB : 그러게, 네가 참석해야 한다니 안됐다.\\nA : 무슨 회의인지 알아?\\nB : 아니, 좋은 일이었으면 좋겠는데.\\nA : 오전 8시에 하는 회의가 좋은 일일 리가 없지.\\nB : 너무 많이 생각하지 마, 그렇지 않으면 잠도 못 잘 테니까.\\n"
+		},
+		{
+			"title": "It's hard to stay balanced.",
+			"explains": "A : I think it's truly essential to work hard to succeed.\\nB : But you shouldn't prioritize work over your family or yourself.\\nA : It's hard to stay balanced.\\nB : Have you heard it? \"Years pass in the blink of an eye.\"\\nA : In other words, \"Time flies.\"\\nB : Okay. Enough talk. Let's get back to work.\\nA : Good idea. I enjoyed our coffee break.\\n",
+			"means": "A : 성공하려면 열심히 일하는 게 참 필수적인 것 같아요.\\nB : 하지만 가족이나 당신 자신보다 일을 더 우선순위에 두지는 말아요.\\nA : 균형을 잡는 게 어려워요.\\nB : 이런 말 들어 봤어요? \"시간은 눈 깜짝할 사이에 지나가 버리네.\"\\nA : \"시간은 쏜살같다\"는 말도 있죠.\\nB : 네. 얘기 많이 했네요. 다시 일을 합시다.\\nA : 좋아요. 커피 타임 즐거웠습니다.\\n"
+		},
+		{
+			"title": "eat one's words",
+			"explains": "A : I said the most foolish things at the party tonight.\\nB : You sure did. What were you thinking?\\nA : I'll have to go apologize and eat my words.\\nB : That's pretty manly of you. I hope those words don't taste too bad.\\n",
+			"means": "A : 나 오늘밤 파티에서 정말 멍청한 말을 해버렸어.\\nB : 너 진짜 그랬어. 도대체 무슨 생각으로 그런 거야?\\nA : 가서 사과하고, 창피하지만 내가 말실수한 걸 인정해야겠어.\\nB : 꽤 남자답구나. 그렇다면 너무 창피해 하진 마."
+		},
+		{
+			"title": "have egg on one's face",
+			"explains": "A : You know, you just told your boss something incorrect.\\nB : That's okay. He'll never find out the truth.\\nA : I wouldn't be so sure. If he does learn the truth, you will have egg on your face.\\nB : I'm not worried. He's not goin to check up on me.\\n",
+			"means": "A : 있잖아, 방금 너 부장님한테 뭔가 잘못 말했어.\\nB : 괜찮아. 부장님은 뭐가 맞는 건지 절대로 모르실 거야.\\nA : 그렇지 않을 텐데. 만약에 부장님이 사실을 알게 되면 넌 그야말로 개망신당할 거야.\\nB : 난 걱정 안해. 부장님은 내 말을 확인할 사람이 아냐.\\n"
+		},
+		{
+			"title": "spill the beans",
+			"explains": "A : If I tell you a secret, will you promis not to tell anyone?\\nB : Of course. I won't spill the beans about whatever you tell me.\\nA : I hope not, because if this ever gets back to me, it could ruin my reputation.\\nB : Your secret is safe with me.\\n",
+			"means": "A : 내가 비밀을 얘기해 주면 아무한테도 말하지 않겠다고 약속할 수 있어?\\nB : 당연하지. 네가 무슨 말을 하든 절대로 발성하는 일 없을 거야.\\nA : 그러길 바래. 혹시라도 그 말이 내게 들리는 날엔, 내 평판은 끈장나는 거야.\\nB : 네 비밀에 절대 안전을 보장하지.\\n"
+		},
+		{
+			"title": "kick oneself",
+			"explains": "A : Did you really get up and sing in front of everyone?\\nB : Yes. I could kick myself for doing that.\\nA : But you're the worst singer in the world.\\nB : I know. That's why I'm so embarrassed.\\n",
+			"means": "A : 너 정말 일어나서 모두들 앞에서 노래 불렀니?\\nB : 응. 그런 짓을 하다니 미쳤지.\\nA : 하지만 너 노래 진짜 못 하잖아.\\nB : 알아. 그러니까 그렇게 창피하단 얘기지.\\n"
+		},
+		{
+			"title": "can't believe one's eyes",
+			"explains": "A : Is that Matt together with Jane again?\\nB : I can't believe my eyes.\\nA : Are they back together again?\\nB : It sure looks that way. I wouldn't have believe it unless I saw it myself.\\n",
+			"means": "A : 저기 매트 말이야, 제인이랑 다시 사귀는 거야?\\nB : 내 눈을 믿을 수가 없어.\\nA : 두 사람 다시 만나는 거지?\\nB : 그런 것 같은데. 직접 봤으니 망정이지 안 그랬으면 믿지 못핼을 거야.\\n"
+		},
+		{
+			"title": "I can’t make it.",
+			"explains": "A : I’m having a party this weekend. Can you come?\\nB : I can’t make it. I’m busy this weekend.\\nA : Is it important? I would be really happy if you came.\\nB : Sorry. I have to be at a traditional memorial for my grandfather.\\n",
+			"means": "A : 나 이번 주말에 파티 할 건데. 올 수 있어?\\nB : 못 갈 거 같아. 이번 주말에는 바빠.\\nA : 중요한 일이야? 네가 오면 정말 좋겠는데.\\nB : 미안. 할아버지 제사가 있어서.\\n"
+		},
+		{
+			"title": "This kitchen table is shaking.",
+			"explains": "A : Nick, this kitchen table is shaking.\\nB : Then the legs should be tightened. Judy, can you get me a screwdriver?\\nA : Sure. Here you go.\\nB : Oh, no! This one is the wrong size.\\nA : Is there the right one in this toolbox?\\nB : Let's see. yes, this is the one.\\n",
+			"means": "A : 닉, 이 식탁이 흔들려.\\nB : 그럼 식탁 다리를 조여야겠네. 주디, 나 드라이버 좀 갖다 줄래?\\nA : 알았어. 여기.\\nB : 아, 이런! 이건 사이즈가 달라.\\nA : 이 공구함에 맞는 거 있어?\\nB : 어디 보자. 그래, 이게 맞는 거네.\\n"
+		},
+		{
+			"title": "Children grow up way too fast.",
+			"explains": "A : Children grow up way too fast.\\nB : I know. So make the most of the time you have with your children.\\nA : I can never spend enough time with my children.\\nB : I totally understand you.\\nA : I feel the happiest when I'm with my children.\\nB : Enjoy the moment, Linda.\\nA : Okay, I will.\\n",
+			"means": "A : 아이들이 너무 빨리 자라요.\\nB : 그러게요. 그러니까 아이들과 보내는 시간을 최대한 즐기세요.\\nA : 저는 아이들과 함께 보내는 시간이 절대 충분하지 않아요.\\nB : 완전 동감이에요.\\nA : 제 아이들과 같이 있을 때가 제일 행복하답니다.\\nB : 그 순간을 즐기세요, 린다.\\nA : 네, 그럴게요.\\n"
+		},
+		{
+			"title": "caught off guard",
+			"explains": "A : Did you see how high Rick jumped when I grabbed him from behind?\\nB : He must have jumped a couple of feet in the air.\\nA : I really caught him off guard.\\nB : Yeah, the look of surprise on his face was priceless.\\n",
+			"means": "A : 내가 릭을 뒤에서 확 잡아당겼을 때 걔가 놀라서 얼마나 펄쩍 뛰었는지 봤지?\\nB : 아마 몇 피트 정도는 뛰어올랐을걸.\\nA : 내가 너무 놀라게 했나 봐.\\nB : 그러게, 놀란 표정이 얼마나 기가 막혔다고.\\n"
+		},
+		{
+			"title": "Holy cow!",
+			"explains": "A : Oh, my gosh! Look over there!\\nB : Holy cow! I can't believe my eyes!\\nA : What is it?\\nB : I don't know, but it looks like a UFO.\\n",
+			"means": "A : 어머나! 저기 좀 봐!\\nB : 세상에! 도저히 내 눈을 믿을 수가 없어!\\nA : 저게 뭐야?\\nB : 모르겠어. 하지만 UFO같이 보이는데.\\n"
+		},
+		{
+			"title": "not bat an eyelash",
+			"explains": "A : I can't believe Michael wasn't surprised back there.\\nB : He didn't even bat an eyelash when we told him the news.\\nA : You would have thought he would have been a little taken aback.\\nB : I guess it really is impossible to surprise him.\\n",
+			"means": "A : 아까 마이클은 전혀 놀라질 않던데, 어떻게 그럴 수 있나 몰라.\\nB : 우리가 그 소식을 말해 줬을 때 눈썹 하나 까딱하지 않더군.\\nA : 넌 걔가 좀 당황할 줄 알았구나.\\nB : 걔는 웬만한 일에는 전혀 놀라질 않는 것 같아.\\n"
 		}
 	]
 }

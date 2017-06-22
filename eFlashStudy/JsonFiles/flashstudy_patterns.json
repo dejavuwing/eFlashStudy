@@ -228,7 +228,7 @@
 		{
 			"title": "Are these ~ ?",
 			"means": "이(것)들은 ~예요[해요]?",
-			"explains": ""
+			"explains": "Are these on sale?\\nAre these your shoes?\\nAre these your keys?\\nAre these peaches fresh?\\nAre these the best tickets available?\\n"
 		},
 		{
 			"title": "Are we allowed to + V ?",
@@ -303,7 +303,7 @@
 		{
 			"title": "Are you done with + N ?",
 			"means": "너 다 끝났어?\\n~ 을 다 썼니?",
-			"explains": "Are you done with work?\\nAre you done with my laptop?\\nAre you done with your homework?\\nAre you done with the running machine? If you do, I'd like to try it.\\n"
+			"explains": "Are you done with work?\\nAre you done with my laptop?\\nAre you done with your homework?\\nAre you done with the running machine? If you do, I'd like to try it.\\nAre you done with your chores?\\nAre you done with the dishes?\\nAre you done with your lunch?\\nAre you done with the report?\\nAre you done with your shopping?\\n"
 		},
 		{
 			"title": "Are you excited for ~ ?",
@@ -333,7 +333,7 @@
 		{
 			"title": "Are you going to + V ?",
 			"means": "너 ~ 할꺼야? (계획된 일)\\n너 ~ 에 가는 중이니?",
-			"explains": "How many kids are you going to have?\\nWhat kind of car are you going to buy?\\nAre you going to lay down money?\\n"
+			"explains": "How many kids are you going to have?\\nWhat kind of car are you going to buy?\\nAre you going to lay down money?\\nAre you going to the party?\\nAre you going to work?\\nAre you going to the grocery store?\\nAre you going to help me with the dishes?\\nAre you going to study for your test?\\n"
 		},
 		{
 			"title": "Are you good at + G/N ?",
@@ -419,6 +419,11 @@
 			"title": "Are you saying (that) ~ ?",
 			"means": "넌 ~ 라고 말하는 거야?\\n~ 하다는 말씀이신가요?",
 			"explains": "Are you saying that you are not happy?\\n"
+		},
+		{
+			"title": "Are you starting ~ ?",
+			"means": "너 ~ 시작하는 거야?",
+			"explains": "Are you starting your own business?\\nAre you starting a new career?\\nAre you starting your day with a big glass of water?\\n"
 		},
 		{
 			"title": "Are you still + G ?",
@@ -838,7 +843,7 @@
 		{
 			"title": "Can I borrow ~ ?",
 			"means": "~ 좀 빌려주실래요? 내가?\\n~ 을 빌릴 수 있을까요?\\n(내가 직접 빌리는 것을 예상)",
-			"explains": "Can I borrow your pen?\\n"
+			"explains": "Can I borrow your pen?\\nCan I borrow your car?\\nCan I borrow your jacket?\\nCan I borrow some money?\\nCan I borrow a book?\\nCan I borrow you bike?\\n"
 		},
 		{
 			"title": "Can I buy a ~ here ?",
@@ -878,7 +883,7 @@
 		{
 			"title": "Can I get you ~ ?",
 			"means": "~ 를 갖다 드릴까요?",
-			"explains": "Can I get you anything? Coffee?\\nCan I get you something?\\nCan I get you some coffee?\\n"
+			"explains": "Can I get you anything? Coffee?\\nCan I get you something?\\nCan I get you some coffee?\\nCan I get you a drink?\\nCan I get you something to eat?\\nCan I get you another blanket?\\nCan I get you anything?\\nCan I get you a sweater?\\n"
 		},
 		{
 			"title": "Can I get you something to + V ?",
@@ -888,7 +893,7 @@
 		{
 			"title": "Can I have ~ ?",
 			"means": "~ 좀 가져다 주실래요?\\n~ 좀 해주실래요?\\n~ 해도 될까요?",
-			"explains": ""
+			"explains": "Can I have a disposable paper cup?\\nCan I have a cookie?\\nCan I have a snack?\\nCan I have your phone number?\\nCan I have some time off?\\nCan I have some time to think about it?\\n"
 		},
 		{
 			"title": "Can I have ~ by ~ ?",
@@ -1038,7 +1043,7 @@
 		{
 			"title": "Can you get me ~ ?",
 			"means": "~ 좀 가져다 줄래?\\n~ 사다 줄 수 있겠어?",
-			"explains": "Can you get me a tall Americano?\\nCan you get me a cup of coffee?\\nCan you get me a doctor?\\nCan you get me off the hook?\\nCan you get me a blind date?\\n"
+			"explains": "Can you get me a tall Americano?\\nCan you get me a cup of coffee?\\nCan you get me a doctor?\\nCan you get me off the hook?\\nCan you get me a blind date?\\nCan you get me some water?\\nCan you get me a stapler?\\nCan you get me my phone?\\n"
 		},
 		{
 			"title": "Can you give ~ ?",
@@ -1134,6 +1139,11 @@
 			"title": "Can you please + V ~ ?",
 			"means": "~ 해주실 수 있나요?",
 			"explains": "Can you please leave some comments on my blog?\\n"
+		},
+		{
+			"title": "Can you please take me to ~ ?",
+			"means": "저를 ~에 좀 데려가 주실래요?",
+			"explains": "Can you please take me to a doctor?\\nCan you please take me to the airport?\\nCan you please take me to the nearest subway station?\\n"
 		},
 		{
 			"title": "Can you reduce the price if we ~ ?",
@@ -1511,6 +1521,11 @@
 			"explains": ""
 		},
 		{
+			"title": "Did you drop ~ ?",
+			"means": "너 ~를 떨어뜨렸어?",
+			"explains": "Did you drop your key?\\nDid you drop your wallet?\\nDid you drop this a few minutes ago?\\n"
+		},
+		{
 			"title": "Did you enjoy ~ ?",
 			"means": "~ 가 즐거우셨나요?",
 			"explains": "Did you enjoy your trip?\\n"
@@ -1766,6 +1781,11 @@
 			"explains": "Do you have a minute? I want to show you some pictures from my vacation.\\n"
 		},
 		{
+			"title": "Do you have a moment to ~ ?",
+			"means": "~할 시간 있어?",
+			"explains": "Do you have a moment to look at it?\\nDo you have a moment to listen to a song?\\nDo you have a moment to hear me out?\\n"
+		},
+		{
 			"title": "Do you have any + N ?",
 			"means": "~ 라도 좀 있나요?\\n~ 가 있어요?\\n혹시 ~ 있으세요?",
 			"explains": "Do you have any plans for tonight?\\nDo you have any questions?\\n"
@@ -1951,6 +1971,11 @@
 			"explains": ""
 		},
 		{
+			"title": "Do you need ~ by any chance ?",
+			"means": "혹시 ~ 필요하세요?",
+			"explains": "Do you need this projector by any chance?\\nDo you need these highlighters by any chance?\\nDo you need these colored pens by any chance?\\n"
+		},
+		{
 			"title": "Do you need + N ?",
 			"means": "~ 가 필요하니?",
 			"explains": "Do you need anything else?\\nDo you need any further assistance?\\nDo you need a ride home?\\nDo we need anything else?\\n"
@@ -2014,6 +2039,11 @@
 			"title": "Do you sometimes accidentally ~ ?",
 			"means": "너 가끔 뜻하지 않게 ~해?",
 			"explains": "Do you sometimes accidentally make mistakes?\\nDo you sometimes accidentally go to the wrong address?\\nDo you sometimes accidentally take the wrong train?\\nDo you sometimes accidentally click on them?\\n"
+		},
+		{
+			"title": "Do you still want to ~ ?",
+			"means": "아직도 ~하고 싶어?",
+			"explains": "Do you still want to join them?\\nDo you still want to buy the shirt?\\nDo you still want to make a contract with the company?\\n"
 		},
 		{
 			"title": "Do you think (that) ~ ?",
@@ -2131,6 +2161,11 @@
 			"explains": ""
 		},
 		{
+			"title": "Does it taste ~ ?",
+			"means": "맛이 ~해?",
+			"explains": "Does it taste okay?\\nDoes it taste good?\\nDoes it taste weird?\\n"
+		},
+		{
 			"title": "Does that mean we have to ~",
 			"means": "그 말은/의미는 우리는 ~ 해야 한다는 거야",
 			"explains": "Does that mean we have to go back home?\\n"
@@ -2144,6 +2179,11 @@
 			"title": "Does this go to ~ ?",
 			"means": "이것이 ~ 까지 가나요?",
 			"explains": ""
+		},
+		{
+			"title": "Don't ~ or else ~",
+			"means": "~하지 마, 안 그러면~",
+			"explains": "Don't think too much or else you'll be stressed out.\\nDon't worry about it too much or else you'll go bald.\\nDon't let it get to you or else you'll be miserable.\\n"
 		},
 		{
 			"title": "Don't + N + me.",
@@ -2174,6 +2214,11 @@
 			"title": "Don't be so ~",
 			"means": "너무 ~ 하지 마",
 			"explains": "Don't be so conscious of others.\\nDon't be so obvious.\\nDon't be so difficult.\\nDon't be so push!\\nDon't be so cheap. I know it was your payday yesterday\\n"
+		},
+		{
+			"title": "Don't be too ~",
+			"means": "너무 ~하지 마.",
+			"explains": "Don't be too self-critical.\\nDon't be too confident.\\nDon't be too hard on your children.\\n"
 		},
 		{
 			"title": "Don't blame me for + N",
@@ -2489,6 +2534,11 @@
 			"title": "Excuse me, ~ ?",
 			"means": "실례합니다",
 			"explains": ""
+		},
+		{
+			"title": "Excuse me, but ~",
+			"means": "실례지만, ~",
+			"explains": "Excuse me, but you're standing in my way.\\nExcuse me, but you misunderstood my meaning.\\nExcuse me, but I was ahead of you in line.\\n"
 		},
 		{
 			"title": "Excuse me, but may I ~ ?",
@@ -2807,8 +2857,8 @@
 		},
 		{
 			"title": "Have you tried ~ ?",
-			"means": "~ 해 보셨어요?",
-			"explains": ""
+			"means": "~ 해 보셨어요?\\n~ 먹어 봤어?",
+			"explains": "Have you tried Polish food?\\nHave you tried bulgogi?\\nHave you tried their food?\\n"
 		},
 		{
 			"title": "Haven't you + P.P ?",
@@ -3209,6 +3259,11 @@
 			"title": "Hold the + N, please.",
 			"means": "~ 는 빼주세요.",
 			"explains": ""
+		},
+		{
+			"title": "Hopefully ~",
+			"means": "~였으면 좋겠다",
+			"explains": "Hopefully it's warmer tomorrow.\\nHopefully it clears up this afternoon.\\nHopefully they make up eventually.\\n"
 		},
 		{
 			"title": "Hopefully, we can + V",
@@ -3643,12 +3698,12 @@
 		{
 			"title": "How long will it be till ~ ?",
 			"means": "~ 까지 얼마나 걸리나요?",
-			"explains": "A : How long will it be till they get here?\\n"
+			"explains": "How long will it be till they get here?\\n"
 		},
 		{
 			"title": "How long will it take to + V ?",
 			"means": "~ 얼마나 걸릴까요?\\n~ 에 가는데 얼마나 걸릴까요?",
-			"explains": "How long will it take to finish your work?\\nHow long will it take to London?\\nHow long will it take to fix my car?\\nHow long will it take to get the card?\\nHow long will it take to set up the computer?\\n"
+			"explains": "How long will it take to finish your work?\\nHow long will it take to London?\\nHow long will it take to fix my car?\\nHow long will it take to get the card?\\nHow long will it take to set up the computer?\\nHow long will it take to clear the loan?\\nHow long will it take to clean out your car?\\nHow long will it take to find a new one just like it?\\n"
 		},
 		{
 			"title": "How long will it take to get to ~ ?",
@@ -3664,6 +3719,11 @@
 			"title": "How long will you ~ ?",
 			"means": "얼마 동안 ~ 할 거에요?",
 			"explains": "How long will you have it for?\\n"
+		},
+		{
+			"title": "How long will you be + G ?",
+			"means": "얼마 동안 ~할 거야?",
+			"explains": "How long will you be staying here?\\nHow long will you be working here?\\nHow long will you be exercising here?\\n"
 		},
 		{
 			"title": "How many + N ?",
@@ -3859,6 +3919,11 @@
 			"title": "How well does she + V ?",
 			"means": "그녀는 얼마나 ~을 잘하니?",
 			"explains": ""
+		},
+		{
+			"title": "How will you ~ ?",
+			"means": "어떻게 ~하려고?",
+			"explains": "How will you make it happen?\\nHow will you explain this to your wife?\\nHow will you explain your absence?\\n"
 		},
 		{
 			"title": "How would I know when he + V ?",
@@ -4076,6 +4141,11 @@
 			"explains": "I can make it clear to her.\\nI don't think I can make it.\\n"
 		},
 		{
+			"title": "I can never spend enough time with ~",
+			"means": "~와 함께 있는 시간이 충분하지 않아.",
+			"explains": "I can never spend enough time with my parents.\\nI can never spend enough time with you.\\nI think I'm in love, and I can never spend enough time with her.\\n"
+		},
+		{
 			"title": "I can no longer ~",
 			"means": "난 더 이상 ~ 할 수 없어.",
 			"explains": ""
@@ -4137,8 +4207,8 @@
 		},
 		{
 			"title": "I can't believe (that) ~",
-			"means": "~ 라니 안 믿어져.\\n~ 라니 밑을 수가 없어.\\n어쩜 ~할 수가 있지.",
-			"explains": "I can't believe you did that.\\nI can't believe a child can teach me about my computer.\\nI can't believe I forgot about our date.\\nI can't believe I passed the test.\\nI can't believe that really happened.\\n"
+			"means": "~ 라니 안 믿어져.\\n~ 라니 밑을 수가 없어.\\n어쩜 ~할 수가 있지.\\n어떻게 ~할 수가 있어?",
+			"explains": "I can't believe you did that.\\nI can't believe a child can teach me about my computer.\\nI can't believe I forgot about our date.\\nI can't believe I passed the test.\\nI can't believe that really happened.\\nI can't believe you made it happen.\\nI can't believe we're the only customers here.\\nI can't believe I made the same mistake.\\n"
 		},
 		{
 			"title": "I can't believe how + A + he is.",
@@ -4463,7 +4533,7 @@
 		{
 			"title": "I didn't + V + on purpose.",
 			"means": "고의로 ~ 한 거 아니야.",
-			"explains": ""
+			"explains": "I didn't do that on purpose.\\nI didn't steal your boyfriend on purpose.\\nI didn't forget our anniversary on purpose.\\n"
 		},
 		{
 			"title": "I didn't even ~",
@@ -4754,6 +4824,11 @@
 			"title": "I don't know he + P.V",
 			"means": "그가 어떻게 ~ 했는지 모르겠어.",
 			"explains": ""
+		},
+		{
+			"title": "I don't know how I can ~",
+			"means": "어떻게 내가 ~할 수 있을지 모르겠어.",
+			"explains": "I don't know how I can help you.\\nI don't know how I can ever forgive her.\\nI don't know how I can come to terms with the loss of my mother.\\n"
 		},
 		{
 			"title": "I don't know how to ~",
@@ -5401,6 +5476,11 @@
 			"explains": ""
 		},
 		{
+			"title": "I have ~ to ~",
+			"means": "~할 ~가 있어.",
+			"explains": "I have my own life to lead.\\nI have a car to wash.\\nI have the laundry to fold.\\n"
+		},
+		{
 			"title": "I have ~ to check.",
 			"means": "부칠 ~이 있습니다. (짐 부치기)",
 			"explains": ""
@@ -5616,6 +5696,11 @@
 			"explains": "I have difficulty in singing at front of people.\\n"
 		},
 		{
+			"title": "I have difficulty + G",
+			"means": "나는 ~하는 게 힘들어.",
+			"explains": "I have difficulty remembering things.\\nI have difficulty memorizing words.\\nI'd love to speak another language, but I have difficulty learning new languages.\\n"
+		},
+		{
 			"title": "I have done ~",
 			"means": "나 ~ 되고 있어.\\n~ 다 했어요",
 			"explains": "I have done everything wrong since she got here.\\n"
@@ -5703,7 +5788,7 @@
 		{
 			"title": "I have just + P.P",
 			"means": "지금 막 ~ 했어.",
-			"explains": ""
+			"explains": "I've just heard the good news. Congratulations.\\nI've just checked into the hotel.\\nI've just called the person in charge.\\n"
 		},
 		{
 			"title": "I have just arrived at ~",
@@ -6576,6 +6661,11 @@
 			"explains": ""
 		},
 		{
+			"title": "I often lose ~ when ~",
+			"means": "난 ~ 할 때 종종 ~를 잃어 버려.",
+			"explains": "I often lose my stuff when I'm in a hurry.\\nI often lose my planner when I'm busy.\\nI often lose a pen or a pencil when I study at the library.\\n"
+		},
+		{
 			"title": "I only recently + P.V",
 			"means": "최근에서야 ~ 했습니다.",
 			"explains": "I only recently found your email address in my files.\\n"
@@ -6684,6 +6774,11 @@
 			"title": "I really like + N",
 			"means": "난 정말 ~가 마음에 들어.\\n~가 좋아",
 			"explains": ""
+		},
+		{
+			"title": "I really need ~",
+			"means": "난 정말 ~가 필요해.",
+			"explains": "I really need a hug.\\nI really need a new car.\\nI'm so tired; I really need some sleep.\\n"
 		},
 		{
 			"title": "I recommend ~",
@@ -6819,6 +6914,11 @@
 			"title": "I somehow + P.V",
 			"means": "어쩌다 ~ 했어.",
 			"explains": ""
+		},
+		{
+			"title": "I sometimes feel like ~",
+			"means": "나는 가끔씩 ~라고 느껴.",
+			"explains": "I sometimes feel like I'm burned out.\\nI sometimes feel like I'm not reading enough.\\nI sometimes feel like people are really addicted to their smartphones.\\n"
 		},
 		{
 			"title": "I spent + (Time/Money) + G",
@@ -8063,7 +8163,7 @@
 		{
 			"title": "I wish I could + V",
 			"means": "내가 ~ 할 수 있으면 좋겠다.\\n(과거의 일 또는 바라는 일의 소망)",
-			"explains": "I wish I could go along, but my grandma is sick.\\nI wish I could be as tall as those guys.\\nI wish I could be there to congratulate you, but I'm stuck at work.\\nI wish I could, but I have tickets for the theater.\\nI wish I could speak English as well as she.\\n"
+			"explains": "I wish I could go along, but my grandma is sick.\\nI wish I could be as tall as those guys.\\nI wish I could be there to congratulate you, but I'm stuck at work.\\nI wish I could, but I have tickets for the theater.\\nI wish I could speak English as well as she.\\nI wish I could go with you.\\nI wish I could be there with you.\\nI wish I could stay here a week longer.\\n"
 		},
 		{
 			"title": "I wish I could buy ~",
@@ -8686,6 +8786,11 @@
 			"explains": "I wouldn't want to rush you, but we don't have much time.\\n"
 		},
 		{
+			"title": "I'd ~ if ~",
+			"means": "~라면 난 ~할텐데.",
+			"explains": "I'd love to go if I had the time.\\nI'd like to cook you dinner if you are available.\\nI'd have to get your signature if you wanted to rent the car.\\n"
+		},
+		{
 			"title": "If I can be of assistance ~",
 			"means": "제가 도움을 드릴 수 있다면 ~",
 			"explains": ""
@@ -9183,7 +9288,7 @@
 		{
 			"title": "I'm calling to + V",
 			"means": "~ 하려고 전화 했어요.",
-			"explains": ""
+			"explains": "I am calling to make a reservation.\\nI am calling to invite you to my party.\\nI am calling to ask you a favor.\\nI am calling to see how you're doing.\\nI am calling to see if I can come over.\\n"
 		},
 		{
 			"title": "I'm calling to confirm ~",
@@ -9533,7 +9638,7 @@
 		{
 			"title": "I'm here to + V",
 			"means": "~ 하려고 왔어요.",
-			"explains": "I'm here to pick up Jane.\\nHello, I'm here to pick up my laundry.\\nI'm here to seem my friends.\\n"
+			"explains": "I'm here to pick up Jane.\\nHello, I'm here to pick up my laundry.\\nI'm here to seem my friends.\\nI'm here to listen.\\nI'm here to fix the sink.\\nI'm here to help you.\\nI'm here to watch the show.\\nI'm here to take care of you.\\n"
 		},
 		{
 			"title": "I'm honored to ~",
@@ -9633,7 +9738,7 @@
 		{
 			"title": "I'm just about to + V",
 			"means": "나 막 ~ 하려던 참이야.",
-			"explains": ""
+			"explains": "I'm just about to leave.\\nI'm just about to wash my car.\\nI'm just about to quit.\\nI'm just about to leave for work.\\nI'm just about to go to bed.\\n"
 		},
 		{
 			"title": "I'm just asking you to ~",
@@ -9973,7 +10078,7 @@
 		{
 			"title": "I'm now able to ~",
 			"means": "이제 ~할 수 있어\\n~ 할 수 있게 되었어.",
-			"explains": ""
+			"explains": "I'm now able to help you.\\nI'm now able to see your point.\\nI'm now able to buy a house.\\nI'm now able to understand.\\nI'm now able to run five miles.\\n"
 		},
 		{
 			"title": "I'm obsessed with + N",
@@ -10078,7 +10183,7 @@
 		{
 			"title": "I'm ready to + V",
 			"means": "나는 ~ 할 준비가 되어 있어.",
-			"explains": ""
+			"explains": "I'm ready to eat.\\nI'm ready to go out.\\nI'm ready to paint the kitchen.\\nI'm ready to go to bed.\\nI'm ready to start my homework.\\n"
 		},
 		{
 			"title": "I'm really + A",
@@ -10291,6 +10396,11 @@
 			"explains": "I'm sorry to say that I don't have any change only bills.\\n"
 		},
 		{
+			"title": "I'm sorry, but I ~",
+			"means": "미안하지만, 나 ~해.",
+			"explains": "I'm sorry, but I should go now.\\nI'm sorry, but I can't walk your dog.\\nI'm sorry, but I don't understand.\\n"
+		},
+		{
 			"title": "I'm sorry, but I have to cancel ~",
 			"means": "죄송하지만 ~ 를 취소해야겠습니다",
 			"explains": ""
@@ -10369,6 +10479,11 @@
 			"title": "I'm sure you have ~",
 			"means": "난 당신이 ~ 했다고 확신해요.\\n~ 을 가지고 있다고 확신해요.",
 			"explains": ""
+		},
+		{
+			"title": "I'm sure you'll ~",
+			"means": "너는 분명히 ~할 거야.",
+			"explains": "I'm sure you'll make it.\\nI'm sure you'll be the best in that field.\\nI'm sure you'll become a good mother in the future.\\n"
 		},
 		{
 			"title": "I'm surprised that ~",
@@ -10473,7 +10588,7 @@
 		{
 			"title": "I'm trying to + V",
 			"means": "나 ~ 하려고 노력하고 있어.\\n난 ~ 하려는 중이야.",
-			"explains": "I'm trying to get a job, any job now.\\nI'm trying to study for an exam.\\n"
+			"explains": "I'm trying to get a job, any job now.\\nI'm trying to study for an exam.\\nI'm trying to help you.\\nI'm trying to understand you.\\nI'm trying to finish this report.\\nI'm trying to remember what she said.\\n"
 		},
 		{
 			"title": "I'm trying to say is that ~",
@@ -10866,6 +10981,11 @@
 			"explains": ""
 		},
 		{
+			"title": "Is there more than ~ ?",
+			"means": "~보다 더 있어?",
+			"explains": "Is there more than one way to get there?\\nIs there more than one hundred people?\\nIs there more than that?\\n"
+		},
+		{
 			"title": "Is there something ~ ?",
 			"means": "~한 뭔가 있습니까?",
 			"explains": ""
@@ -10924,6 +11044,21 @@
 			"title": "Isn't it time to + V ?",
 			"means": "~ 할 시간 아니야?",
 			"explains": "Isn't it time to go to bed?\\nIsn't it time to take a break?\\n"
+		},
+		{
+			"title": "Isn't it too ~ ?",
+			"means": "그거 너무 ~한 거 아니야?",
+			"explains": "Isn't it too vague?\\nIsn't it too difficult?\\nIsn't it too far from here to walk?\\n"
+		},
+		{
+			"title": "Isn't that why ~ ?",
+			"means": "그래서 ~하는 거 아니야?",
+			"explains": "Isn't that why you fired him?\\nIsn't that why he is so afraid of her?\\nIsn't that why dogs and cats don't get along with each other?\\n"
+		},
+		{
+			"title": "Isn't this ~ yours ?",
+			"means": "이 ~ 네 거 아니야?",
+			"explains": "Isn't this book yours?\\nIsn't this handkerchief yours?\\nExcuse me, but isn't this bag yours?\\n"
 		},
 		{
 			"title": "Isn't this + A",
@@ -11149,6 +11284,11 @@
 			"title": "It helps + G",
 			"means": "~ 하는데 도움이 돼",
 			"explains": ""
+		},
+		{
+			"title": "It helps stop ~",
+			"means": "그게 ~를 멈추는 데 도움을 줘.",
+			"explains": "It helps stop hiccups.\\nIt helps stop the pain.\\nIt helps stop snoring.\\n"
 		},
 		{
 			"title": "It hurts that + S + V",
@@ -11766,6 +11906,11 @@
 			"explains": "It's almost time to replace the batteries.\\n"
 		},
 		{
+			"title": "It's already ~",
+			"means": "벌써 ~ 네요.",
+			"explains": "It's already one o'clock. You must be getting hungry.\\n"
+		},
+		{
 			"title": "It's already time for + N",
 			"means": "(벌써) ~ 할 시간이야.",
 			"explains": ""
@@ -12216,6 +12361,11 @@
 			"explains": ""
 		},
 		{
+			"title": "It's the very least I can do for ~",
+			"means": "~를 위해 내가 할 수 있는 최소한의 일이지.",
+			"explains": "It's the very least I can do for you guys.\\nIt's the very least I can do for you under the circumstances.\\nIt's the very least I can do for you in your time of need.\\n"
+		},
+		{
 			"title": "It's time for + N",
 			"means": "~ 할 시간이야.",
 			"explains": ""
@@ -12264,6 +12414,11 @@
 			"title": "It's true that ~",
 			"means": "~ 한 게 사실이야",
 			"explains": ""
+		},
+		{
+			"title": "It's truly essential to ~",
+			"means": "~하는 게 정말 필수적이다.",
+			"explains": "It's truly essential to do your best.\\nIt's truly essential to be yourself.\\nIt's truly essential to talk to each other to understand more.\\n"
 		},
 		{
 			"title": "It's unbelievable that + S + V",
@@ -12316,11 +12471,6 @@
 			"explains": ""
 		},
 		{
-			"title": "Jake said he would + V",
-			"means": "제이크가 그러는데 자기가 ~ 하겠대.",
-			"explains": ""
-		},
-		{
 			"title": "Just be yourself when you + V",
 			"means": "~ 할 때는 평소 네 모습대로 해.",
 			"explains": ""
@@ -12368,7 +12518,7 @@
 		{
 			"title": "Let me + V",
 			"means": "내가 ~ 할께.\\n내가 ~ 하게 해 줘.",
-			"explains": ""
+			"explains": "Let me help you.\\nLet me see what you're eating.\\nLet me take you out to dinner.\\n"
 		},
 		{
 			"title": "Let me check + N",
@@ -12559,6 +12709,11 @@
 			"title": "Let me tell you about + N",
 			"means": "~ 에 대해 말해줄게.",
 			"explains": ""
+		},
+		{
+			"title": "Let me text you when I ~",
+			"means": "~할 때 문자 보낼게",
+			"explains": "Let me text you when I can.\\nLet me text you when I have questions.\\nLet me text you when I finish work.\\n"
 		},
 		{
 			"title": "Let me think about ~",
@@ -13124,6 +13279,11 @@
 			"title": "No matter how ~",
 			"means": "아무리 ~ 해도",
 			"explains": ""
+		},
+		{
+			"title": "No matter how hard I try, ~",
+			"means": "내가 아무리 열심히 노력해도, ~야.",
+			"explains": "No matter how hard I try, I can't make ends meet.\\nNo matter how hard I try, she never laughs at my jokes.\\nNo matter how hard I try, I can't understand why he talks like that.\\n"
 		},
 		{
 			"title": "No matter how hard it's, I will ~",
@@ -13756,6 +13916,11 @@
 			"explains": ""
 		},
 		{
+			"title": "Please remember that ~",
+			"means": "~라는 걸 기억해.",
+			"explains": "Please remember that you’re a student.\\nPlease remember that you’re Korean.\\nPlease remember that you’re the only one who can solve this problem.\\n"
+		},
+		{
 			"title": "Please remember to + V",
 			"means": "~하는 거 기억하세요.",
 			"explains": ""
@@ -14149,6 +14314,11 @@
 			"title": "Should I ~ ?",
 			"means": "나 ~ 할까? ~하는게 좋을까?",
 			"explains": "Should I walk you home?\\nShould I pay in advance?\\nShould I wear a more conservative dress shirt?\\n"
+		},
+		{
+			"title": "Should I use ~ ?",
+			"means": "나 ~를 써야 해?",
+			"explains": "Should I use a new one?\\nShould I use this bag?\\nShould I use a pen or a pencil?\\n"
 		},
 		{
 			"title": "Should we ~ ?",
@@ -14656,6 +14826,11 @@
 			"explains": ""
 		},
 		{
+			"title": "That is where ~ is.",
+			"means": "거기가 ~가 있는 곳이야",
+			"explains": "That's where my school is.\\nThat's where my office is.\\nThat's where my parents' place is.\\n"
+		},
+		{
 			"title": "That is why ~",
 			"means": "바로 그 때문에 ~ 해.\\n그래서 ~ 한 거야.\\n그게 ~ 한 이유야.",
 			"explains": "That is why we are here.\\n"
@@ -14739,6 +14914,11 @@
 			"title": "That would depend on ~",
 			"means": "그건 ~에 달려 있습니다.\\n그건 ~에 따라 달라집니다.",
 			"explains": ""
+		},
+		{
+			"title": "That's for ~ ",
+			"means": "그건 ~ 거야, ~용이야.",
+			"explains": "That's for my mother.\\nThat's for cleaning the bathroom.\\nThat's for us all.\\n"
 		},
 		{
 			"title": "That's right. ",
@@ -15301,6 +15481,11 @@
 			"explains": ""
 		},
 		{
+			"title": "There is no better way to ~",
+			"means": "~할 최고의 방법이야.",
+			"explains": "There is no better way to find a job.\\n"
+		},
+		{
 			"title": "There is no chance that ~",
 			"means": "~ 할 가능성이 없어.",
 			"explains": "There is no chance that we will win.\\nThere is no chance that he will change his mind.\\n"
@@ -15749,6 +15934,11 @@
 			"title": "This is the latest ~",
 			"means": "이게 가장 최신 ~입니다.",
 			"explains": ""
+		},
+		{
+			"title": "This is the most ~ ever.",
+			"means": "이건 여태까지 중에서 제일 ~야.",
+			"explains": "This is the most touching movie ever.\\nThis is the most delicious food ever.\\nThis is the most difficult question ever.\\n"
 		},
 		{
 			"title": "This is the only way to + V",
@@ -17011,6 +17201,11 @@
 			"explains": ""
 		},
 		{
+			"title": "What did you get for ~ ?",
+			"means": "~에 뭐 받았어?\\n~에게 뭐 사 줬어?",
+			"explains": "What did you get for your birthday?\\nWhat did you get for your wife for your anniversary?\\nWhat did you get for Johnny for his graduation?\\n"
+		},
+		{
 			"title": "What did you say to + N ?",
 			"means": "~ 에게 무슨 말을 했어?",
 			"explains": "What did you say to her?\\n"
@@ -17241,6 +17436,11 @@
 			"explains": ""
 		},
 		{
+			"title": "What have you been + G ?",
+			"means": "뭘 ~ 하고 있었어?",
+			"explains": "What have you been telling him?\\nWhat have you been doing?\\nWhat have you been dong lately?\\nWhat have you been up to?\\nWhat have you been up to since graducation?\\nLisa, what have you been keeping busy with these days? I haven't seen you at all around campus.\\n"
+		},
+		{
 			"title": "What have you done to + N ?",
 			"means": "~에 무슨 짓을 한 거야?",
 			"explains": ""
@@ -17249,6 +17449,11 @@
 			"title": "What he + P.V + was + A",
 			"means": "그가 ~ 한 것은 ~ 했어.",
 			"explains": ""
+		},
+		{
+			"title": "What I do do is ~",
+			"means": "제가 하는 건 ~에요.",
+			"explains": "While I don't attend business meeting, what I do do is organize the meeting schedule.\\n"
 		},
 		{
 			"title": "What I have done turned out to be ~",
@@ -17289,6 +17494,11 @@
 			"title": "What is ~ ?",
 			"means": "~ 은 무엇입니까?\\n~ 은 뭐에요?",
 			"explains": "What is it?\\nWhat is the license plate number?\\n"
+		},
+		{
+			"title": "What is ~ about ?",
+			"means": "~는 뭐에 대한 거예요?",
+			"explains": "What is the email about?\\nWhat was that message about?\\nWhat is that news article about?\\n"
 		},
 		{
 			"title": "What is ~ got to do with ~ ?",
@@ -17671,6 +17881,11 @@
 			"explains": ""
 		},
 		{
+			"title": "What will you do with ~ ?",
+			"means": "~를 가지고 뭐 할 건데?",
+			"explains": "What will you do with that card?\\nWhat will you do with that money?\\nWhat will you do with this stick?\\n"
+		},
+		{
 			"title": "What would happen if I ~ ?",
 			"means": "내가 ~ 한다면(라면) 어떻게 될까?",
 			"explains": ""
@@ -17734,6 +17949,11 @@
 			"title": "Whatever it was ~",
 			"means": "어떤 이유였던 간에 ~",
 			"explains": "Whatever it was I'm glad you realized it.\\n"
+		},
+		{
+			"title": "What's in your ~ ?",
+			"means": "네 ~ 안에 뭐가 있는 거야?",
+			"explains": "What's in your pocket?\\nWhat's in your bag?\\nWhat's in your drawer?\\n"
 		},
 		{
 			"title": "what's the big deal about ~ ?",
@@ -18079,6 +18299,11 @@
 			"title": "Which ~ ?",
 			"means": "~ 가 어느 것이죠?",
 			"explains": ""
+		},
+		{
+			"title": "Which ~ are you waiting for ?",
+			"means": "어떤 ~를 기다리고 있는 거야?",
+			"explains": "Which game are you waiting for?\\nWhich movie are you waiting for?\\nWhich sale are you waiting for?\\n"
 		},
 		{
 			"title": "Which + N + is preferable?",
@@ -18821,6 +19046,11 @@
 			"explains": "Would you like to go to a movie?\\nWould you like to see a movie with me and my friend?\\nActually I have to work on Saturday. Would you like to have dinner tonight?\\n"
 		},
 		{
+			"title": "Would you like us to ~ ?",
+			"means": "저희가 ~해 드릴까요?",
+			"explains": "Would you like us to take care of this for you?\\nWould you like us to drive you home after dinner?\\nWould you like us to stay with you during the doctor's appointment?\\n"
+		},
+		{
 			"title": "Would you mind ~ ?",
 			"means": "~ 해도 실례가 안 될까요?\\n~하는 것 별로세요?",
 			"explains": "Would you mind waiting while I turn off my computer?\\nWould you mind my leaving early?\\nWould you mind moving over one seat?\\n"
@@ -19146,6 +19376,11 @@
 			"explains": ""
 		},
 		{
+			"title": "You can borrow my ~ if you want.",
+			"means": "네가 원하면 내 ~를 빌려도 돼.",
+			"explains": "You can borrow my bike if you want.\\nYou can borrow my phone charger if you want.\\nYou can borrow my suitcase if you want.\\n"
+		},
+		{
 			"title": "You can exchange ~",
 			"means": "~을 교환하실 수 있습니다",
 			"explains": ""
@@ -19239,6 +19474,11 @@
 			"title": "You didn't need to + V",
 			"means": "너 ~ 할 필요 없었어",
 			"explains": ""
+		},
+		{
+			"title": "You didn't seem to ~",
+			"means": "네가 ~하는 것 같지 않더라.",
+			"explains": "You didn't seem to enjoy the moment.\\nYou didn't seem to be affected.\\nYou didn't seem to like the food back there.\\n"
 		},
 		{
 			"title": "You don't ~",
@@ -19528,7 +19768,7 @@
 		{
 			"title": "You must be + A",
 			"means": "너 분명 ~ 겠다",
-			"explains": "You must be tired.\\nYou must be excited.\\nA : You must be very excited today.\\nB : Yes, I am. I couldn't sleep last night.\\n"
+			"explains": "You must be tired.\\nYou must be excited.\\nYou must be very excited today.\\nIt's already one o'clock. You must be getting hungry.\\n"
 		},
 		{
 			"title": "You must be crazy to + V",
